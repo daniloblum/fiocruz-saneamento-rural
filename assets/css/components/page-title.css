@@ -1,0 +1,75 @@
+/* --- PAGE TITLE --- */
+
+#page-title {
+	--_background-color: var(--fio-sys-color-primary-medium);
+	--_text-color: var(--fio-sys-color-neutral-white);
+
+	height: 100svh;
+	max-width: 100%;
+	padding-top: 0px;
+	overflow: hidden;
+	background-image: url('../../../media/templates/page-title-background-mobile.png'), linear-gradient(var(--fio-sys-color-primary-medium), var(--fio-sys-color-primary-medium));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#page-title .container,
+#page-title .container .row {
+	height: 100%;
+}
+
+#page-title span {
+	margin-bottom: var(--fio-sys-size-margin-sm);
+}
+
+#page-title .title {
+	color: var(--_text-color);
+	font-family: var(--fio-sys-typography-family-primary-extra-bold);
+	line-height: var(--fio-sys-typography-height-100);
+	text-align: left;
+}
+
+#page-title .title .label {
+	color: var(--_text-color);
+	display: block;
+	font-family: var(--fio-sys-typography-family-primary-medium);
+	font-size: var(--fio-sys-typography-size-1);
+	line-height: var(--fio-sys-typography-height-110);
+	margin-bottom: var(--fio-sys-size-margin-sm);
+}
+
+@media (min-width: 992px) {
+	#page-title {
+		height: auto;
+		min-height: 500px;
+		max-width: 100%;
+		padding: 80px 0;
+		overflow: hidden;
+		background-image: url('../../../media/templates/page-title-background.png'), linear-gradient(var(--fio-sys-color-primary-medium), var(--fio-sys-color-primary-medium));
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: grid;
+		align-items: center;
+	}
+	#page-title .container,
+	#page-title .container .row {
+		height: 100%;
+	}
+
+	/* #page-title .title {
+		text-align: right;
+		color: var(--fio-sys-color-neutral-white);
+		font-size: var(--fio-sys-typography-head-xl-size);
+		line-height: var(--fio-sys-typography-head-sm-line-height);
+	} */
+	/* #page-title .title .label {
+		font-family: var(--fio-sys-typography-label-family);
+		font-size: var(--fio-sys-typography-label-lg-size);
+		line-height: var(--fio-sys-typography-label-height);
+		text-transform: var(--fio-sys-typography-label-transform);
+		letter-spacing: var(--fio-sys-typography-label-tracking);
+		font-weight: var(--fio-sys-typography-label-weight);
+		display: block;
+	} */
+}
