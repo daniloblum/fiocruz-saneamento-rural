@@ -1,8 +1,8 @@
 /* TYPOGRAPHY */
 
 body {
-	color: var(--fio-sys-typography-paragraph-color);
-	font-family: var(--fio-sys-typography-family-primary-regular);
+	color: var(--fio-sys-color-text-dark);
+	font-family: var(--fio-sys-typography-family-primary-medium);
 	/* font-size: var(--fio-sys-typography-paragraph-size); */
 }
 /* @media (min-width: 992px) {
@@ -13,7 +13,8 @@ body {
 
 a,
 a:visited {
-	color: var(--fio-sys-color-accent-medium);
+	background-color:var(--fio-sys-color-accent-medium);
+	color: var(--fio-sys-color-accent-medium-contrast);
 	text-decoration: none;
 	text-transform: none;
 	overflow-wrap: anywhere;
@@ -24,7 +25,8 @@ a[role='button'] {
 }
 
 a:hover {
-	color: var(--fio-sys-color-accent-light);
+	background-color:var(--fio-sys-color-accent-light);
+	color: var(--fio-sys-color-accent-light-contrast);
 	text-decoration: underline;
 }
 
@@ -63,13 +65,14 @@ figure a[target='_blank']:not(.no-after):hover{
 /* LINKS QUE ESTIVEREM EM TEXTO CORRIDO */
 #page-content p > a,
 #page-content p > a:visited {
-	background-color: var(--fio-sys-color-secondary-light);
+	background-color:var(--fio-sys-color-accent-medium);
+	color: var(--fio-sys-color-accent-medium-contrast);
 	padding: 0 10px;
 }
 
 #page-content p > a:hover {
-	background-color: var(--fio-sys-color-secondary-medium);
-	color: var(--fio-sys-color-accent-medium);
+	background-color:var(--fio-sys-color-accent-light);
+	color: var(--fio-sys-color-accent-light-contrast);
 	text-decoration: none;
 }
 
@@ -85,8 +88,8 @@ h5,
 .h5,
 h6,
 .h6 {
-	color: var(--fio-sys-color-primary-dark);
-	font-family: var(--fio-sys-typography-family-primary-bold);
+	color: var(--fio-sys-color-primary-extra-dark);
+	font-family: var(--fio-sys-typography-family-primary-extra-bold);
 	line-height: var(--fio-sys-typography-height-150);
 }
 h1,
@@ -127,7 +130,7 @@ h6,
 }
 
 p {
-	color: var(--fio-sys-color-neutral-dark);
+	color: var(--fio-sys-color-neutral-extra-dark);
 	font-family: var(--fio-sys-typography-family-primary-regular);
 	font-size: var(--fio-sys-typography-size-0);
 	font-weight: var(--fio-sys-typography-weight-normal);

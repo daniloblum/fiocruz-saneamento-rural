@@ -4,15 +4,15 @@
 	--_abas-nav-border-radius: var(--fio-sys-size-radius-xs);
 
 	--_abas-nav-background: var(--fio-sys-color-secondary-extra-light);
-	--_abas-nav-text-color: var(--fio-sys-color-primary-medium);
-	--_abas-nav-text-color-active: var(--fio-sys-color-primary-dark);
+	--_abas-nav-text-color:var(--fio-sys-color-primary-extra-dark);
+	--_abas-nav-text-color-active: var(--fio-sys-color-primary-extra-dark);
 	--_abas-nav-link-background: transparent;
 	--_abas-nav-link-background-hover: var(--fio-sys-color-secondary-extra-dark-contrast);
-	--_abas-nav-link-background-active: var(--fio-sys-color-secondary-medium);
+	--_abas-nav-link-background-active: var(--fio-sys-color-accent-medium);
 
 	--_abas-tab-content-border-radius: var(--fio-sys-size-radius-xs);
 	--_abas-tab-content-background: var(--fio-ref-color-primary-99);
-	--_abas-tab-content-border-color: var(--fio-sys-color-primary-medium-contrast);
+	--_abas-tab-content-border-color: var(--fio-sys-color-primary-dark);
 	--_abas-tab-content-border-width: var(--fio-sys-size-stroke-sm);
 
 	font-family: var(--fio-sys-typography-family-secondary-regular);
