@@ -42,7 +42,7 @@
 /*** Destaque Box Cor - Média ênfase ***/
 
 .box-cor .box-cor__base {
-	background-color: var(--fio-sys-color-primary-dark-contrast);
+	background-color: var(--fio-sys-color-tertiary-dark-contrast);
 	background-image: url(../../../media/templates/bg-box.svg);
     background-repeat: no-repeat;
     background-position: 20% 0;
@@ -63,11 +63,11 @@
 .box-cor .base-header {
 	border-bottom-width: var(--fio-sys-size-stroke-sm);
 	border-bottom-style: solid;
-	border-color: var(--fio-sys-color-secondary-medium);
+	border-color: var(--fio-sys-color-tertiary-light);
 	padding-bottom: var(--fio-sys-size-padding-lg);
 }
 .box-cor .base-header p {
-	color: var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-neutral-extra-dark)
 }
 
 .box-cor .base-body {

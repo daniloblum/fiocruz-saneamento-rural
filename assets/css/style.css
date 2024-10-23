@@ -239,7 +239,7 @@ section {
 
 .heading__title {
 	display: inline-block;
-	text-decoration: underline var(--fio-sys-color-secondary-medium);
+	text-decoration: underline var(--fio-sys-color-tertiary-light);
 	text-decoration-thickness: 10px;
 	text-decoration-skip-ink: none;
 	text-underline-offset: -4px;

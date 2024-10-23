@@ -15,13 +15,13 @@
 	--_card-header-padding-y: var(--fio-sys-size-padding-sm);
 	--_card-header-padding-x: var(--fio-sys-size-padding-sm);
 
-	--_card-header-background: var(--fio-sys-color-primary-extra-light);
+	--_card-header-background: var(--fio-sys-color-primary-extra-dark);
 	--_card-header-family: var(--fio-sys-typography-family-primary-semi-bold);
 	--_card-header-line-height: var(--fio-sys-typography-height-125);
 	--_card-header-size: var(--fio-sys-typography-size-0);
-	--_card-header-color: var(--fio-sys-color-primary-medium);
-	--_card-header-border-color: var(--fio-sys-color-tertiary-extra-dark-contrast);
-	--_card-header-border-width: var(--fio-sys-size-stroke-sm);
+	--_card-header-color: var(--fio-sys-color-neutral-white);
+	--_card-header-border-color: var(--fio-sys-color-tertiary-light);
+	--_card-header-border-width: var(--fio-sys-size-stroke-xl);
 
 	/* Card - body */
 	--_card-body-padding-y: var(--fio-sys-size-padding-md);
@@ -67,7 +67,7 @@
 } */
 .card .card-header {
 	background-color: var(--_card-header-background);
-	color: var(--fio-sys-color-primary-dark);
+	color: var(--_card-header-color);
 	font-family: var(--_card-header-family);
 	font-size: var(--_card-header-size);
 	letter-spacing: var(--_card-header-tracking);
@@ -77,6 +77,10 @@
 	border-bottom-width: var(--_card-header-border-width);
 	border-bottom-color: var(--_card-header-border-color);
 	border-bottom-style: solid;
+}
+
+.card .card-header span {
+	color: var(--_card-header-color);
 }
 
 /* .card .card-body,

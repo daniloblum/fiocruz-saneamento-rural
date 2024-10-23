@@ -35,102 +35,110 @@
 	src: url(../fonts/bootstrap-icons.woff);
 }
 
-/* Montserrat */
-
+/* Work Sans */
 @font-face {
-	font-family: 'Montserrat Light';
+	font-family: 'WorkSans Light';
 	font-style: normal;
 	font-weight: 300;
-	src: url('../../source/fonts/Montserrat-Light.ttf');
+	src: url('../../source/fonts/WorkSans-Light.ttf');
 }
 @font-face {
-	font-family: 'Montserrat Light Italic';
+	font-family: 'WorkSans Italic';
 	font-style: italic;
 	font-weight: 300;
-	src: url('../../source/fonts/Montserrat-LightItalic.ttf');
+	src: url('../../source/fonts/WorkSans-LightItalic.ttf');
 }
 
+
 @font-face {
-	font-family: 'Montserrat Regular';
+	font-family: 'WorkSans Regular';
 	font-style: normal;
 	font-weight: 400;
-	src: url('../../source/fonts/Montserrat-Regular.ttf');
+	src: url('../../source/fonts/WorkSans-Regular.ttf');
 }
 @font-face {
-	font-family: 'Montserrat Italic';
+	font-family: 'WorkSans Italic';
 	font-style: italic;
 	font-weight: 400;
-	src: url('../../source/fonts/Montserrat-Italic.ttf');
+	src: url('../../source/fonts/WorkSans-Italic.ttf');
 }
 
 @font-face {
-	font-family: 'Montserrat Medium';
+	font-family: 'WorkSans Medium';
 	font-style: normal;
 	font-weight: 500;
-	src: url('../../source/fonts/Montserrat-Medium.ttf');
+	src: url('../../source/fonts/WorkSans-Medium.ttf');
 }
 @font-face {
-	font-family: 'Montserrat Medium Italic';
+	font-family: 'WorkSans Medium Italic';
 	font-style: italic;
 	font-weight: 500;
-	src: url('../../source/fonts/Montserrat-MediumItalic.ttf');
+	src: url('../../source/fonts/WorkSans-MediumItalic.ttf');
 }
 
 @font-face {
-	font-family: 'Montserrat SemiBold';
+	font-family: 'WorkSans SemiBold';
 	font-style: normal;
 	font-weight: 600;
-	src: url('../../source/fonts/Montserrat-SemiBold.ttf');
+	src: url('../../source/fonts/WorkSans-SemiBold.ttf');
 }
 
 @font-face {
-	font-family: 'Montserrat SemiBold Italic';
+	font-family: 'WorkSans SemiBold Italic';
 	font-style: italic;
 	font-weight: 600;
-	src: url('../../source/fonts/Montserrat-SemiBoldItalic.ttf');
+	src: url('../../source/fonts/WorkSans-SemiBoldItalic.ttfßß');
 }
 
 @font-face {
-	font-family: 'Montserrat Bold';
+	font-family: 'WorkSans Bold';
 	font-style: normal;
 	font-weight: 700;
-	src: url('../../source/fonts/Montserrat-Bold.ttf');
+	src: url('../../source/fonts/WorkSans-Bold.ttf');
 }
 
 @font-face {
-	font-family: 'Montserrat Bold Italic';
+	font-family: 'WorkSans Bold Italic';
 	font-style: italic;
 	font-weight: 700;
-	src: url('../../source/fonts/Montserrat-BoldItalic.ttf');
+	src: url('../../source/fonts/WorkSans-BoldItalic.ttf');
 }
 
 @font-face {
-	font-family: 'Montserrat ExtraBold';
+	font-family: 'WorkSans ExtraBold';
 	font-style: normal;
 	font-weight: 800;
-	src: url('../../source/fonts/Montserrat-ExtraBold.ttf');
+	src: url('../../source/fonts/WorkSans-ExtraBold.ttf');
 }
 
 @font-face {
-	font-family: 'Montserrat ExtraBold Italic';
+	font-family: 'WorkSans ExtraBold Italic';
 	font-style: normal;
 	font-weight: 800;
-	src: url('../../source/fonts/Montserrat-ExtraBoldItalic.ttf');
+	src: url('../../source/fonts/WorkSans-ExtraBoldItalic.ttf');
 }
 
 @supports (font-variation-settings: normal) {
 	@font-face {
-		font-family: 'Montserrat';
-		src: url('../../source/fonts/Montserrat-VariableFont_wght.ttf') format('woff2 supports variations'), url('../../source/fonts/Montserrat-VariableFont_wght.ttf') format('woff2-variations');
+		font-family: 'WorkSans';
+		src: url('../../source/fonts/WorkSans-VariableFont_wght.ttf') format('woff2 supports variations'), url('../../source/fonts/WorkSans-VariableFont_wght.ttf') format('woff2-variations');
 		font-weight: 300 800;
 		font-display: swap;
 		font-style: normal;
 	}
 	@font-face {
-		font-family: 'Montserrat Italic';
-		src: url('../../source/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('woff2 supports variations'), url('../../source/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('woff2-variations');
+		font-family: 'WorkSans Italic';
+		src: url('../../source/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('woff2 supports variations'), url('../../source/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('woff2-variations');
 		font-weight: 300 800;
 		font-display: swap;
 		font-style: italic;
 	}
+}
+
+/* Abel */
+@font-face {
+	font-family: 'Abel Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../source/fonts/Abel-Regular.ttf');
 }
