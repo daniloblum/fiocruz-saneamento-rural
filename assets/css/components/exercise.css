@@ -1,15 +1,19 @@
 /* --- EXERCISE --- */
 
 .exercise .exercise__question {
-	padding-bottom: var(--fio-sys-spacing-padding-lg);
+	padding-bottom: var(--fio-sys-size-padding-lg);
 	border-bottom: 1px solid var(--fio-sys-hr-color);
 	/* font-family: var(--fio-sys-typography-paragraph-family);
 	font-size: var(--fio-sys-typography-paragraph-size); */
 }
 
+.exercise .card .card-footer {
+	padding: var(--_card-footer-padding-y) var(--fio-sys-size-padding-lg);
+}
+
 /* Answers List */
 .exercise .exercise__answers {
-	padding-top: var(--fio-sys-spacing-padding-lg);
+	padding-top: var(--fio-sys-size-padding-lg);
 }
 .exercise .exercise__answers > ul {
 	list-style-type: none;
@@ -17,11 +21,11 @@
 	padding: 0;
 }
 .exercise .exercise__answers .answer__option {
-	padding: var(--fio-sys-spacing-padding-md);
-	margin-bottom: var(--fio-sys-spacing-margin-md);
+	padding: var(--fio-sys-size-padding-md);
+	margin-bottom: var(--fio-sys-size-margin-md);
 	border: 2px solid var(--fio-sys-color-neutral-light);
 	background-color: var(--fio-sys-color-neutral-extra-light);
-	border-radius: var(--fio-sys-spacing-border-radius-lg);
+	border-radius: var(--fio-sys-size-radius-lg);
 	transition: 0.1s;
 }
 .exercise:not([data-exercise='dropdown']) .exercise__answers .answer__option {
@@ -31,11 +35,11 @@
 	margin-bottom: 0;
 }
 .exercise .exercise__answers .answer__option:not(.exercise__answers--blocked, .exercise__answers--selected, .exercise__answers--correct, .exercise__answers--incorrect):hover {
-	border-color: var(--fio-sys-color-accent-medium);
+	border-color: var(--fio-sys-color-accent-light);
 	/* background-color: var(--color-light-hover); */
 }
 .exercise .exercise__answers .answer__option.exercise__answers--selected {
-	border-color: var(--fio-sys-color-accent-medium);
+	border-color: var(--fio-sys-color-accent-light);
 	background-color: var(--fio-sys-color-accent-medium-contrast);
 }
 .exercise .exercise__answers .answer__option.exercise__answers--selected p {
@@ -84,7 +88,7 @@
 	font-size: var(--fio-sys-typography-paragraph-size);
 	font-weight: 400;
 	line-height: 1.5;
-	padding: var(--fio-sys-spacing-padding-xs) var(--fio-sys-spacing-padding-xl) var(--fio-sys-spacing-padding-xs) var(--fio-sys-spacing-padding-md);
+	padding: var(--fio-sys-size-padding-xs) var(--fio-sys-size-padding-xl) var(--fio-sys-size-padding-xs) var(--fio-sys-size-padding-md);
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 	width: auto;
 	-webkit-appearance: none;
@@ -125,7 +129,8 @@
 	flex-direction: column;
 	justify-content: start;
 	align-items: start;
-	/* padding: var(--fio-sys-spacing-padding-xl) 0; */
+	width: 100%;
+	/* padding: var(--fio-sys-size-padding-xl) 0; */
 	/* border-top: 1px solid var(--exercise-divider-line); */
 }
 .exercise .exercise__submit button {
@@ -140,17 +145,18 @@
 
 /* Feedback mensage */
 .exercise .exercise__submit .exercise__submit--feedback {
-	font-family: var(--fio-sys-typography-highlight-family);
+	font-family: var(--fio-sys-typography-family-primary-bold);
 	margin-bottom: 30px;
 	line-height: var(--fio-sys-typography-head-xs-line-height);
 	text-align: left;
 }
 
 .exercise .exercise__submit .exercise__submit--feedback strong {
-	font-family: var(--fio-sys-typography-highlight-family);
-	font-size: var(--fio-sys-typography-head-xs-size);
+	font-family: var(--fio-sys-typography-family-primary-bold);
+	font-size: var(--fio-sys-typography-size-1);
 }
 .exercise .exercise__submit .exercise__submit--feedback .material-symbols-rounded {
+	font-size: 32px;
 	font-weight: 700;
 	margin-right: 10px;
 }
