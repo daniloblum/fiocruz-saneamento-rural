@@ -103,7 +103,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .media .media__transcription .transcription-button .transcription-button-label::after {
-	background-color: var(--fio-sys-color-secondary-medium);
+	background-color: var(--fio-sys-color-accent-medium);
 	border-radius: var(--fio-sys-size-radius-full);
 	content: 'keyboard_arrow_down';
 	display: flex;
@@ -118,6 +118,12 @@ audio::-webkit-media-controls-panel {
 	transition: transform 0.2s ease-in-out;
 	width: 1rem;
 }
+
+.media .media__transcription .transcription-button:hover .transcription-button-label::after{
+	color: var(--_button-color);
+	background-color:var(--fio-sys-color-accent-light);
+}
+
 .media .media__transcription .transcription-content {
 	background-color: var(--fio-sys-color-primary-extra-light);
 	padding: var(--fio-sys-size-padding-md);
