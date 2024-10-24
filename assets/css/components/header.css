@@ -26,7 +26,7 @@
 	padding: 0px 20px;
 }
 .header:not(.header--sticky) .mobile-toggle-open .mobile-toggle__button {
-	color: var(--fio-sys-color-accent-medium);
+	color: var(--fio-sys-color-primary-extra-dark);
 	background: none;
 }
 .header .mobile-toggle-open .mobile-toggle__button .icon {
