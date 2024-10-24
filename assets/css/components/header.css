@@ -101,6 +101,16 @@
 .header.header--sticky .mobile-toggle-open {
 	border-right: 1px solid black;
 }
+
+.header.header--sticky .mobile-toggle-open a{
+	background:transparent;
+	color:var(--fio-sys-color-primary-extra-dark);
+}
+
+.header.header--sticky .mobile-toggle-open a:hover{
+	color:var(--fio-sys-color-primary-dark);
+}
+
 .header.header--sticky .brand .logo-black {
 	display: block;
 }
