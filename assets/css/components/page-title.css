@@ -44,6 +44,7 @@
 	font-size: var(--fio-sys-typography-size-1);
 	line-height: var(--fio-sys-typography-height-110);
 	margin-bottom: var(--fio-sys-size-margin-sm);
+	padding: var(--fio-sys-size-padding-xs);
 }
 
 @media (min-width: 992px) {

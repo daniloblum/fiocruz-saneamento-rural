@@ -45,8 +45,8 @@
 	--_quotation-body-text-color: var(--fio-sys-color-secondary-light);
 	--_quotation-body-background: var(--fio-sys-color-primary-extra-light);
 
-	--_quotation-lines-border-color: var(--fio-sys-color-tertiary-medium);
-	--_quotation-lines-border-width: var(--fio-sys-size-stroke-xl);
+	--_quotation-lines-border-color: var(--fio-sys-color-primary-extra-dark);
+	--_quotation-lines-border-width: calc(var(--fio-sys-size-stroke-xl)* 1.5);
 	--_quotation-lines-border-radius: var(--fio-sys-size-radius-md);
 
 	--_quotation-mark-border-radius: var(--_quotation-body-border-radius);
@@ -85,6 +85,8 @@
 	text-align: right;
 	font-family: var(--fio-sys-typography-family-primary-semi-bold);
 	font-size: var(--fio-sys-typography-size--1);
+	text-transform: uppercase;
+	color: var(--fio-sys-color-primary-extra-dark);
 }
 
 .quotation blockquote .quotation-footer {

@@ -89,8 +89,8 @@ h5,
 h6,
 .h6 {
 	color: var(--fio-sys-color-primary-extra-dark);
-	font-family: var(--fio-sys-typography-family-primary-extra-bold);
-	line-height: var(--fio-sys-typography-height-150);
+	font-family: var(--fio-sys-typography-family-primary-bold);
+	line-height: var(--fio-sys-typography-height-125);
 }
 h1,
 .h1 {
@@ -158,6 +158,14 @@ small,
 
 blockquote {
 	font-family: var(--fio-sys-typography-quotation-family);
+}
+
+.heading__block span {
+    font-family: var(--fio-sys-typography-family-secondary-regular);
+    display: block;
+    font-size: var(--fio-sys-typography-size-0) !important;
+    color: var(--fio-sys-color-tertiary-dark);
+	margin-bottom: var(--fio-sys-size-margin-sm);
 }
 
 /* @media (min-width: 992px) {

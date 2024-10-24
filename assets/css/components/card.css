@@ -17,6 +17,7 @@
 
 	--_card-header-background: var(--fio-sys-color-primary-extra-dark);
 	--_card-header-family: var(--fio-sys-typography-family-primary-semi-bold);
+	--_card-header-tracking: var(--fio-sys-typography-spacing-normal);
 	--_card-header-line-height: var(--fio-sys-typography-height-125);
 	--_card-header-size: var(--fio-sys-typography-size-0);
 	--_card-header-color: var(--fio-sys-color-neutral-white);
