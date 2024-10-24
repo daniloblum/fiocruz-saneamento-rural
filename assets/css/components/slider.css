@@ -5,9 +5,9 @@
 	--_slider-body-padding: var(--fio-sys-size-padding-xxl);
 	--_slider-border-radius: var(--fio-sys-size-radius-sm);
 
-	--_slider-button:var(--fio-sys-color-secondary-medium);
-	--_slider-button--hover:var(--fio-sys-color-secondary-light);
-	--_slider-button-border:var(--fio-sys-color-secondary-medium);
+	--_slider-button:var(--fio-sys-color-accent-medium);
+	--_slider-button--hover:var(--fio-sys-color-accent-light);
+	--_slider-button-border:var(--fio-sys-color-accent-medium);
 	--_slider-button-border-width: var(--fio-sys-size-stroke-md);
 	--_slider-button-border-radius:var(--fio-sys-size-radius-full);
 	--_slider-button-text: var(--fio-sys-color-primary-dark);
@@ -48,15 +48,15 @@
 }
 
 .slider .card .card-thumb figure .figure-caption {
-	background-color: var(--fio-sys-color-tertiary-extra-dark-contrast);
+	background-color: var(--fio-sys-color-primary-extra-dark);
 	padding: var(--fio-sys-size-padding-md) calc(var(--fio-sys-size-padding-xxl)*1.3);
-	color:var(--fio-sys-color-tertiary-dark);
+	color:var(--fio-sys-color-neutral-white);
 }
 
 .slider .card .card-header {
-	background-color: var(--fio-sys-color-primary-dark);
+	background-color: var(--fio-sys-color-primary-extra-dark);
 	color: var(--fio-sys-color-neutral-white);
-	border:3px solid var(--fio-sys-color-primary-dark);
+	border:3px solid var(--fio-sys-color-primary-extra-dark);
 }
 
 .slider .card .card-body {
@@ -92,7 +92,7 @@
 .slider .card .card-body .slide-title {
 	font-family: var(--_card-header-family);
 	font-size: var(--_card-header-size);
-    color: var(--fio-sys-color-primary-dark);
+    color: var(--fio-sys-color-primary-extra-dark);
     line-height: var(--fio-sys-typography-height-150);
     display: block;
     margin-bottom: var(--fio-sys-size-margin-sm);
@@ -126,6 +126,12 @@
 	border-radius: var(--_slider-button-border-radius);
 	opacity: 1;
 	transition: opacity 0.15s ease;
+}
+
+.slider .carousel .carousel-control-next:hover,
+.slider .carousel .carousel-control-prev:hover {
+	background-color: var(--_slider-button--hover);
+	border-color:var(--_slider-button--hover);
 }
 
 .slider .card-body .carousel .carousel-control-next,
@@ -188,7 +194,7 @@
 @media (min-width: 768px) {
 
 	.slider .card .card-thumb figure .figure-caption {
-		background-color: var(--fio-sys-color-tertiary-extra-dark-contrast);
+		background-color: var(--fio-sys-color-primary-extra-dark);
 		padding: var(--fio-sys-size-padding-md) var(--fio-sys-size-padding-xxl);
 	}
 	
