@@ -81,7 +81,6 @@ header.header--sticky {
 	}
 } */
 
-
 .hero-title {
 	background: transparent;
 	height: 100%;
@@ -107,7 +106,7 @@ header.header--sticky {
 	display: block;
 	color: var(--fio-sys-color-primary-light-contrast);
 	font-size: var(--fio-sys-typography-size-4);
-	font-family: var(--fio-sys-typography-family-primary-extra-bold);
+	font-family: var(--fio-sys-typography-family-primary-bold);
 	line-height: var(--fio-sys-typography-height-100);
 	margin-bottom: 0;
 	text-align: left;
@@ -129,10 +128,12 @@ header.header--sticky {
 		font-size: var(--fio-sys-typography-size-6);
 	}
 	.hero-title h1 {
-		font-size: var(--fio-sys-typography-size-6);
+		font-size: var(--fio-sys-typography-size-5);
+		font-family: var(--fio-sys-typography-family-primary-extra-bold);
 	}
 	.hero-title h1 span {
-		font-size: var(--fio-sys-typography-size-6);
+		font-size: var(--fio-sys-typography-size-5);
+		font-family: var(--fio-sys-typography-family-primary-bold);
 	}
 	#layer-1 {
 		background-image: url(../../media/home/layer-1.png);
