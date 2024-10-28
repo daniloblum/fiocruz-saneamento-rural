@@ -110,7 +110,7 @@
 /* Compare cards */
 .compare-symbol span {
 	color: var(--fio-sys-color-primary-dark);
-	font-family: var(--fio-sys-typography-family-secondary-regular);
+	font-family: var(--fio-sys-typography-family-primary-regular);
 	font-size: var(--fio-sys-typography-size-5);
 }
 
