@@ -39,6 +39,7 @@ button,
 	padding: var(--_button-padding-y) var(--_button-padding-x);
 	text-align: center;
 	text-decoration: none;
+	line-height: 1;
 }
 .fio-button:hover {
 	text-decoration: none;
