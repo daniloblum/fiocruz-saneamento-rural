@@ -29,6 +29,20 @@ header.header--sticky {
 	overflow: hidden;
 }
 
+.section.presentation {
+	background-image: url(../../media/home/background-presentation.png);
+	background-repeat: no-repeat;
+}
+
+.section.presentation .container{
+	background-color: #fff;;
+}
+
+.section.presentation .heading__block .heading__title {
+    font-size: var(--fio-sys-typography-size-5);
+    text-transform: none;
+}
+
 .layer-parallax {
 	background-position: bottom center;
 	background-size: cover;
@@ -194,7 +208,7 @@ section {
 	margin: 0;
 }
 #presentation {
-	padding: var(--fio-sys-size-vertical-xl) 0;
+	padding: var(--fio-sys-size-vertical-xxl) 0;
 }
 #presentation .media {
 	margin-bottom: var(--fio-sys-size-vertical-lg);
@@ -208,8 +222,13 @@ section {
 	position: relative;
 	padding: var(--fio-sys-size-vertical-xl) 0 var(--fio-sys-size-vertical-xl);
 	padding-top: 120px;
+	background-image: url("../../media/home/background-course-program.png");
+	background-repeat: no-repeat;
+	background-position: right;
 }
-#course-program::before {
+
+
+/* #course-program::before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -273,7 +292,7 @@ section {
 
 .custom-shape-divider-bottom-1725473646 .shape-fill {
 	fill: #000000;
-}
+} */
 
 #course-program .list-item .icon {
 	height: 220px;

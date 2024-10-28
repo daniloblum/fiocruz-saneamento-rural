@@ -42,7 +42,7 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="media/icons/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="96x96" href="media/icons/favicon-96x96.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="media/icons/favicon-16x16.png" />
-		<link rel="manifest" href="../media/icons/manifest.json" />
+		<link rel="manifest" href="media/icons/manifest.json" />
 
 		<meta name="msapplication-TileColor" content="#ffffff" />
 		<meta name="msapplication-TileImage" content="media/icons/ms-icon-144x144.png" />
@@ -72,8 +72,6 @@
 			</div>
 
 			<ul class="nav nav-pills">
-				<li class="nav-item desktop-toggle"><a href="index.html" class="nav-link active">Página inicial</a></li>
-
 				<li class="nav-item desktop-toggle"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
 
 				<!-- <li class="nav-item desktop-toggle"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-bibliografia">Bibliografia</a></li> -->
@@ -81,15 +79,6 @@
 				<!-- <li class="nav-item desktop-toggle"><a href="#" class="fio-button fio-button-outline-primary">FAQ</a></li> -->
 <!-- 
 				<li class="nav-item"><button type="button" class="fio-button fio-button-primary" data-bs-toggle="modal" data-bs-target="#modal-glossario">Glossário</button></li> -->
-
-				<li class="nav-item dropdown">
-					<a href="#" class="nav-link" dropdown-toggle type="button" id="viewMore" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="0,10"><span class="material-symbols-rounded">more_vert</span></a>
-
-					<ul class="dropdown dropdown-menu" aria-labelledby="viewMore">
-						<li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</button></li>
-						<li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#modal-bibliografia">Bibliografia</button></li>
-					</ul>
-				</li>
 			</ul>
 		</header>
 		<div class="section-hero">
@@ -115,96 +104,47 @@
 				</div>
 			</div>
 		</div>
+		
 		<main class="main main-home">
 			<section id="presentation" class="section presentation">
 				<div class="container">
-					<div class="row justify-content-center pt-5">
-						<div class="col-12 col-md-10 col-lg-8 mb-5">
-							<div class="heading__block">
+					<div class="row justify-content-center pt-5 align-items-center">
+						<div class="col-12 col-md-4 col-lg-4 mb-5 text-center">
+							<div class="heading__block aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">
 								<!-- <span class="heading__before">Label</span> -->
-								<h3 class="heading__title">Olá! Seja bem-vindo(a)!</h3>
+								<h2 class="heading__title">Boas<br/>Vindas</h2>
 							</div>
 						</div>
-					</div>
 
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-10 col-lg-8">
-							<p>Este curso foi uma iniciativa proposta pelo Conselho Nacional de Saúde (CNS) em parceria com a Escola Nacional de Saúde Pública da Fundação Oswaldo Cruz (ENSP/Fiocruz) e o Instituto de Saúde Coletiva da Universidade Federal de Mato Grosso (ISC/UFMT) no âmbito de um projeto mais amplo que visa o fortalecimento do controle social no Sistema Único de Saúde (SUS). A proposta surgiu frente à necessidade de os conselhos de saúde desenvolverem estratégias para o monitoramento das deliberações na formulação e acompanhamento das políticas públicas em saúde, como uma pauta frequente nas conferências de saúde e que ganhou maior destaque no relatório final da 16ª Conferência Nacional de Saúde realizada em 2019.</p>
+						<div class="col-12 col-md-8 col-lg-8">
+							 <!--Video (embed Youtube) -->
+							 <div class="componente-video">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <p>Ellipse library figjam strikethrough link move text hand. Hand scrolling prototype select team. Vector rotate text underline bold project rotate overflow create. Community overflow stroke plugin hand group. Subtract union font image draft. Project create bullet background text arrange thumbnail frame. Move slice background fill duplicate slice. Opacity star underline arrange outline scrolling stroke.</p>
+            
+                                        <div class="media video aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
+                                            <div class="ratio ratio-16x9">
+                                                <video controlslist="nodownload" name="media" controls poster="../../media/modulo1/aula1-thumb-video1.jpg">
+                                                    <source src="https://educare.fiocruz.br/file-storage/rQ8ER_Sl" type="video/mp4">
+                                                </video>
+                                            </div>
+                                            <div class="media__transcription">
+                                                <button class="fio-button fio-button-text-primary transcription-button collapsed" data-bs-toggle="collapse" href="#mediatranscription3" role="button" aria-expanded="false" aria-controls="mediatranscription3">
+                                                    <span class="transcription-button-label">Transcrição do vídeo</span>
+                                                </button>
+                                                <div class="transcription-content collapse" id="mediatranscription3" style="">
+                                                    <h6>Título da Descrição</h6>
 
-							<p>Compreende-se que as conferências deliberam proposições e resoluções fundamentais
-								para o planejamento e execução das ações no âmbito do SUS em consonância com as
-								demandas e reais necessidades da população brasileira em sua diversidade. No entanto,
-								pouco se monitora tecnicamente do percurso das deliberações no processo posterior
-								à realização das conferências e pouco se verifica se foram, ou não, consideradas e
-								incorporadas no âmbito do planejamento e implementação de políticas, programas e
-								projetos em saúde.</p>
+                                                    <p>Começo da descrição...</p>
+                                                </div>
+                                            </div>
+                                        </div>
 
-							<p>Sustentando-se no arcabouço teórico e metodológico da área de Monitoramento e Avaliação em Saúde, a formação tem como propósito contribuir com a formação de apoiadores técnicos e representantes de conselhos de saúde em Monitoramento e Avaliação aplicado ao Controle Social no SUS. O curso traz conceitos, métodos e possibilidades de aplicabilidade deste referencial para o contexto do Controle Social no SUS. Trata-se de uma proposta inédita elaborada de forma conjunta com o Conselho Nacional de Saúde (CNS) e a validação dos conselhos estaduais de todo o país, para o fortalecimento da participação social nos processos de implementação de políticas públicas, desde o planejamento à avaliação.</p>
+                                    </div>
+                                </div>
+                            </div>
 
-						</div>
-					</div>
-				</div>
-
-				<div class="container-fluid">
-					<div class="row justify-content-center my-5">
-						<div class="col-12 col-md-10 col-lg-8 px-0">
-							<img class="img-fluid" src="media/images/divisor-home.png" alt="">
-						</div>
-					</div>
-				</div>
-
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-10 col-lg-8">
-							<p>Acompanhe o vídeo de boas vindas da Coordenadora Geral do Curso Marly Marques da Cruz.</p>
-
-							<div class="media video">
-								<div class="ratio ratio-16x9">
-									<video controlslist="nodownload" name="media" controls poster="media/images/home/thumb-video1.jpg">
-										<source src="https://educare.fiocruz.br/file-storage/KJyEORWc" type="video/mp4">
-									</video>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="container-fluid">
-					<div class="row justify-content-center my-5">
-						<div class="col-12 col-md-10 col-lg-8 px-0">
-							<img class="img-fluid" src="media/images/divisor-home.png" alt="">
-						</div>
-					</div>
-				</div>
-
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-10 col-lg-8 mb-5">
-							<div class="heading__block">
-								<!-- <span class="heading__before">Label</span> -->
-								<h3 class="heading__title">Objetivos de Aprendizagem</h3>
-							</div>
-
-							<p>O material conta com três módulos. Cada módulo possui unidades temáticas que aprofundam
-								determinados conteúdos.</p>
-						</div>
-					</div>
-
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-10 col-lg-8">
-							<div class="list">
-								<ul class="list-group">
-									<li class="list-group-item aos-init" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Explicitar, de modo introdutório, conceitos e noções básicas sobre Estado, Democracia, Políticas Públicas, Participação Social e Controle Social em Saúde, Sistema Único de Saúde, Conselhos e Conferências de Saúde;</li>
-
-									<li class="list-group-item aos-init" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Explicitar, de modo introdutório, conceitos e noções básicas sobre Planejamento, Monitoramento e Avaliação em Saúde;</li>
-
-									<li class="list-group-item aos-init" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Explicitar, de modo introdutório, o processo deliberativo nas conferências e a incidência das proposições nos instrumentos de planejamento, orçamento e gestão do SUS;</li>
-
-									<li class="list-group-item aos-init" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Abordar elementos que apoiem na compreensão do processo de construção de um plano de monitoramento aplicado ao contexto do controle social no SUS;</li>
-
-									<li class="list-group-item aos-init" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Possibilitar momentos de reflexão coletiva e trocas de experiências sobre os desafios e potências do monitoramento e avaliação aplicados ao controle social no SUS.</li>
-								</ul>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -214,9 +154,9 @@
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-12 col-md-10 col-lg-8 mb-5">
-							<div class="heading__block">
+							<div class="heading__block text-center">
 								<!-- <span class="heading__before">Label</span> -->
-								<h3 class="heading__title">Organização do material didático e explicação sobre os ícones de aprendizagem</h3>
+								<h2 class="heading__title">Estrutura do Curso</h2>
 							</div>
 
 							<p>O material conta com três módulos. Cada módulo possui unidades temáticas que aprofundam
@@ -272,155 +212,6 @@ e Avaliação em Saúde
 					</div>
 			</section>
 
-			<section id="visual-resources">
-				<div class="container">
-					<div class="row justify-content-center mb-5">
-						<div class="col-12 col-md-10 col-lg-8">
-							<p>Em cada módulo haverá recursos de leitura e de audiovisual que tratam dos conteúdos
-								abordados. Além disso, organizamos ícones de aprendizagem para indicar conteúdos
-								complementares e a serem aprofundados, tais como leitura complementar, conteúdo
-								importante, reflexão, vídeo, podcast, link, nota lateral, saiba mais, entre outros.</p>
-						</div>
-					</div>
-
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-3 col-lg-3 mb-5">
-							<div class="box" data-box="reflexão">
-								<div class="card">
-									<div class="card-header">
-										<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-										<span class="label"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-3 col-lg-3 mb-5">
-							<div class="box" data-box="para ler">
-								<div class="card">
-									<div class="card-header">
-										<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-										<span class="label"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-4 col-lg-4 mb-5">
-							<div class="box" data-box="importante">
-								<div class="card">
-									<div class="card-header">
-										<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-										<span class="label"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-3 col-lg-3 mb-5">
-							<div class="box" data-box="link">
-								<div class="card">
-									<div class="card-header">
-										<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-										<span class="label"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-3 col-lg-3 mb-5">
-							<div class="box" data-box="vídeo">
-								<div class="card">
-									<div class="card-header">
-										<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-										<span class="label"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-12 col-md-4 col-lg-4 mb-5">
-							<div class="box" data-box="para escutar">
-								<div class="card">
-									<div class="card-header">
-										<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-										<span class="label"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="row justify-content-center pt-5 mb-5">
-						<div class="col-12 col-md-10 col-lg-8">
-							<p>Ao longo do conteúdo, alguns termos estarão acompanhados de explicação. A palavra estará destacada de outra cor, <strong>clique nela para abrir a nota lateral</strong>. Observe <a class="" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="" data-bs-content="A noção de pensamento único pode ser definida enquanto uma forma de pensar sobre o mundo cuja lógica é fechada em si mesma, na qual não se aceitam referências ou aspectos derivados de outras formas de pensamento. Não admite divergências ou discordâncias e nem reconhece ou admite suas próprias limitações, ou seja, não faz autocrítica. Certamente você reconhece estas características também com o nome de fanatismo." data-bs-original-title="Exemplo de nota">este exemplo</a>.</p>
-
-						</div>
-					</div>
-
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-10 col-lg-8">
-							<p>Ao longo do curso você terá várias figuras, caso queira ampliar a visualização, <strong><span class="d-none d-lg-inline">clique</span> <span class="d-inline d-lg-none">toque</span></strong> sobre a figura. Elas também estarão acompanhadas de uma descrição mediante a #PraTodosVerem, conforme o exemplo a seguir:</p>
-
-						</div>
-
-						<div class="col-12 col-md-10 col-lg-8 pt-5">
-							<figure class="lightbox">
-								<img class="img-fluid rounded mx-auto d-block mb-3" src="media/images/modulo2/aula1/topico2/Figura3-Características-de-política-programa-e-projeto.png" alt="Infográfico com fundo branco e um círculo maior, azul escuro, com dois círculos menores circunscritos em tom azul mais claro. No mais externo lê-se Política, no intermediário lê-se programa e no mais interno lê-se projeto." title="Exemplo de imagem que pode ser ampliada">
-								<figcaption class="figure-caption text-start"><strong>#PraTodosVerem:</strong> 1. infográfico com fundo branco e um círculo maior, azul escuro, com dois círculos menores circunscritos em tom azul mais claro. No mais externo lê-se Política, no intermediário lê-se programa e no mais interno lê-se projeto.</figcaption>
-							</figure>
-						</div>
-					</div>
-				</div>
-
-				<div class="container-fluid">
-					<div class="row justify-content-center my-5">
-						<div class="col-12 col-md-10 col-lg-8 px-0">
-							<img class="img-fluid" src="media/images/divisor-home.png" alt="">
-						</div>
-					</div>
-				</div>
-
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-10 col-lg-8">
-							<p>Conheça a proposta do curso no vídeo com a Coordenadora Adjunta do Curso Juliana Kabad.</p>
-
-							<div class="media video">
-								<div class="ratio ratio-16x9">
-									<div class="ratio ratio-16x9">
-										<video controlslist="nodownload" name="media" controls poster="media/images/home/thumb-video2.jpg">
-											<source src="https://educare.fiocruz.br/file-storage/7N8qZCWc" type="video/mp4">
-										</video>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="container-fluid">
-					<div class="row justify-content-center my-5">
-						<div class="col-12 col-md-10 col-lg-8 px-0">
-							<img class="img-fluid" src="media/images/divisor-home.png" alt="">
-						</div>
-					</div>
-				</div>
-
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-12 col-md-10 col-lg-8">
-							<div class="olho-de-texto">
-								<p>“O que vale na vida não é o ponto de partida E sim, a caminhada. Caminhando e semeando, no fim terás o que colher"</p>
-								<p class="small text-right" style="font-size:var(--fio-sys-typography-paragraph-size);">Cora Coralina</p>
-							</div>
-						</div>
-					</div>
-				</div>				
-			</section>
 		</main>
 
 		<!-- Navegação da aula -->
@@ -440,33 +231,38 @@ e Avaliação em Saúde
 			<div class="container-fluid">
 				<div class="row justify-content-center align-items-center linha-de-marcas">
 					<div class="col-12 col-md-auto">
+						<ul class="logos">
+							<!-- <li class="realizacao"> -->
+							<li>
+								<img class="img-fluid logo1" src="media/logos/bid.png" alt="Logo do Banco Internacional de Desenvolvimento" height=""/>
+							</li>
+
+							<li>
+								<img class="img-fluid logo2" src="media/logos/funasa.png" alt="Logo da Funasa" height=""/>
+							</li>
+
+							
+					</ul>
+					</div>
+					<div class="col-auto">
+						<span class="divider"></span>
+					</div>
+					<div class="col-12 col-md-auto">
 						<ul class="logos principais align-self-end">
-							<li class="apoio">
-								<img class="img-fluid border-end pe-3" src="media/images/marcas/cns.png" alt="Logo do Conselho Nacional de Saúde" height="" />
+							<li>
+								<img class="img-fluid logo3" src="media/logos/epjv.png" alt="Logo da Escola Politécnica de Saúde Joaquim Venâncio" height=""/>
 							</li>
 
 							<li>
-								<img class="img-fluid" src="media/images/marcas/ufmt.png" alt="Logo da Universidade Federal do Mato Grosso" height="" />
+								<img class="img-fluid logo4" src="media/logos/logo-campus-horizontal.png" alt="Logo do Campus Virtual Fiocruz" height=""/>
 							</li>
 
 							<li>
-								<img class="img-fluid" src="media/images/marcas/ensp.png" alt="Logo do ENSP" height="" />
+								<img class="img-fluid logo5" src="media/logos/logo-fiocruz-horizontal-black.png" alt="Logo da Fiocruz" height=""/>
 							</li>
-
+							
 							<li>
-								<img class="img-fluid" src="media/images/marcas/fiocruz-campus-virtual.png" alt="Logo da Campus Virtual Fiocruz" height="" />
-							</li>
-
-							<li>
-								<img class="img-fluid" src="media/images/marcas/fiocruz.png" alt="Logo da Fiocruz" height="" />
-							</li>
-
-							<li>
-								<img class="img-fluid" src="media/images/marcas/sus.png" alt="Logo do SUS" height="" />
-							</li>
-
-							<li>
-								<img class="img-fluid" src="media/images/marcas/ministerio-saude.png" alt="Logo do Ministério da Saúde" height="" />
+								<img class="img-fluid logo6" src="media/logos/logo-governo-federal.png" alt="Logo do Governo Federal" height="" />
 							</li>
 						</ul>
 					</div>
@@ -479,7 +275,8 @@ e Avaliação em Saúde
 		<script type="text/javascript" src="assets/js/scripts.js"></script>
 		<script type="text/javascript" src="assets/js/custom-anime.js"></script>
 		<script type="text/javascript" src="assets/js/home.js"></script>
-		<script type="text/javascript" src="sources/animate/aos/dist/aos.js"></script>
+		<script type="text/javascript" src="source/animate/aos/dist/aos.js"></script>
+
 		<script>
 			AOS.init();
 		</script>
