@@ -3,6 +3,7 @@
 html {
 	height: 100%;
 	/* overflow: hidden; */
+	/* scroll-snap-type: y mandatory; */
 	scroll-behavior: smooth;
 }
 
@@ -63,17 +64,19 @@ html {
 }
 
 #layer-1 {
-	background-image: url(../../media/home/layer-1-mobile.png);
+	background-image: url(../../media/home/layer-1.png);
 }
-
 #layer-2 {
-	background-image: url(../../media/images/home/layer-2-360.png);
+	background-image: url(../../media/images/home/layer-2.png);
 }
 #layer-3 {
-	background-image: url(../../media/images/home/layer-3-360.png);
+	background-image: url(../../media/images/home/layer-3.png);
 }
 #layer-4 {
-	background-image: url(../../media/images/home/layer-4-360.png);
+	background-image: url(../../media/images/home/layer-4.png);
+}
+#layer-5 {
+	background-image: url(../../media/images/home/layer-5.png);
 }
 
 /* @media (min-width: 768px) {
@@ -114,47 +117,46 @@ html {
 	height: 60px;
 	margin-bottom: var(--fio-sys-size-vertical-lg);
 }
-.hero-title .label {
-	color: var(--fio-sys-color-neutral-white);
-	display: block;
-	font-family: var(--fio-sys-typography-family-primary-regular);
-	font-size: var(--fio-sys-typography-size-1);
-	text-transform: uppercase;
-	margin-bottom: var(--fio-sys-size-vertical-sm);
-}
 .hero-title h1 {
 	display: block;
 	color: var(--fio-sys-color-primary-light-contrast);
-	font-size: var(--fio-sys-typography-size-4);
+	font-size: var(--fio-sys-typography-size-6);
 	font-family: var(--fio-sys-typography-family-primary-bold);
 	line-height: var(--fio-sys-typography-height-100);
 	margin-bottom: 0;
 	text-align: left;
 	text-transform: uppercase;
 }
-/* .hero-title h1 span {
+.hero-title h1 .label {
+	color: var(--fio-sys-color-primary-light-contrast);
 	display: block;
-	color: var(--fio-sys-color-primary-medium-contrast);
+	font-family: var(--fio-sys-typography-family-secondary-regular);
+	font-size: var(--fio-sys-typography-size-1);
+	text-transform: uppercase;
+	margin-bottom: var(--fio-sys-size-vertical-sm);
+}
+.hero-title h1 span {
 	display: block;
-	font-family: var(--fio-ref-typography-family-secondary-regular);
+	/* color: var(--fio-sys-color-primary-medium-contrast); */
+	display: block;
+	font-family: var(--fio-sys-typography-family-secondary-regular);
 	font-weight: var(--fio-ref-typography-weight-normal);
-	font-size: var(--fio-sys-typography-head-md-size);
+	font-size: var(--fio-sys-typography-size-3);
 	margin-top: var(--fio-sys-spacing-margin-sm);
-	margin-bottom: 0;
-} */
+	margin-bottom: 10px;
+}
+.hero-title h1 span.title {
+	font-size: var(--fio-sys-typography-size-6);
+	font-family: var(--fio-sys-typography-family-primary-bold);
+	line-height: var(--fio-sys-typography-height-100);
+
+	text-decoration: underline var(--fio-sys-color-tertiary-light);
+	text-decoration-thickness: 12px;
+	text-decoration-skip-ink: none;
+	text-underline-offset: -12px;
+}
 
 @media (min-width: 992px) {
-	.hero-title h1 .label {
-		font-size: var(--fio-sys-typography-size-6);
-	}
-	.hero-title h1 {
-		font-size: var(--fio-sys-typography-size-5);
-		font-family: var(--fio-sys-typography-family-primary-extra-bold);
-	}
-	.hero-title h1 span {
-		font-size: var(--fio-sys-typography-size-5);
-		font-family: var(--fio-sys-typography-family-primary-bold);
-	}
 	#layer-1 {
 		background-image: url(../../media/home/layer-1.png);
 		scale: 1.05;
@@ -173,10 +175,6 @@ html {
 	}
 	#layer-5 {
 		background-image: url(../../media/home/layer-5.png);
-	}
-
-	#layer-6 {
-		background-image: url(../../media/home/layer-6.png);
 	}
 }
 
@@ -213,6 +211,22 @@ section {
 	position: relative;
 	margin: 0;
 }
+
+.section.presentation {
+	background-image: url(../../media/home/background-presentation.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section.presentation .container {
+	background-color: #fff;
+}
+
+.section.presentation .heading__block .heading__title {
+	font-size: var(--fio-sys-typography-size-5);
+	text-transform: none;
+}
+
 #presentation {
 	padding: var(--fio-sys-size-vertical-xxl) 0;
 }
@@ -228,11 +242,10 @@ section {
 	position: relative;
 	padding: var(--fio-sys-size-vertical-xl) 0 var(--fio-sys-size-vertical-xl);
 	padding-top: 120px;
-	background-image: url("../../media/home/background-course-program.png");
+	background-image: url('../../media/home/background-course-program.png');
 	background-repeat: no-repeat;
 	background-position: right;
 }
-
 
 /* #course-program::before {
 	content: '';
