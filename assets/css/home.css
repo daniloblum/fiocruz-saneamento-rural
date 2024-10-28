@@ -240,7 +240,7 @@ section {
 	background-size: cover;
 	background-repeat: no-repeat; */
 	position: relative;
-	padding: var(--fio-sys-size-vertical-xl) 0 var(--fio-sys-size-vertical-xl);
+	padding: var(--fio-sys-size-vertical-xl) 0 0;
 	padding-top: 120px;
 	background-image: url('../../media/home/background-course-program.png');
 	background-repeat: no-repeat;
@@ -318,6 +318,7 @@ section {
     background-image: url(../../media/home/grafismo-card.png);
     background-repeat: no-repeat;
     background-position-y: 50%;
+	background-position-x: 10px;
     box-shadow: none;
     background-color: transparent;
 }
@@ -326,6 +327,11 @@ section {
 	border: none;
     width: fit-content;
     translate: -20px 40px;
+	z-index: 1;
+}
+
+#course-program .card .card-thumb img {
+    translate: 16px 0;
 }
 
 #course-program .card .card-body {
@@ -443,6 +449,7 @@ section {
 @media (min-width: 768px) {
 	.main {
 		background: #ffffff;
+		overflow: hidden;
 	}
 }
 
