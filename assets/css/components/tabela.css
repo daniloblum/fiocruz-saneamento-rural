@@ -3,7 +3,7 @@
 .table {
 	background-color: var(--fio-sys-color-primary-extra-light);
 	font-family: var(--fio-sys-typography-family-primary-medium);
-	color:var(--fio-sys-color-primary-dark);
+	color:var(--fio-sys-color-primary-extra-dark);
 	/* border: var(--fio-sys-size-stroke-md) solid var(--fio-sys-color-primary-dark);
 	border-radius: var(--fio-sys-size-radius-lg); */
 }
@@ -17,7 +17,7 @@
 } */
 
 .table-responsive .table-bordered {
-	border: none;
+	border: var(--fio-sys-size-stroke-xs) solid var(--fio-sys-color-primary-dark);
 	border-spacing: 0;
 	border-collapse: separate;
     border-radius: var(--fio-sys-size-radius-sm);
@@ -58,7 +58,7 @@
 }
 
 .table-responsive th {
-	background-color: var(--fio-sys-color-primary-dark);
+	background-color: var(--fio-sys-color-primary-extra-dark);
 	font-family: var(--fio-sys-typography-family-primary-semibold);
 	font-size:var(--fio-sys-typography-size-0);
 	color: var(--fio-sys-color-neutral-white);

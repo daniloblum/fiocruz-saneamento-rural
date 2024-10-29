@@ -44,9 +44,9 @@
 .timeline-z-estrutura.row .col-2::after {
 	content: '';
 	position: absolute;
-	border-left: 3px solid var(--fio-sys-color-secondary-medium);
+	border-left: 3px solid var(--fio-sys-color-primary-dark);
 	z-index: 1;
-	opacity: 0.5;
+	opacity: 1;
 }
 
 .timeline-z-estrutura.row .col-2.bottom::after {
@@ -77,11 +77,11 @@
 }
 
 .timeline-z hr {
-	border-top: 3px solid var(--fio-sys-color-secondary-medium);
+	border-top: 3px solid var(--fio-sys-color-primary-dark);
 	margin: 0;
 	top: 17px;
 	position: relative;
-	opacity: 0.5;
+	opacity: 1;
 }
 
 .timeline-z .col-2 {
@@ -90,17 +90,17 @@
 }
 
 .timeline-z .corner {
-	border: 3px solid var(--fio-sys-color-secondary-medium);
+	border: 3px solid var(--fio-sys-color-primary-dark);
 	width: 100%;
 	position: relative;
 	border-radius: 15px;
-	opacity: 0.5;
+	opacity: 1;
 }
 
 .timeline-z .top-right {
 	left: calc(50% - 2px);
 	top: -50%;
-	opacity: 0.5;
+	opacity: 1;
 }
 
 .timeline-z .left-bottom {

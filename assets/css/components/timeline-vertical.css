@@ -165,14 +165,14 @@
 }
 
 .cd-timeline__img.cd-timeline__option1 {
-	background: var(--fio-sys-color-accent-medium);
+	background: var(--fio-sys-color-tertiary-light);
     box-shadow: none;
     border: none;
-    color: var(--fio-sys-color-tertiary-extra-light);
+    color: var(--fio-sys-color-primary-extra-dark);
 }
 
 .cd-timeline__img.cd-timeline__option1 h4.ano {
-	color: var(--fio-sys-color-tertiary-extra-light);
+	color: var(--fio-sys-color-primary-extra-dark);
 }
 
 @media only screen and (min-width: 1170px) {

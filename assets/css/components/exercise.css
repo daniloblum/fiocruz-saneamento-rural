@@ -35,15 +35,15 @@
 	margin-bottom: 0;
 }
 .exercise .exercise__answers .answer__option:not(.exercise__answers--blocked, .exercise__answers--selected, .exercise__answers--correct, .exercise__answers--incorrect):hover {
-	border-color: var(--fio-sys-color-accent-light);
+	border-color: var(--fio-sys-color-tertiary-medium);
 	/* background-color: var(--color-light-hover); */
 }
 .exercise .exercise__answers .answer__option.exercise__answers--selected {
-	border-color: var(--fio-sys-color-accent-light);
-	background-color: var(--fio-sys-color-accent-medium-contrast);
+	border-color: var(--fio-sys-color-tertiary-dark-contrast);
+	background-color: var(--fio-sys-color-tertiary-dark-contrast);
 }
 .exercise .exercise__answers .answer__option.exercise__answers--selected p {
-	color: var(--fio-sys-color-accent-dark);
+	color: var(--fio-sys-color-primary-extra-dark);
 }
 .exercise .exercise__answers .answer__option.exercise__answers--correct {
 	background-color: var(--fio-sys-color-success-light);

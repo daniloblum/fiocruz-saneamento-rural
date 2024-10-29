@@ -149,7 +149,7 @@
 	width: 48px;
 	border:none;
 	border-radius: 50%;
-	background-color: var(--fio-sys-color-secondary-medium);
+	background-color: var(--fio-sys-color-accent-medium);
 	transition: border-color 0.3s;
 }
 
@@ -164,7 +164,7 @@
 }
 
 .js .cd-h-timeline__navigation:hover {
-	background-color: var(--fio-sys-color-secondary-light);
+	background-color: var(--fio-sys-color-accent-light);
 }
 
 .js .cd-h-timeline__navigation--prev {

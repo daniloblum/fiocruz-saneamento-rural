@@ -2,15 +2,15 @@
 
 .accordion {
 	--_accordion-button-background: transparent;
-	--_accordion-button-background-active: var(--fio-sys-color-secondary-light);
+	--_accordion-button-background-active: var(--fio-sys-color-tertiary-light);
 	--_accordion-button-border: transparent;
-	--_accordion-button-border-active: var(--fio-sys-color-secondary-medium);
+	--_accordion-button-border-active: var(--fio-sys-color-tertiary-medium);
 	--_accordion-button-border-width: var(--fio-sys-size-stroke-sm);
 	--_accordion-button-border-radius: var(--fio-sys-size-radius-sm);
 	--_accordion-button-text-color: var(--fio-sys-size-radius-sm);
 
 	--_accordion-colapse-item-background: var(--fio-ref-color-primary-99);
-	--_accordion-colapse-item-border: var(--fio-sys-color-primary-medium-contrast);
+	--_accordion-colapse-item-border: var(--fio-sys-color-primary-dark);
 	--_accordion-colapse-item-border-width: var(--fio-sys-size-stroke-sm);
 	--_accordion-colapse-item-border-radius: var(--fio-sys-size-radius-sm);
 	--_accordion-colapse-item-text-color: var(--fio-sys-color-tertiary-dark);
@@ -45,16 +45,26 @@
 }
 .accordion-button::after {
 	content: 'keyboard_arrow_down';
-	font-family: 'Material Symbols Rounded';
-	width: auto;
-	height: auto;
-	margin-left: auto;
-	background: none;
-	transition: transform 0.2s ease-in-out;
+    font-family: 'Material Symbols Rounded';
+    width: 2rem;
+    height: 2rem;
+    margin-left: auto;
+    background: var(--fio-sys-color-accent-medium);
+    transition: transform 0.2s ease-in-out;
+    border-radius: var(--fio-sys-size-radius-full);
+    text-align: center;
+    top: 50%;
+    position: relative;
 }
+
+.accordion-button:hover::after{
+	background: var(--fio-sys-color-accent-light);
+} 
+
 .accordion-button:not(.collapsed)::after {
 	background: none;
 	transform: rotate(-180deg);
+	background: var(--fio-sys-color-accent-medium);
 }
 .accordion .accordion-item .accordion-collapse {
 	border-color: var(--_accordion-colapse-item-border);
