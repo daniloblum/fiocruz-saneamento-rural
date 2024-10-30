@@ -167,7 +167,7 @@ html {
 
 @media (min-width:390px) {
 	.hero-title {
-		translate: 0 10vh;
+		translate: 0 5vh;
 	}
 	
 }
