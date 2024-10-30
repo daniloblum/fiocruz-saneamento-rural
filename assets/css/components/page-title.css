@@ -36,13 +36,15 @@
 }
 
 #page-title .title {
-	color: var(--_text-color);
-	font-family: var(--fio-sys-typography-family-primary-bold);
-	line-height: var(--fio-sys-typography-height-100);
-	text-align: left;
-	text-transform: uppercase;
-    padding: var(--fio-sys-size-padding-lg);
+    color: var(--_text-color);
+    font-family: var(--fio-sys-typography-family-primary-bold);
+    line-height: var(--fio-sys-typography-height-100);
+    text-align: left;
+    text-transform: uppercase;
+    padding: var(--fio-sys-size-padding-lg) 0;
+    font-size: var(--fio-sys-typography-size-3);
 }
+
 
 #page-title .title .label {
 	background-color:var(--_background-color2);
@@ -76,6 +78,11 @@
 	#page-title .container,
 	#page-title .container .row {
 		height: 100%;
+	}
+
+	#page-title .title {
+		padding: var(--fio-sys-size-padding-lg);
+		font-size: var(--fio-sys-typography-size-5);
 	}
 
 	/* #page-title .title {
