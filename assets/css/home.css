@@ -170,11 +170,19 @@ html {
 		scale: 1.05;
 	}
 	#layer-4 {
-		background-image: url(../../media/home/layer-4.png);
-		scale: 1.05;
+		display:none;
 	}
+
 	#layer-5 {
 		background-image: url(../../media/home/layer-5.png);
+	}
+}
+
+@media (min-width: 1900px) {
+	#layer-4 {
+		display: block;
+		background-image: url(../../media/home/layer-4.png);
+		scale: 1.05;
 	}
 }
 
