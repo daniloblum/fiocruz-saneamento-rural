@@ -64,19 +64,20 @@ html {
 }
 
 #layer-1 {
-	background-image: url(../../media/home/layer-1.png);
+	background-image: url(../../media/home/layer-1-mobile.png);
 }
 #layer-2 {
-	background-image: url(../../media/images/home/layer-2.png);
+	background-image: url(../../media/home/layer-2-mobile.png);
 }
 #layer-3 {
-	background-image: url(../../media/images/home/layer-3.png);
+	background-image: url(../../media/home/layer-3-mobile.png);
 }
 #layer-4 {
-	background-image: url(../../media/images/home/layer-4.png);
+	background-image: url(../../media/home/layer-4-mobile.png);
 }
 #layer-5 {
-	background-image: url(../../media/images/home/layer-5.png);
+	/* background-image: url(../../media/home/layer-5.png); */
+	background-image: none;
 }
 
 /* @media (min-width: 768px) {
@@ -106,12 +107,19 @@ html {
 
 .hero-title {
 	background: transparent;
-	height: 100%;
-	align-items: center;
-	justify-content: start;
-	display: flex;
-	translate: 0 -5vh;
+    height: 100%;
+    align-items: start;
+    justify-content: start;
+    display: flex;
+    translate: 0 5vh;
 }
+
+.hero-title .container .row:first-child {
+	background: #fff;
+
+}
+
+
 .hero-title .logo {
 	display: block;
 	height: 60px;
@@ -141,12 +149,13 @@ html {
 	display: block;
 	font-family: var(--fio-sys-typography-family-secondary-regular);
 	font-weight: var(--fio-ref-typography-weight-normal);
-	font-size: var(--fio-sys-typography-size-3);
+	font-size: var(--fio-sys-typography-size-2);
 	margin-top: var(--fio-sys-spacing-margin-sm);
 	margin-bottom: 10px;
 }
+
 .hero-title h1 span.title {
-	font-size: var(--fio-sys-typography-size-6);
+    font-size: var(--fio-sys-typography-size-5);
 	font-family: var(--fio-sys-typography-family-primary-bold);
 	line-height: var(--fio-sys-typography-height-100);
 
@@ -154,6 +163,29 @@ html {
 	text-decoration-thickness: 12px;
 	text-decoration-skip-ink: none;
 	text-underline-offset: -12px;
+}
+
+@media (min-width:390px) {
+	.hero-title {
+		translate: 0 10vh;
+	}
+	
+}
+
+@media (min-width:768px) {
+	.hero-title {
+		translate: 0 5vh;
+	}
+	
+
+	.hero-title h1 span.title {
+		font-size: var(--fio-sys-typography-size-6);
+	}
+
+	.hero-title h1 span {
+		font-size: var(--fio-sys-typography-size-3);
+	}
+	
 }
 
 @media (min-width: 992px) {
@@ -176,6 +208,31 @@ html {
 	#layer-5 {
 		background-image: url(../../media/home/layer-5.png);
 	}
+	
+	.hero-title {
+		background: transparent;
+		height: 100%;
+		align-items: center;
+		justify-content: start;
+		display: flex;
+		translate: 0 -5vh;
+	}
+
+	.hero-title .container .row:first-child {
+		background: transparent;
+	
+	}
+	
+
+	.hero-title h1 span.title {
+		font-size: var(--fio-sys-typography-size-6);
+	}
+
+	.hero-title h1 span {
+		font-size: var(--fio-sys-typography-size-3);
+	}
+	
+	
 }
 
 @media (min-width: 1900px) {
