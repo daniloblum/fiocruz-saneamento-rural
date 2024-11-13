@@ -23,7 +23,8 @@ button,
 	--_button-border-radius: var(--fio-sys-size-radius-md);
 	--_button-border-width: var(--fio-sys-size-stroke-md);
 
-	--_button-padding-x: var(--fio-sys-size-padding-lg);
+	/* --_button-padding-x: var(--fio-sys-size-padding-lg); */
+	--_button-padding-x: var(--fio-sys-size-padding-sm);
 	--_button-padding-y: var(--fio-sys-size-margin-sm);
 	--_button-gap: var(--fio-sys-spacing-padding-sm);
 

@@ -52,7 +52,8 @@ html {
 
 .layer-parallax {
 	background-position: bottom center;
-	background-size: cover;
+	/* background-size: cover; */
+	background-size: contain;
 	background-repeat: no-repeat;
 	width: 100%;
 	position: fixed;
@@ -196,6 +197,7 @@ html {
 	#layer-2 {
 		background-image: url(../../media/home/layer-2.png);
 		scale: 1.05;
+		top:30px;
 	}
 	#layer-3 {
 		background-image: url(../../media/home/layer-3.png);
@@ -401,7 +403,7 @@ section {
 
 #course-program .card .card-body {
 	background-color: var(--fio-sys-color-primary-extra-dark);
-    font-family: var(--fio-ref-typography-family-secondary);
+    font-family: var(--fio-sys-typography-family-secondary-regular);
     color: #fff;
     font-size: var(--fio-sys-typography-size-1);
     width: calc(100% - 30px);
@@ -527,3 +529,20 @@ footer {
 	background-color: #ffffff;
 	margin: 0;
 }
+
+/* --------- FIXING TROUBLES CAUSED BY WINDOWS SCALING --------- */
+
+/* 125% Scaling */
+@media (-webkit-device-pixel-ratio: 1.25) {
+    .layer-parallax {
+		height:115%;
+	}
+}
+
+/* 150% Scaling */
+@media (-webkit-device-pixel-ratio: 1.50) {
+	.layer-parallax {
+		height:115%;
+	}
+}
+

@@ -163,7 +163,7 @@ blockquote {
 .heading__block span {
     font-family: var(--fio-sys-typography-family-secondary-regular);
     display: block;
-    font-size: var(--fio-sys-typography-size-0) !important;
+    font-size: var(--fio-sys-typography-size-1) !important;
     color: var(--fio-sys-color-tertiary-dark);
 	margin-bottom: var(--fio-sys-size-margin-sm);
 }
