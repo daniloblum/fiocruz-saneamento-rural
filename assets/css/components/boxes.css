@@ -162,6 +162,41 @@ audio {
 	width: 100%;
 }
 
+/* Saiba Mais Toggle */
+
+.saiba-mais {
+	padding-bottom: var(--fio-sys-size-margin-md);
+}
+
+#page-content section .container:first-child .row .saiba-mais > .row {
+	padding-top:0;
+}
+
+.saiba-mais > .row div:nth-child(2) {
+	background:var(--fio-sys-color-primary-extra-light);
+}
+
+.saiba-mais > .row div:nth-child(2) > div {
+	padding:var(--fio-sys-size-padding-xs) var(--fio-sys-size-padding-sm);
+}
+
+.saiba-mais button.saiba-mais.fio-button {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.saiba-mais button.saiba-mais.fio-button .icone::before {
+	content:'touch_app';
+	--_box-icone-width: var(--fio-sys-typography-size-5);
+	border-right-style: solid;
+	border-right-width: var(--fio-sys-size-stroke-sm);
+	display: block;
+	font-size: var(--fio-sys-typography-size-1);
+	padding-right: var(--fio-sys-size-padding-xs);
+	margin-right: var(--fio-sys-size-padding-xs);
+}
+
 /* Legenda de Vídeo */
 
 /* .box-title .boxes-content .video-subtitle p {
