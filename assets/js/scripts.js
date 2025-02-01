@@ -284,6 +284,153 @@ const modalInfos = {
 			</div>
 		`,
 	},
+	autorMod1Aula2: {
+		ariaLabel: 'autorMod1Aula2',
+		modalSize: 'modal-xl',
+		modalTitle: 'Sobre os autores',
+		modalBody: `
+			<div class="row justify-content-center pt-5">
+				<div class="col-12 col-md-10 col-lg-10">
+					<div class="mb-5">
+						<h5 class="mb-3">Uende Aparecida Figueiredo Gomes</h5>
+						<p class="mb-0">Professora-pesquisadora do Departamento de Engenharia Sanitária e Ambiental da Escola de Engenharia da Universidade Federal de Minas Gerais (DESA/UFMG).</p>
+					</div>
+					
+					<div class="mb-5">
+						<h5 class="mb-3">Alexandre Pessoa Dias </h5>
+						<p class="mb-0">Coordenador acadêmico do curso, professor-pesquisador da Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz).</p>
+					</div>
+
+				</div>
+			</div>
+		`,
+	},
+	autorMod1Aula3: {
+		ariaLabel: 'autorMod1Aula3',
+		modalSize: 'modal-xl',
+		modalTitle: 'Sobre os autores',
+		modalBody: `
+			<div class="row justify-content-center pt-5">
+				<div class="col-12 col-md-10 col-lg-10">
+					<div class="mb-5">
+						<h5 class="mb-3">Alexandre Pessoa Dias</h5>
+						<p class="mb-0">Coordenador acadêmico do curso, professor-pesquisador da Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz).</p>
+					</div>
+					
+					<div class="mb-5">
+						<h5 class="mb-3">Mariely Daniel</h5>
+						<p class="mb-0">Inserir descrição</p>
+					</div>
+
+				</div>
+			</div>
+		`,
+	},
+	autorMod2Aula1: {
+		ariaLabel: 'autorMod2Aula1',
+		modalSize: 'modal-xl',
+		modalTitle: 'Sobre os autores',
+		modalBody: `
+			<div class="row justify-content-center pt-5">
+				<div class="col-12 col-md-10 col-lg-10">
+					<div class="mb-5">
+						<h5 class="mb-3">Uende Aparecida Figueiredo Gomes</h5>
+						<p class="mb-0">Professora-pesquisadora do Departamento de Engenharia Sanitária e Ambiental da Escola de Engenharia da Universidade Federal de Minas Gerais (DESA/UFMG).</p>
+					</div>
+					
+					<div class="mb-5">
+						<h5 class="mb-3">Alexandre Pessoa Dias </h5>
+						<p class="mb-0">Coordenador acadêmico do curso, professor-pesquisador da Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz).</p>
+					</div>
+
+				</div>
+			</div>
+		`,
+	},
+	autorMod2Aula2: {
+		ariaLabel: 'autorMod2Aula2',
+		modalSize: 'modal-xl',
+		modalTitle: 'Sobre os autores',
+		modalBody: `
+			<div class="row justify-content-center pt-5">
+				<div class="col-12 col-md-10 col-lg-10">
+					<div class="mb-5">
+						<h5 class="mb-3">Uende Aparecida Figueiredo Gomes</h5>
+						<p class="mb-0">Professora-pesquisadora do Departamento de Engenharia Sanitária e Ambiental da Escola de Engenharia da Universidade Federal de Minas Gerais (DESA/UFMG).</p>
+					</div>
+					
+					<div class="mb-5">
+						<h5 class="mb-3">Alexandre Pessoa Dias </h5>
+						<p class="mb-0">Coordenador acadêmico do curso, professor-pesquisador da Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz).</p>
+					</div>
+
+				</div>
+			</div>
+		`,
+	},
+	autorMod3Aula1: {
+		ariaLabel: 'autorMod3Aula1',
+		modalSize: 'modal-xl',
+		modalTitle: 'Sobre os autores',
+		modalBody: `
+			<div class="row justify-content-center pt-5">
+				<div class="col-12 col-md-10 col-lg-10">
+					<div class="mb-5">
+						<h5 class="mb-3">Alexandre Pessoa Dias</h5>
+						<p class="mb-0">Coordenador acadêmico do curso, professor-pesquisador da Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz).</p>
+					</div>
+					
+					<div class="mb-5">
+						<h5 class="mb-3">Mariely Daniel</h5>
+						<p class="mb-0">Inserir descrição</p>
+					</div>
+
+				</div>
+			</div>
+		`,
+	},
+	autorMod3Aula2: {
+		ariaLabel: 'autorMod3Aula2',
+		modalSize: 'modal-xl',
+		modalTitle: 'Sobre os autores',
+		modalBody: `
+			<div class="row justify-content-center pt-5">
+				<div class="col-12 col-md-10 col-lg-10">
+					<div class="mb-5">
+						<h5 class="mb-3">Alexandre Pessoa Dias</h5>
+						<p class="mb-0">Coordenador acadêmico do curso, professor-pesquisador da Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz).</p>
+					</div>
+					
+					<div class="mb-5">
+						<h5 class="mb-3">Mariely Daniel</h5>
+						<p class="mb-0">Inserir descrição</p>
+					</div>
+
+				</div>
+			</div>
+		`,
+	},
+	autorMod3Aula3: {
+		ariaLabel: 'autorMod3Aula3',
+		modalSize: 'modal-xl',
+		modalTitle: 'Sobre os autores',
+		modalBody: `
+			<div class="row justify-content-center pt-5">
+				<div class="col-12 col-md-10 col-lg-10">
+					<div class="mb-5">
+						<h5 class="mb-3">Alexandre Pessoa Dias</h5>
+						<p class="mb-0">Coordenador acadêmico do curso, professor-pesquisador da Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz).</p>
+					</div>
+					
+					<div class="mb-5">
+						<h5 class="mb-3">Mariely Daniel</h5>
+						<p class="mb-0">Inserir descrição</p>
+					</div>
+
+				</div>
+			</div>
+		`,
+	},
 	glossario: {
 		ariaLabel: 'glossario',
 		modalSize: 'modal-lg',

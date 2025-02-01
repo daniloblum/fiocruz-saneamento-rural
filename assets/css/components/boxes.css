@@ -173,11 +173,12 @@ audio {
 }
 
 .saiba-mais > .row div:nth-child(2) {
-	background:var(--fio-sys-color-primary-extra-light);
+	/* background:var(--fio-sys-color-primary-extra-light); */
+	background:var(--fio-sys-color-secondary-extra-dark-contrast);
 }
 
 .saiba-mais > .row div:nth-child(2) > div {
-	padding:var(--fio-sys-size-padding-xs) var(--fio-sys-size-padding-sm);
+	padding:var(--fio-sys-size-padding-xs) var(--fio-sys-size-padding-sm) var(--fio-sys-size-padding-md) 
 }
 
 .saiba-mais button.saiba-mais.fio-button {
