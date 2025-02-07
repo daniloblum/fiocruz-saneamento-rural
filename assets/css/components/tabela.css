@@ -1,9 +1,29 @@
 /* --- TABELA --- */
 
-.table {
-	background-color: var(--fio-sys-color-primary-extra-light);
-	font-family: var(--fio-sys-typography-family-primary-medium);
-	color:var(--fio-sys-color-primary-extra-dark);
+.table-responsive {
+	--table-font-size: var(--fio-sys-typography-size--1);
+	--table-font-family: var(--fio-sys-typography-family-primary-medium);
+
+	--table-header-background: var(--fio-sys-color-primary-extra-dark);
+	--table-header-border-color: var(--fio-sys-color-primary-extra-light);
+	--table-header-border-width: var(--fio-sys-size-stroke-xs);
+	--table-header-color: var(--fio-sys-color-neutral-white);
+	--table-header-font-family: var(--fio-sys-typography-family-primary-semibold);
+	--table-header-font-size: var(--fio-sys-typography-size-0);
+	
+	--table-background: var(--fio-sys-color-primary-extra-light);
+	--table-color: var(--fio-sys-color-primary-extra-dark);
+	--table-border-width: var(--fio-sys-size-stroke-xs);
+	--table-border-color: var(--fio-sys-color-primary-dark);
+	--table-border-radius: var(--fio-sys-size-radius-sm);
+	--table-padding: var(--fio-sys-size-padding-sm);
+}
+
+.table-responsive .table {
+	background-color: var(--table-background);
+	font-family: var(--table-font-family);
+	font-size: var(--table-font-size);
+	color:var(--table-color);
 	/* border: var(--fio-sys-size-stroke-md) solid var(--fio-sys-color-primary-dark);
 	border-radius: var(--fio-sys-size-radius-lg); */
 }
@@ -17,10 +37,10 @@
 } */
 
 .table-responsive .table-bordered {
-	border: var(--fio-sys-size-stroke-xs) solid var(--fio-sys-color-primary-dark);
+	border: var(--table-border-width) solid var(--table-border-color);
 	border-spacing: 0;
 	border-collapse: separate;
-    border-radius: var(--fio-sys-size-radius-sm);
+    border-radius: var(--table-border-radius);
 	overflow: hidden;
 }
 
@@ -48,25 +68,29 @@
 
 .table-responsive table thead th:not(:last-child),
 .table-responsive table thead td:not(:last-child) {
- border-right: 1px solid var(--fio-sys-color-primary-extra-light);
- border-bottom: 1px solid var(--fio-sys-color-primary-extra-light);
+ border-right: var(--table-header-border-width) solid var(--table-header-border-color);
+ border-bottom: var(--table-header-border-width) solid var(--table-header-border-color);
 }
 
 .table-responsive table thead th:last-child,
 .table-responsive table thead td:last-child {
- border-bottom: 1px solid var(--fio-sys-color-primary-extra-light);
+ border-bottom: var(--table-header-border-width) solid var(--table-header-border-color);
+}
+
+.table-responsive table thead tr:last-child th:last-child {
+	border-right: var(--table-header-border-width) solid var(--table-header-border-color);
 }
 
 .table-responsive th {
-	background-color: var(--fio-sys-color-primary-extra-dark);
-	font-family: var(--fio-sys-typography-family-primary-semibold);
-	font-size:var(--fio-sys-typography-size-0);
-	color: var(--fio-sys-color-neutral-white);
-	border: 1px solid var(--fio-sys-color-primary-light);
+	background-color: var(--table-header-background);
+	font-family: var(--table-header-font-family);
+	font-size:var(--table-header-font-size);
+	color: var(--table-header-color);
+	border: var(--table-header-border-width) solid var(--fio-sys-color-primary-light);
 }
 
 .table-responsive th a {
-	color: var(--fio-sys-color-neutral-white);
+	color: var(--table-header-color);
 }
 
 .table-responsive td,
@@ -75,19 +99,30 @@
 	border:none;
 	vertical-align: middle;
 	/* text-align: left; */
-	padding:var(--fio-sys-size-padding-sm);
+	padding:var(--table-padding);
 }
 
 /* .table .table-responsive tbody tr:last-child {
 	box-shadow: var(--fio-sys-size-shadow-lg);
 } */
 
-.table-responsive tr:nth-of-type(odd) {
-	background-color: var(--fio-sys-color-primary-background-light);
+/* .table-responsive tr:nth-of-type(odd) {
+	background-color: var(--fio-sys-color-neutral-white);
+} */
+
+.table-responsive .table p,
+.table-responsive .table ul li,
+.table-responsive .table .list .list-group .list-group-item {
+    font-family: var(--table-font-family);
+	font-size: var(--table-font-size);
+    color: var(--table-color);
+	border: none;
+    padding-bottom: 0;
+    background: transparent;
 }
 
 .table ul li {
-	margin-bottom: 10px;
+	margin: 0 0 var(--fio-sys-size-margin-sm) 0;
 }
 
 /* .table td,

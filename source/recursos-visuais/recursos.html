@@ -1805,7 +1805,7 @@
 												<div class="row justify-content-center mb-5">
 													<div class="col-12">
 														<h6>Modal com texto</h6>
-														<p>Exemplo de <a href="#" data-bs-toggle="modal" data-bs-target="#modal-creditos">Modal com texto</a></p>
+														<p>Exemplo de <a href="#" data-bs-toggle="modal" data-bs-target="#modal-texto">Modal com texto</a></p>
 													</div>
 												</div>
 
@@ -1817,6 +1817,14 @@
 															<img class="img-fluid rounded mx-auto d-block mb-3" src="https://via.placeholder.com/1280x720" alt="”." title="Figura 2: Autocracia">
 															<figcaption class="figure-caption">Figura 1 - Legenda da figura.</figcaption>
 														</figure>
+													</div>
+												</div>
+
+												<div class="row justify-content-center">
+													<div class="col-12">
+														<h6>Modal Offcanvas</h6>
+
+														<p>Exemplo de <a href="#offcanvasExample" data-bs-toggle="offcanvas" aria-controls="offcanvasExample">Modal com texto, versão offcanvas</a></p>
 													</div>
 												</div>
 											</div>
@@ -2206,6 +2214,7 @@
 											<div class="tab-pane fade show active" id="pills-table-exemplos" role="tabpanel" aria-labelledby="pills-table-exemplos-tab">
 												<div class="row justify-content-center mb-5">
 													<div class="col-12">
+														<!-- Tabela -->
 														<div class="table-responsive">
 															<table class="table table-bordered">
 																<thead>
@@ -3121,7 +3130,47 @@
 			</footer>
 		</div>
 
-		
+		<!-- Modal Texto -->
+		<div class="modal fade" id="modal-texto" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal-textoLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h1 class="modal-title fs-5" id="modal-textoLabel">Modal Texto</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+				</div>
+				<div class="modal-body">
+				...
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<!-- Modal Offcanvas -->
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			<div class="offcanvas-header">
+			  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Modal Offcanvas</h5>
+			  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+			  <div>
+				<p>A titularidade de um serviço público de saneamento básico significa que:</p>
+			  </div>
+
+			  <div class="dropdown mt-3">
+				<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+				  Dropdown button
+				</button>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="#">Action</a></li>
+				  <li><a class="dropdown-item" href="#">Another action</a></li>
+				  <li><a class="dropdown-item" href="#">Something else here</a></li>
+				</ul>
+			  </div>
+			</div>
+		</div>
 
 		<!--  Bootstrap JS and Popper -->
 		<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>

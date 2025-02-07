@@ -245,6 +245,10 @@ section {
 	text-underline-offset: -4px;
 }
 
+h5.heading__title {
+	text-decoration:none;
+}
+
 /* .heading__title::after {
 	content: url(../../media/templates/head-block-line-large.svg);
 	content: '';

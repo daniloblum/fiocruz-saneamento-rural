@@ -47,6 +47,10 @@
 	border-top-right-radius: var(--_modal-border-radius);
 }
 
+.modal .modal-body {
+    padding: var(--_modal-header-padding);
+}
+
 .modal .modal-header .btn-close{
 	color:var(--_modal-color);
 } 
