@@ -166,6 +166,7 @@ audio {
 
 .saiba-mais {
 	padding-bottom: var(--fio-sys-size-margin-md);
+	overflow: hidden;
 }
 
 #page-content section .container:first-child .row .saiba-mais > .row {
@@ -198,6 +199,9 @@ audio {
 	margin-right: var(--fio-sys-size-padding-xs);
 }
 
+.saiba-mais .list .list-group .list-group-item[list-style='file']::before {
+    color: var(--fio-sys-color-primary-extra-dark);
+}
 /* Legenda de Vídeo */
 
 /* .box-title .boxes-content .video-subtitle p {

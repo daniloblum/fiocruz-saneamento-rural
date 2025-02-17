@@ -398,12 +398,21 @@ const modalInfos = {
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
 						<h5 class="mb-3">Alexandre Pessoa Dias</h5>
-						<p class="mb-0">Coordenador acadêmico do curso, professor-pesquisador da Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz).</p>
+						<p class="mb-0">Coordenador acadêmico do curso. Professor-pesquisador da Escola Politécnica de Saúde Joaquim Venâncio da Fundação Oswaldo Cruz (EPSJV/Fiocruz).</p>
+					</div>
+
+					<div class="mb-5">
+						<h5 class="mb-3">Bernardo Aleixo</h5>
+						<p class="mb-0">Engenheiro de Saúde Pública e Pesquisado no grupo de Pesquisa em Política Públicas e Direitos Humanos em Saúde e Saneamento (PPDH) do Instituto de Pesquisa René Rachou IRR (Fiocruz Minas)</p>
 					</div>
 					
 					<div class="mb-5">
-						<h5 class="mb-3">Mariely Daniel</h5>
-						<p class="mb-0">Inserir descrição</p>
+						<h5 class="mb-3">Uende Aparecida Figueiredo Gomes</h5>
+						<p class="mb-0">Professora e pesquisadora do Departamento de Engenharia Sanitária e Ambiental da Escola de Engenharia da Universidade Federal de Minas Gerais (DESA/UFMG).</p>
+					</div>
+
+					<div class="mb-5">
+						<p class="mb-0">Colaboração: Mariely Daniel.</p>
 					</div>
 
 				</div>

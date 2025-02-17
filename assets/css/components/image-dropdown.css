@@ -7,10 +7,10 @@
 	--_image-dropdown-button-label-text-color: var(--fio-sys-color-primary-dark);
 	--_image-dropdown-button-label-background: transparent;
 
-	--_image-dropdown-content-border: var(--fio-sys-color-primary-medium-contrast);
+	--_image-dropdown-content-border: transparent;
 	--_image-dropdown-content-border-width: var(--fio-sys-color-primary-dark);
 	--_image-dropdown-content-border-radius: var(--fio-sys-size-radius-xs);
-	--_image-dropdown-content-background: var(--fio-ref-color-primary-99);
+	--_image-dropdown-content-background: var(--fio-sys-color-secondary-extra-dark-contrast);
 	--_image-dropdown-content-text-color: var(--fio-sys-color-tertiary-dark);
 	--_image-dropdown-content-text-size: var(--fio-sys-typography-size-0);
 
@@ -20,6 +20,7 @@
 .image-dropdown .image-button {
 	margin-bottom: var(--fio-sys-size-margin-md);
 	display: block;
+	background:transparent;
 }
 .image-dropdown .image-button img {
 	border-radius: var(--_image-dropdown-button-image-border-radius);
@@ -79,7 +80,7 @@
 .image-dropdown .image-button .image-button-label {
 	font-family:var(--_image-dropdown-header-family);
 	font-size: var(--fio-sys-typography-size-0);
-	color: var(--fio-sys-color-accent-medium);
+	color: var(--_image-dropdown-button-label-text-color);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;

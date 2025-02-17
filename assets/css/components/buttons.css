@@ -311,3 +311,16 @@ button,
 	font-size: var(--_button-lg-size);
 	/* border-radius:var(--_button-lg-border-radius); */
 }
+
+/* Download button */
+a.download.fio-button .icone::before,
+button.download.fio-button .icone::before {
+	content:'download';
+	--_box-icone-width: var(--fio-sys-typography-size-5);
+	border-right-style: solid;
+	border-right-width: var(--fio-sys-size-stroke-sm);
+	display: block;
+	font-size: var(--fio-sys-typography-size-1);
+	padding-right: var(--fio-sys-size-padding-xs);
+	margin-right: var(--fio-sys-size-padding-xs);
+}
