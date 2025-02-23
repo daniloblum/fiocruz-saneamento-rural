@@ -567,6 +567,85 @@
 						</div>
 					</section>
 
+					<!-- Bloco - Antes e depois -->
+					<section id="accordion">
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8 mb-5">
+									<!-- Heading Block (Título h2 ou h3 + Lead (se houver)) -->
+									<div class="heading__block">
+										<span class="heading__before">Recurso 4</span>
+										<h4>Antes e depois</h4>
+										<p class="heading__lead">Usado para comparar 2 imagens</p>
+									</div>
+									<!-- Fim do Heading Block (Título h2 ou h3 + Lead (se houver)) -->
+								</div>
+							</div>
+
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-10 col-lg-8">
+									<div class="aba">
+										<ul class="nav nav-pills nav-fill mb-5" id="pills-tabs" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="nav-link active" id="pills-before-after-exemplos-tab" data-bs-toggle="pill" data-bs-target="#pills-before-after-exemplos" type="button" role="tab" aria-controls="pills-before-after-exemplos" aria-selected="true">Exemplos</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="pills-before-after-construcao-tab" data-bs-toggle="pill" data-bs-target="#pills-before-after-construcao" type="button" role="tab" aria-controls="pills-before-after-construcao" aria-selected="false">Construção</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link" id="pills-before-after-boas-praticas-tab" data-bs-toggle="pill" data-bs-target="#pills-before-after-boas-praticas" type="button" role="tab" aria-controls="pills-before-after-boas-praticas" aria-selected="false">Boas práticas</button>
+											</li>
+
+										</ul>
+										<div class="tab-content p-0 border-0 bg-transparent" id="pills-tabContent">
+											<!-- Aba 1 -->
+											<div class="tab-pane fade show active" id="pills-before-after-exemplos" role="tabpanel" aria-labelledby="pills-before-after-exemplos-tab">
+												<!-- Antes e depois -->
+												<div class="antes-e-depois">
+													<div class="antes-e-depois--container">
+														<div class="image-container">
+															<img class="image-before slider-image img-fluid" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="color photo" />
+															<img class="image-after slider-image img-fluid" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="black and white" />
+														</div>
+
+
+														<input type="range" min="0" max="100" value="50" aria-label="Percentage of before photo shown" class="antes-e-depois--slider" />
+														<div class="slider-line" aria-hidden="true"></div>
+														<div class="slider-button" aria-hidden="true">
+															<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256">
+																<rect width="256" height="256" fill="none"></rect>
+																<line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+																<line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+																<polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+																<line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+																<polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+															</svg>
+														</div>
+													</div>
+
+													<span class="figure-caption text-center d-block">Legenda (Opcional)</span>
+													<span class="figure-caption text-center d-block">Fonte: Nome da fonte.</span>
+												</div>
+											</div>
+
+											<!-- Aba 2-->
+											<div class="tab-pane fade" id="pills-before-after-construcao" role="tabpanel" aria-labelledby="pills-before-after-construcao-tab">
+												<p><strong>Obs: Atente-se para o <strong>nome dado ao id</strong> do accordion!</strong>
+												</p>
+											</div>
+
+											<!-- Aba 3 -->
+											<div class="tab-pane fade" id="pills-before-after-boas-praticas" role="tabpanel" aria-labelledby="pills-before-after-boas-praticas-tab">
+												<p>Conteúdo Sobre boas práticas de uso deste componente</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
 					<!-- Bloco - Botões-->
 					<section id="botoes">
 						<div class="container">
@@ -1232,7 +1311,7 @@
 									<h6>Olho de texto (Destaque de baixa ênfase)</h6>
 		
 									<!-- Olho de texto -->
-									<div class="olho-de-texto my-5">
+									<div class="olho-de-texto my-5 aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
 										<p>A ausência do nome da pessoa na base de dados do público-alvo não deve ser impedimento
 											para ele receber
 											a vacina, desde que comprove que integra algum grupo prioritário.</p>
