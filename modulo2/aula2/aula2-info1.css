@@ -1,0 +1,64 @@
+.st0 {
+	fill: #00b7a8;
+  }
+
+  .st1 {
+	fill: #fdc763;
+  }
+
+  .st2 {
+	font-family: WorkSans-Black, 'Work Sans';
+	font-size: 32px;
+	font-weight: 800;
+	letter-spacing: 0em;
+  }
+
+  .st2, .st3 {
+	fill: #145063;
+  }
+
+  .st4 {
+	fill: #6ac8ca;
+  }
+
+  .st5 {
+	opacity: .2;
+  }
+
+  .st6 {
+	fill: #f3a791;
+  }
+.buttons {
+	animation: move 1s ease-out infinite alternate;
+}
+
+.buttons:hover .bt1,
+.buttons:hover .bt2,
+.buttons:hover .bt3 {
+	transition: .5s;
+	cursor: pointer;
+}
+
+.buttons:hover .bt1 {
+	fill: #a2eded;
+}
+
+.buttons:hover .bt2 {
+	fill: var(--fio-sys-color-accent-light);
+}
+
+.buttons:hover .bt3 {
+	fill: var(--fio-sys-color-tertiary-dark-contrast);
+}
+
+@keyframes move {
+	from {
+		transform: translateY(0);
+		filter: drop-shadow(0 1px 1px #ababab);
+	}
+
+	to {
+		transform: translateY(-10px);
+		filter: drop-shadow(0 10px 4px #ababab);
+	}
+}
