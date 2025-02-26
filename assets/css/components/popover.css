@@ -21,8 +21,13 @@ a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
     max-width: 300px;
 }
 
-.popover p {
+.popover p,
+.popover ul li {
     font-size: var(--fio-sys-typography-size--1) !important;
+}
+
+.popover ul li {
+    font-weight: 300;
 }
 
 @media (min-width:992px){
