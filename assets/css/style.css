@@ -246,7 +246,8 @@ section {
 	text-underline-offset: -4px;
 }
 
-h5.heading__title {
+h5.heading__title,
+.heading__title.h5  {
 	text-decoration:none;
 }
 

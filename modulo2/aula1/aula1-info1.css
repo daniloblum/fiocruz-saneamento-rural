@@ -1,0 +1,66 @@
+.st0 {
+  fill: #045262;
+}
+
+.st1 {
+  fill: #f3a791;
+}
+
+.st1, .st2 {
+  opacity: .6;
+}
+
+.st3 {
+  fill: none;
+}
+
+.st4 {
+  fill: #eebb2a;
+  opacity: .8;
+}
+
+.st5 {
+  opacity: .2;
+}
+
+.st6 {
+  fill: #145063;
+}
+
+.st2 {
+  fill: #6ac8ca;
+}
+
+.st7 {
+  fill: #cde2e8;
+  opacity: .7;
+}
+
+.st8 {
+  fill: #00b7a8;
+}
+
+  .button-info1 {
+    animation: move2 1s ease-out infinite alternate;
+  }
+
+  .button-info1:hover {
+	cursor: pointer;
+  }
+
+  .button-info1:hover ellipse.st4 {
+    transition: .5s;
+    fill:var(--fio-sys-color-accent-light);
+  }
+
+  @keyframes move2 {
+	from {
+		transform: translateY(0);
+		filter: drop-shadow(0 1px 1px #5c7277);
+	}
+
+	to {
+		transform: translateY(-10px);
+		filter: drop-shadow(0 10px 4px #5c7277);
+	}
+}
