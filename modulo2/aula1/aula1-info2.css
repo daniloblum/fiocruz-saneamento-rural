@@ -1,0 +1,106 @@
+.st0, .st1, .st2, .st3 {
+  fill: none;
+}
+
+.st4 {
+  fill: #6acdea;
+}
+
+.st5 {
+  fill: #eebb2a;
+  opacity: .8;
+}
+
+.st1 {
+  stroke-dasharray: 4 4;
+}
+
+.st1, .st2, .st3 {
+  stroke: #454e54;
+}
+
+.st1, .st2, .st3, .st6 {
+  stroke-width: 1.5px;
+}
+
+.st2 {
+  stroke-dasharray: 4 4;
+}
+
+.st7 {
+  fill: #5fc3c2;
+}
+
+.st8 {
+  fill: #00b7a8;
+}
+
+.st9 {
+  fill: #f9ba8d;
+}
+
+.st10 {
+  fill: #f8c15a;
+}
+
+.st11 {
+  fill: #0d8da5;
+}
+
+.st12 {
+  fill: #145063;
+}
+
+.st13 {
+  fill: #f6903f;
+}
+
+.st14 {
+  opacity: .2;
+}
+
+.st15 {
+  fill: #f3a791;
+}
+
+.st6 {
+  fill: #ea6943;
+  stroke: #fff;
+}
+
+.st16 {
+  clip-path: url(#clippath);
+}
+
+.st17 {
+  fill: #045262;
+}
+
+.st18 {
+  fill: #fdfdfd;
+}
+
+  .button-info1 {
+    animation: move2 1s ease-out infinite alternate;
+  }
+
+  .button-info1:hover {
+	cursor: pointer;
+  }
+
+  .button-info1:hover ellipse.st4 {
+    transition: .5s;
+    fill:var(--fio-sys-color-accent-light);
+  }
+
+  @keyframes move2 {
+	from {
+		transform: translateY(0);
+		filter: drop-shadow(0 1px 1px #5c7277);
+	}
+
+	to {
+		transform: translateY(-10px);
+		filter: drop-shadow(0 10px 4px #5c7277);
+	}
+}
