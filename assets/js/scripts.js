@@ -122,7 +122,137 @@ const modalInfos = {
 		modalBody: `
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
-					<span class="h5 mb-3 d-block">Conteúdo a ser inserido</span>
+					<span class="h5 mb-3 d-block">Ministério da Saúde</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Nísia Trindade Lima</p>
+						<p class="small text-muted"><em>Ministra</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Fundação Oswaldo Cruz – Fiocruz</span>
+					
+					<div class="mb-5">
+						<p class="mb-1">Mario Moreira</p>
+						<p class="small text-muted"><em>Presidente</em></p>
+						<p class="mb-1">Cristiani Vieira Machado</p>
+						<p class="small text-muted"><em>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Campus Virtual Fiocruz</span>
+
+					<div class="mb-5">
+
+						<p class="mb-1">Ana Cristina da Matta Furniel</p>
+						<p class="small text-muted"><em>Coordenadora geral</em></p>
+
+						<p class="mb-1">Rosane Mendes</p>
+						<p class="small text-muted"><em>Coordenadora adjunta</em></p>
+						
+						<p class="mb-1">Renata Bernardes David</p>
+						<p class="small text-muted"><em>Gerente de produção</em></p>
+
+						<p class="mb-1">Juliana Dutra</p>
+						<p class="small text-muted"><em>Revisora técnica de conteúdo</em></p>
+
+						<p class="mb-1">Cláudia Reis</p>
+						<p class="small text-muted"><em>Assessora pedagógica</em></p>
+
+						<p class="mb-1">Isabela Schincariol</p>
+						<p class="small text-muted"><em>Assessora de comunicação</em></p>
+					
+						<p class="mb-1">Fernanda Sousa</p>
+						<p class="small text-muted"><em>Designer Educacional</em></p>
+					
+						<span class="h6 mb-3 d-block">Design de Interface</span>
+						
+						<p class="mb-1">Aline Polycarpo</p>
+						<p class="small text-muted"><em>UX/UI Designer</em></p>
+						<p class="mb-1">Danilo Blum</p>
+						<p class="small text-muted"><em>UX/UI Designer e Front-end</em></p>
+						<p class="mb-1">Luciana Nunes</p>
+						<p class="small text-muted"><em>UX/UI Designer</em></p>
+						
+						<span class="h6 mb-3 d-block">Recursos Audiovisuais</span>
+
+						<p class="mb-1">Bruno Athaydes</p>
+						<p class="small text-muted"><em>Editor audiovisual</em></p>
+
+						<p class="mb-1">Teo Venerando</p>
+						<p class="small text-muted"><em>Editor audiovisual</em></p>
+			
+						<span class="h6 mb-3 d-block">Recursos Educacionais</span>
+						
+						<p class="mb-1">Carmélia Brito</p>
+						<p class="small text-muted"><em>Bibliotecária</em></p>
+
+						<p class="mb-1">Natália Rasina</p>
+						<p class="small text-muted"><em>Audiodescrição</em></p>
+
+						<p class="mb-1">Janaina Vieira</p>
+						<p class="small text-muted"><em>Revisão de português</em></p>
+
+						<p class="mb-1">Maria Angélica Marcondes Drska</p>
+						<p class="small text-muted"><em>Revisão de português</em></p>
+
+
+						<span class="h6 mb-3 d-block">Suporte Técnico de Tecnologia da Informação</span>
+					
+						<p class="mb-1">Bruno Alexandre de Oliveira</p>
+						<p class="small text-muted"><em>Desenvolvedor</em></p>
+
+						<p class="mb-1">Eduardo Xavier da Silva</p>
+						<p class="small text-muted"><em>Desenvolvedor</em></p>
+
+						<p class="mb-1">Adriano Lourenço</p>
+						<p class="small text-muted"><em>Analista de suporte</em></p>
+
+						<p class="mb-1">Orlando Terra</p>
+						<p class="small text-muted"><em>Analista de suporte</em></p>
+
+						<p class="mb-1">Fábio Carneiro</p>
+						<p class="small text-muted"><em>Designer gráfico e web designer</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Coordenação do Projeto</span>
+					
+					<div class="mb-5">
+						<p class="mb-1">Alexandre Pessoa Dias</p>
+						<p class="small text-muted"><em>Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz)</em></p>
+
+						<span class="h6 mb-3 d-block">Conteudistas</span>
+						
+						<p class="mb-1"><strong>Módulo 1:</strong></p>
+
+						<p class="mb-1">Alexandre Pessoa Dias</p>
+						<p class="small text-muted"><em>ESPJV/Fiocruz</em></p>
+
+						<p class="mb-1">Uende Aparecida Figueiredo Gomes</p>
+						<p class="small text-muted"><em>DESA/UFMG</em></p>
+
+						<p class="mb-1">Mariely Daniel</p>
+						<p class="small text-muted"><em>Fiocruz</em></p>
+
+						<p class="mb-1"><strong>Módulo 2:</strong></p>
+
+						<p class="mb-1">Bernardo Aleixo</p>
+						<p class="small text-muted"><em>Fiocruz Minas</em></p>
+
+						<p class="mb-1">Uende Aparecida Figueiredo Gomes</p>
+						<p class="small text-muted"><em>DESA/UFMG</em></p>
+
+
+						<p class="mb-1"><strong>Módulo 3:</strong></p>
+
+						<p class="mb-1">Alexandre Pessoa Dias</p>
+						<p class="small text-muted"><em>ESPJV/Fiocruz</em></p>
+
+						<p class="mb-1">Bernardo Aleixo</p>
+						<p class="small text-muted"><em>Fiocruz Minas</em></p>
+
+						<p class="mb-1">Uende Aparecida Figueiredo Gomes</p>
+						<p class="small text-muted"><em>DESA/UFMG</em></p>
+					</div>
+					
 				</div>
 			</div>
 		`,
