@@ -125,8 +125,8 @@ const modalInfos = {
 					<span class="h5 mb-3 d-block">Ministério da Saúde</span>
 
 					<div class="mb-5">
-						<p class="mb-1">Nísia Trindade Lima</p>
-						<p class="small text-muted"><em>Ministra</em></p>
+						<p class="mb-1">Alexandre Padilha</p>
+						<p class="small text-muted"><em>Ministro</em></p>
 					</div>
 
 					<span class="h5 mb-3 d-block">Fundação Oswaldo Cruz – Fiocruz</span>
