@@ -265,49 +265,53 @@ const modalInfos = {
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
-						<p>ACADEMIA BRASILEIRA DE CIÊNCIAS. <strong>Rigor e Integridade na condução da pesquisa científica</strong>. Guia de recomendações de práticas responsáveis. ABC, 2013. Disponível em: <a href='http://www.abc.org.br/IMG/pdf/doc-4311.pdf' target='_blank'>http://www.abc.org.br/IMG/pdf/doc-4311.pdf</a>. Acesso em: 20 maio 2024.</p>
+						<p><strong>AGÊNCIA GOV</strong>. <em>No Brasil, 9,6 milhões saíram da condição de extrema pobreza em 2023</em>. Disponível em: <a href='https://agenciagov.ebc.com.br/noticias/202407/no-brasil-9-6-milhoes-sairam-da-condicao-de-extrema-pobreza-em-2023-1#:~:text=Para%20a%20pesquisa%20do%20FGV,R$209%20mensais%20per%20capita' target='_blank'>https://agenciagov.ebc.com.br/noticias/202407/no-brasil-9-6-milhoes-sairam-da-condicao-de-extrema-pobreza-em-2023-1#:~:text=Para%20a%20pesquisa%20do%20FGV,R$209%20mensais%20per%20capita</a>. Acesso em: 19 ago. 2024.</p>
 
-						<p>ALL EUROPEAN ACADEMIES. T<strong>he European code of conduct for research integrity</strong>. Berlin: ALLEA, 2017. Disponível em: <a href='https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf' target='_blank'>https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf</a>. Acesso em: 20 maio 2024.</p>
+						<p><strong>ALBUQUERQUE, C.</strong> <em>Realising the human rights to water and sanitation: a handbook by the UN Special Rapporteur</em>. Booklet 1. Lisboa, Portugal: 2014.</p>
 
-						<p>BAKER, Monya. Is There a Reproducibility Crisis? <strong>Nature</strong>, v. 533, 26 maio 2016. Disponível em: <a href='https://www.nature.com/news/polopoly_fs/1.19970!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf' target='_blank'>https://www.nature.com/news/polopoly_fs/1.19970!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf</a>. Acesso em: 20 maio 2024.</p>
+						<p><strong>BORJA, P. C.</strong> Avaliação de políticas públicas de Saneamento Básico: uma reflexão teórico-conceitual e metodológica a partir do Programa Bahia Azul. In: <strong>BRASIL</strong>. Ministério das Cidades. <em>Coletânea sobre saneamento básico e a Lei no 11.445/2007</em>. Brasília, DF, 2009. Livro III, p. 462. Disponível em: https://web.bndes.gov.br/bib/jspui/bitstream/1408/2161/1/Lei%20nacional%20de%20saneamento%20basico_Livro%20III_P_BD.pdf. Acesso em: 17 ago. 2024.</p>
 
-						<p>DORA. Declaração de São Francisco sobre Avaliação de Pesquisa. Disponível em: <a href='https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf' target='_blank'>https://sfdora.org/wp-content/uploads/2020/12/DORA_Brazilian-Portuguese.pdf</a>.  Acesso em: 20 maio 2024.</p>
+						<p><strong>BRASIL.</strong> Fundação Nacional de Saúde. <em>Fundação Nacional de Saúde</em>. 1. ed. Brasília: Funasa, 2021. (Série Memórias do Programa Nacional de Saneamento Rural).</p>
 
-						<p>INSTITUTE OF MEDICINE NATIONAL RESEARCH COUNCL. <strong>Integrity in Scientific Research:</strong> creating an environment that promotes responsible conduct. Washington, D. C., 2002. The National Academic Press, 2002. Disponível em: <a href='https://nap.nationalacademies.org/read/10430/chapter/1#ii' target='_blank'>https://nap.nationalacademies.org/read/10430/chapter/1#ii</a>. Acesso em: 20 maio 2024.</p>
+						<p><strong>BRASIL.</strong> <em>Lei no 11.445, de 5 de janeiro de 2007</em>. Estabelece diretrizes nacionais para o saneamento básico. Brasília, 2007. Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/lei/l11445.htm' target='_blank'>https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/lei/l11445.htm</a>.</p>
 
-						<p>IOANNIDIS, John P. A. Why Most Published Research Findings are False. <strong>Plos Medicine</strong>, v. 19, n. 8, 2005. Disponível em: <a href='https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124' target='_blank'>https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124</a>. Acesso em: 20 maio 2024.</p>
+						<p><strong>BRASIL.</strong> Fundação Nacional de Saúde. <em>Programa Nacional de Saneamento Rural PNSR: aspectos conceituais da ruralidade no Brasil e interfaces com o saneamento básico</em> / Fundação Nacional de Saúde. 1. ed. Brasília: Funasa, 2021. 127 p. (Série Subsídios ao Programa Nacional de Saneamento Rural; v. 1).</p>
 
-						<p>GLOBAL RESEARCH COUNCIL. <strong>Statement of Principles for Research Integrity</strong>. Disponível em: h<a href='ttps://www.globalresearchcouncil.org/fileadmin/documents/GRC_Publications/grc_statement_principles_research_integrity_FINAL.pdf' target='_blank'>ttps://www.globalresearchcouncil.org/fileadmin/documents/GRC_Publications/grc_statement_principles_research_integrity_FINAL.pdf</a>. Acesso em: 20 maio 2024.</p>
+						<p><strong>BRASIL.</strong> Fundação Nacional de Saúde. <em>Projeto Proágua Rural: Educação e participação social</em>. Fundação Nacional de Saúde, Universidade Federal do Vale do São Francisco – Brasília: Funasa, 2024. 73 p. Disponível em: <a href='https://repositorio.funasa.gov.br/handle/123456789/740' target='_blank'>https://repositorio.funasa.gov.br/handle/123456789/740</a>. Acesso em: ago. 2025.</p>
 
-						<p>KALICHMAN, M.W. A Modest Proposal to Move RCR Education Out of the Classroom and into Research. <strong>J Microbiol Biol Educ</strong>, v. 15, n. 2, p. 93-5, 15 Dez. 2014. Doi: 10.1128/jmbe.v15i2.866. Disponível em: h<a href='ttps://pubmed.ncbi.nlm.nih.gov/25574254/' target='_blank'>ttps://pubmed.ncbi.nlm.nih.gov/25574254/</a>. Acesso em: 15 jul. 2022.</p>
+						<p><strong>CALDART, R. S.; PEREIRA, I. B.; ALTEJANO, P.; FRIGOTTO, G.</strong> (org.). <em>Dicionário da Educação do Campo</em>. São Paulo: Expressão Popular; EPSJV/Fiocruz, 2013.</p>
 
-						<p>KRIMSKY, S. Conflito de interesses na universidade pós-acadêmica. <strong>Folha de São Paulo</strong>, São Paulo, 28 set. 2003. Disponível em <a href='https://www1.folha.uol.com.br/fsp/ciencia/fe2809200301.htm' target='_blank'>https://www1.folha.uol.com.br/fsp/ciencia/fe2809200301.htm</a> Acesso em: 20 maio 2024.</p>
+						<p><strong>DELGADO, N. G.; LEITE, S. P.; SCHMITT, C. J.; GRISA, C.; KATO, K.; WESZ JUNIOR, V. J.</strong> Tipologias de ruralidades em agências multilaterais e organismos internacionais selecionados. Páginas 77 a 144. In: <strong>MIRANDA, C. e SILVA, H.</strong> (Org.). <em>Concepções da ruralidade contemporânea: as singularidades brasileiras.</em> Brasília: IICA, 2013. (Série Desenvolvimento Rural Sustentável; v. 21).</p>
 
-						<p>OFFICE OF SCIENCE AND TECHNOLOGY POLICY. Federal Research Misconduct Policy, <strong>Federal Register</strong>, v. 65, n. 235, p. 76260-76264, 06 dez. 2000. Disponível em: <a href='https://ori.hhs.gov/federal-research-misconduct-policy' target='_blank'>https://ori.hhs.gov/federal-research-misconduct-policy</a>. Acesso em: 20 maio 2024.</p>
+						<p><strong>DIAS, A. P.</strong> <em>Pedagogia das águas em movimento: experiência de educação popular em saúde ambiental: território, caminhos das águas e da saúde ambiental</em>. Rio de Janeiro: EPSJV, 2021. 21 p. (Pedagogia das águas em movimento, 1). Disponível em: <a href='https://www.epsjv.fiocruz.br/sites/default/files/f1.pdf' target='_blank'>https://www.epsjv.fiocruz.br/sites/default/files/f1.pdf</a>. Acesso em: 25 ago. 2024.</p>
 
-						<p>PALÁCIOS, M.; REGO, S. E.; LINO, M. H. Promoção e propaganda de medicamentos em ambientes de ensino: elementos para o debate. <strong>Interface Comunicação Saúde Educação</strong>, v. 12, n. 27, p.893-905, dez. 2008. </p>
+						<p><strong>DIAS, A. P.; STAUFFER, A. B.; MOURA, L. H. G.; VARGAS, M.</strong> <em>Dicionário de Educação e Agroecologia</em>. São Paulo: Expressão Popular; Rio de Janeiro: EPSJV, 2021. Disponível em: <a href='https://www.epsjv.fiocruz.br/publicacao/livro/dicionario-de-agroecologia-e-educacao' target='_blank'>https://www.epsjv.fiocruz.br/publicacao/livro/dicionario-de-agroecologia-e-educacao.</a></p>
 
-						<p>REGO, S. O processo de socialização profissional na medicina). In: MACHADO, M. H. (org). <strong>Profissões de saúde:</strong> uma abordagem sociológica. Rio de Janeiro: Editora FIOCRUZ, 1995. p. 119-132. Disponível em: <a href='http://books.scielo.org/id/t4ksj/epub/machado-9788575416075.epub' target='_blank'>http://books.scielo.org/id/t4ksj/epub/machado-9788575416075.epub</a> . Acesso em: 20 maio 2024.</p>
+						<p><strong>FUNDAÇÃO NACIONAL DE SAÚDE</strong>. <em>Programa Nacional de Saneamento Rural</em>. 2019. Disponível em: <a href='http://www.funasa.gov.br/biblioteca-eletronica/publicacoes/engenharia-de-saude-publica/-/asset_publisher/ZM23z1KP6s6q/content/programa-nacional-de-saneamento-rural-pnsr-?inheritRedirect=false' target='_blank'>http://www.funasa.gov.br/biblioteca-eletronica/publicacoes/engenharia-de-saude-publica/-/asset_publisher/ZM23z1KP6s6q/content/programa-nacional-de-saneamento-rural-pnsr-?inheritRedirect=false</a>. Acesso em: 11 mar. 2025.</p>
 
-						<p>REGO, S. Escola não é lugar de propaganda. Editorial. <strong>Rev. bras. educ. med.</strong>, v. 28 n. 01, 2004. Disponível em: https://www.scielo.br/j/rbem/a/N6pBtXMkmqfkVKfV96vQZRK/?format=pdf&lang=pt. Acesso em: 20 maio 2024.</p>
+						<p><strong>GOMES, U. A. F.; PENA, J. L.; AMARAL, R.</strong> (org.). <em>Caderno de Notas Técnicas</em> [livro eletrônico]: saneamento e suas interfaces. 1. ed. Belo Horizonte: 207 p., Projeto SanBas, 2022. v. 1. Disponível em: <a href='https://sanbas.eng.ufmg.br/leituras/' target='_blank'>https://sanbas.eng.ufmg.br/leituras/</a>.</p>
 
-						<p>SILVA, R., et al. Perfil e financiamento da pesquisa em saúde desencadeada pela pandemia da COVID-19 no Brasil. <strong>Vigilância Sanitária Em Debate: Sociedade, Ciência & Tecnologia</strong>, v. 8, n. 2, p. 28-38, 2020. </p>
+						<p><strong>GOMES, U. A. F.; PENA, J. L.; QUEIROZ, J. T. M.</strong> (org.). <em>Dicionário de saneamento básico</em> [livro eletrônico]: pilares para uma gestão participativa nos municípios. 1. ed. Belo Horizonte: 793, Projeto SanBas, 2022. v. 1. Disponível em: <a href='https://sanbas.eng.ufmg.br/leituras/' target='_blank'>https://sanbas.eng.ufmg.br/leituras/</a>.</p>
 
-						<p>SIS Net Policy brief in research Integrity, nov. 2018 <a href='https://www.sisnetwork.eu/about/news/policy-brief-on-research-integrity' target='_blank'>https://www.sisnetwork.eu/about/news/policy-brief-on-research-integrity</a>. Acesso em: 20 maio 2024.</p>
+						<p><strong>INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA – IBGE.</strong> <em>Classificação e caracterização dos espaços rurais e urbanos do Brasil: uma primeira aproximação.</em> 2017. Disponível em: <a href='https://www.ibge.gov.br/geociencias/organizacao-do-territorio/tipologias-do-territorio/15790-classificacao-rural-e-urbana.html?=&t=publicacoes' target='_blank'>https://www.ibge.gov.br/geociencias/organizacao-do-territorio/tipologias-do-territorio/15790-classificacao-rural-e-urbana.html?=&t=publicacoes</a>.</p>
 
-						<p>SOMERVILLE, M. A postmodern moral tale: the ethics of research relationships. <strong>Nat Rev Drug Disco</strong>, v. 1, p. 316-320, 2002. Disponível em: https://doi.org/10.1038/nrd774. Acesso em: 20 maio 2024</p>
+						<p><strong>INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA – IBGE.</strong> <em>Proposta metodológica para classificação dos espaços do rural, do urbano e da natureza no Brasil</em>. 2023. Disponível em: <a href='https://www.ibge.gov.br/geociencias/organizacao-do-territorio/tipologias-do-territorio/15790-classificacao-rural-e-urbana.html?=&t=publicacoes' target='_blank'>https://www.ibge.gov.br/geociencias/organizacao-do-territorio/tipologias-do-territorio/15790-classificacao-rural-e-urbana.html?=&t=publicacoes</a>.</p>
 
-						<p>STEINMAN, M. A.; SHLIPAK, M. G.; MCPHEE, S. J. Of principles and pens: attitudes and practices of medicine housestaff toward pharmaceutical industry promotions. <strong>Am J Med</strong>., v. 110, n. 7, p. 551-7, May 2001.</p>
+						<p><strong>INSTITUTO DE PESQUISA ECONÔMICA APLICADA.</strong> <em>Plano Nacional de Desenvolvimento Sustentável Rural e Solidário PNDRSS</em>. Instituto de Pesquisa Econômica Aplicada. Brasília: Rio de Janeiro: Ipea, sem ano. Disponível em: <a href='https://www.ipea.gov.br/participacao/images/pdfs/conferencias/2CNDRSS/plano_nacional_desenvolvimento_rural_sustentavel.pdf' target='_blank'>plano_nacional_desenvolvimento_rural_sustentavel.pdf (ipea.gov.br)</a>. Acesso em: 19 jun. 2024.</p>
 
-						<p>STERNECK, Nicholas H. <strong>Introduction to the Responsible Conduct of Research (ORI</strong>). Washington, D.C.: U.S. Department of Health and Human Services, 2007. Disponível em: https://ori.hhs.gov/sites/default/files/2018-04/rcrintro.pdf. Acesso  em: 20 maio 2024. </p>
+						<p><strong>KAGEYAMA, A.; HOFFMANN, R.</strong> Pobreza no Brasil: uma perspectiva multidimensional. <em>Economia e Sociedade</em>, v. 15, n. 1, p. 79-112, 2006.</p>
 
-						<p>THOMPSON, D. Understanding financial conflicts of interest. <strong>N Engl J Med.</strong>, v. 329, n. 8, p. 573-576, 1993.</p>
+						<p><strong>ONU.</strong> <em>The Sustainable Development Goals Report 2024</em>. Disponível em: h<a href='ttps://unstats.un.org/sdgs/report/2024/The-Sustainable-Development-Goals-Report-2024.pdf' target='_blank'>ttps://unstats.un.org/sdgs/report/2024/The-Sustainable-Development-Goals-Report-2024.pdf</a>. Acesso em: 22 ago. 2024.</p>
 
-						<p>WORLD CONFERENCES ON RESEARCH INTEGRITY. The Hong Kong Principles. Disponível em: <a href='https://www.wcrif.org/hong-kong-principles' target='_blank'>https://www.wcrif.org/hong-kong-principles</a></p>
+						<p><strong>ORGANIZAÇÃO MUNDIAL DE SAÚDE (OMS).</strong> <em>Constitution of the World Health Organization 1946</em>. Geneva: World Health Organization, 1948. Disponível em: <a href='https://apps.who.int/gb/bd/PDF/bd47/EN/constitution-en.pdf?ua=1' target='_blank'>https://apps.who.int/gb/bd/PDF/bd47/EN/constitution-en.pdf?ua=1</a>. Acesso em: 22 ago. 2024.</p>
 
-						<p>WARDE, I. L’université américaine vampirisée par les marchands. <strong>Le Monde Diplomatique</strong>, mars 2001. Disponível em: <a href='https://www.monde-diplomatique.fr/2001/03/WARDE/1839' target='_blank'>https://www.monde-diplomatique.fr/2001/03/WARDE/1839</a>. Acesso em: 20 maio 2024.</p>
+						<p><strong>PNUD.</strong> <em>PROGRAMA DAS NAÇÕES UNIDAS PARA O DESENVOLVIMENTO. Relatório do Desenvolvimento Humano 2006</em>. 1101 p. Disponível em: <a href='https://hdr.undp.org/system/files/documents/2006-hdr-portuguese-summary.2006-hdr-portuguese-summary' target='_blank'>https://hdr.undp.org/system/files/documents/2006-hdr-portuguese-summary.2006-hdr-portuguese-summary</a>.</p>
 
-						<p></p>
+						<p><strong>VALADARES, A. A.</strong> <em>O gigante invisível: território e população rural para além das convenções oficiais.</em> Instituto de Pesquisa Econômica Aplicada – IPEA, 2014.</p>
+
+						<p><strong>VEIGA, José Eli.</strong> Nem tudo é urbano. <em>Ciência e Cultura</em>, v. 56, n. 2, São Paulo, abr./jun. 2004. Disponível em: <a href='https//cienciaecultura.bvs.br/pdf/cic/v56n2/a16v56n2.pdf' target='_blank'>https//cienciaecultura.bvs.br/pdf/cic/v56n2/a16v56n2.pdf</a>. Acesso em: 17 jul. 2017.</p>
+
+						<p><strong>WANDERLEY, M. N. B.; FAVARETO, A.</strong> A Singularidade do rural Brasileiro: implicação para as tipologias territoriais e a elaboração de políticas. In:<strong> MIRANDA, C. e SILVA, H.</strong> (Org.) <em>Concepções da ruralidade contemporânea: as singularidades brasileiras</em>. Brasília: IICA, 2013. (Série Desenvolvimento Rural Sustentável; v. 21).</p>
 					</div>
 					
 				</div>
@@ -322,23 +326,25 @@ const modalInfos = {
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
-						<p>ARAÚJO, Laís Záu Serpa de. Aspectos éticos da pesquisa científica. <strong>Pesquisa Odontológica Brasileira</strong>, v. 17, Supl. 1, p. 57-63, 2003. Disponível em: <a href='https://doi.org/10.1590/S1517-74912003000500009' target='_blank'>https://doi.org/10.1590/S1517-74912003000500009</a>. Acesso em: 7 maio 2024.</p>
+						<p>BRASIL. <strong>Fundação Nacional de Saúde.</strong> <em>Programa Nacional de Saneamento Rural.</em> 2019. Disponível em: <a href='http://www.funasa.gov.br/biblioteca-eletronica/publicacoes/engenharia-de-saude-publica/-/asset_publisher/ZM23z1KP6s6q/content/programa-nacional-de-saneamento-rural-pnsr-?inheritRedirect=false' target='_blank'>http://www.funasa.gov.br/biblioteca-eletronica/publicacoes/engenharia-de-saude-publica/-/asset_publisher/ZM23z1KP6s6q/content/programa-nacional-de-saneamento-rural-pnsr-?inheritRedirect=false</a>. Acesso em: 11 mar. 2025.</p>
 
-						<p>BAREOSA, João. O risco nas ciências sociais: Uma visão crítica ao paradigma dominante. <strong>Revista Angolana de Sociologia</strong>, Luanda, n. 5/6, p. 11-33, 2010.</p>
+						<p>BRASIL. <strong>Fundação Nacional de Saúde.</strong> <em>Programa Nacional de Saneamento Rural PNSR: aspectos conceituais da ruralidade no Brasil e interfaces com o saneamento básico</em> / Fundação Nacional de Saúde. 1. ed. Brasília: Funasa, 2021. 127 p. (Série Subsídios ao Programa Nacional de Saneamento Rural; v. 1).</p>
 
-						<p>BOSI, Maria Lúcia Magalhães. Problematizando o conceito de risco em diretrizes éticas para pesquisas em ciências humanas e sociais na Saúde Coletiva. <strong>Ciência & Saúde Coletiva,</strong> v. 20, n. 9, p. 2675-2682, 2025. </p>
+						<p>BRASIL. <strong>Lei nº 11.445</strong>, de 5 de janeiro de 2007. Estabelece as diretrizes nacionais para o saneamento básico; cria o Comitê Interministerial de Saneamento Básico; altera as Leis nos 6.766, de 19 de dezembro de 1979, 8.666, de 21 de junho de 1993, e 8.987, de 13 de fevereiro de 1995; e revoga a Lei nº 6.528, de 11 de maio de 1978. Brasília, DF: Diário Oficial da União, 2007.</p>
 
-						<p>CASTIEL, L. D. 1999. <strong>A Medida do Possível</strong>. Saúde, Risco e Tecnobiociências. Rio de Janeiro: Contracapa; Editora Fiocruz, 1999. 204 p. <a href='https://static.scielo.org/scielobooks/ynw9g/pdf/castiel-9788575412701.pdf' target='_blank'>https://static.scielo.org/scielobooks/ynw9g/pdf/castiel-9788575412701.pdf</a></p>
+						<p>BRASIL. <strong>Lei nº 14.026</strong>, de 15 de julho de 2020. Atualiza o marco legal do saneamento básico e altera a Lei nº 9.984, de 17 de julho de 2000, para atribuir à Agência Nacional de Águas e Saneamento Básico (ANA) competência para editar normas de referência sobre o serviço de saneamento, a Lei nº 10.768, de 19 de novembro de 2003, para alterar o nome e as atribuições do cargo de Especialista em Recursos Hídricos, a Lei nº 11.107, de 6 de abril de 2005, para vedar a prestação por contrato de programa dos serviços públicos de que trata o art. 175 da Constituição Federal, a Lei nº 11.445, de 5 de janeiro de 2007, para aprimorar as condições estruturais do saneamento básico no País, a Lei nº 12.305, de 2 de agosto de 2010, para tratar dos prazos para a disposição final ambientalmente adequada dos rejeitos, a Lei nº 13.089, de 12 de janeiro de 2015 (Estatuto da Metrópole), para estender seu âmbito de aplicação às microrregiões, e a Lei nº 13.529, de 4 de dezembro de 2017, para autorizar a União a participar de fundo com a finalidade exclusiva de financiar serviços técnicos especializados. Brasília, DF: Diário Oficial da União, 2020.</p>
 
-						<p>DINIZ, D.; GUERRIERO, I. Ética na pesquisa social: desafios ao modelo biomédico. <strong>RECIIS – R. Eletr. de Com. Inf. Inov. Saúde</strong>, Rio de Janeiro, v.2, Sup.1, p. S78-S90, 2008.</p>
+						<p>BRASIL. <strong>Ministério das Cidades</strong>. <em>Plano Nacional de Saneamento Básico - PLANSAB: mais saúde com qualidade de vida e cidadania</em>. Brasília: Ministério das Cidades, 220 p., 2014. Disponível em: <a href='https://antigo.mdr.gov.br/images/stories/ArquivosSNSA/PlanSaB/plansab_texto_editado_para_download.pdf' target='_blank'>https://antigo.mdr.gov.br/images/stories/ArquivosSNSA/PlanSaB/plansab_texto_editado_para_download.pdf</a>. Acesso em: 11 mar. 2025.</p>
 
-						<p>KOTTOW, Miguel. “História da ética em pesquisa com seres humanos”. <strong>RECIIS –R. Eletr. de Com. Inf. Inov. Saúde</strong>, Rio de Janeiro, v. 2, Sup.1, p. S7-S18, 2008.</p>
+						<p>BRASIL. <strong>Ministério do Desenvolvimento Regional</strong>. <em>Plano Nacional de Saneamento Básico - PLANSAB: mais saúde com qualidade de vida e cidadania</em>. Brasília: Ministério do Desenvolvimento Regional, 240 p., 2019.</p>
 
-						<p>MINAYO, Maria Cecília de Souza; GUERRIERO, Iara Coelho Zito. Reflexividade como éthos da pesquisa qualitativa. <strong>Ciência & Saúde Coletiva</strong>, v. 19, n. 4, p. 1103-1112. Disponível em: <a href='https://doi.org/10.1590/1413-81232014194.18912013' target='_blank'>https://doi.org/10.1590/1413-81232014194.18912013</a>. Acesso em: 7 maio 2024.</p>
+						<p>GOMES, U. A. F. <em>Política federal para o saneamento básico</em>. In: GOMES, U. A. F.; PENA, J. L.; QUEIROZ, J. T. M. (Org.). <em>Dicionário de saneamento básico</em> [livro eletrônico]: pilares para uma gestão participativa nos municípios. 1. ed. Belo Horizonte: Projeto SanBas, 2022. v. 1. Disponível em: <a href='https://sanbas.eng.ufmg.br/leituras/' target='_blank'>https://sanbas.eng.ufmg.br/leituras/</a>. Acesso em: 08 set. 2024.</p>
 
-						<p>PALÁCIOS, M.; REGO, S.; SCHRAMM, F. R. <strong>A eticidade da pesquisa em seres humanos</strong>. Escola Nacional de Saúde Pública. Comitê de Ética em Pesquisa. Rio de Janeiro: ENSP, 2001. Disponível em: <a href='https://www.fct.unesp.br/Home/Administracao/TecnicaAcademica/Comite%20de%20Etica%20-%20Eticidade.pdf' target='_blank'>https://www.fct.unesp.br/Home/Administracao/TecnicaAcademica/Comite%20de%20Etica%20-%20Eticidade.pdf</a>. [acesso em:  nov. 2014].</p>
+						<p>GOMES, U. A. F.; PENA, J. L.; QUEIROZ, J. T. M. (Org.). <em>Dicionário de saneamento básico: pilares para uma gestão participativa nos municípios</em> [livro eletrônico]. Belo Horizonte, MG: Projeto SanBas, 2022. 793 p. Disponível em: <a href='https://sanbas.eng.ufmg.br/wp-content/uploads/2022/07/Dicionario-de-Saneamento-Basico.pdf' target='_blank'>https://sanbas.eng.ufmg.br/wp-content/uploads/2022/07/Dicionario-de-Saneamento-Basico.pdf</a>. Acesso em: 08 set. 2024.</p>
 
-						<p>SCHRAMM, F. R.; PALÁCIOS, M.; REGO, S. O modelo Bioético Principialista na Análise da Moralidade da Pesquisa científica envolvendo Seres Humanos ainda é satisfatório? <strong>Ciência & Saúde Coletiva</strong>, v. 13, n. 2, p. 361-370, 2008. Disponível em: <a href='https://doi.org/10.1590/S1413-81232008000200011' target='_blank'>https://doi.org/10.1590/S1413-81232008000200011</a>. </p>
+						<p>GONDIM, G. M. M. (Org.). <em>Técnico de vigilância em saúde: fundamentos: volume 2</em> / Organização de Grácia Maria de Miranda Gondim, Maria Auxiliadora Córdova Christófaro e Gladys Miyashiro Miyashiro. Rio de Janeiro: EPSJV, 2017. 272 p.</p>
+
+						<p>HELLER, L.; CASTRO, J. E. <em>Política pública de saneamento: apontamentos teórico-conceituais</em>. Engenharia sanitária e ambiental, v. 12, p. 284-295, 2007</p>
 					</div>
 				</div>
 			</div>
@@ -352,42 +358,80 @@ const modalInfos = {
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
-						<p>HOMEDES, N. ; UGALDE, A. (Org.) Ética y ensayos clínicos em America Latina. 1ª ed. Buenos Aires: Lugar Editorial. 2012. 420p. <span class="text-muted">ISBN: 978-950-892-419-3.</span></p>
-						<p>OLIVEIRA, G. G. e colaboradores. Ensaios Clínicos: Princípios e Prática. 1ª ed. Brasília. Editora ANVISA. 2006. 328p.</p>
-						<p>BARBOZA, M.F.S. Manual básico para realização de ensaios clínicos conduzidos por um “Investigador-Patrocinador”: abordagem dos procedimentos por gestão de processos. Dissertação (mestrado) – Farmanguinhos/FIOCRUZ, 2015. 173p. Disponível em: <a href="https://www.arca.fiocruz.br/bitstream/handle/icict/13163/6.pdf?sequence=1&isAllowed=y" target="_blank" rel="noopener noreferrer">https://www.arca.fiocruz.br/bitstream/handle/icict/13163/6.pdf?sequence=1&isAllowed=y</a>. Acesso em: 23 set. 2023.</p>
-						<p>FREITAS, C. B. D. <em>et al.</em> Brasil: sistema de protección de los voluntários que participan en investigación. <em>In</em>: HOMEDES, N.;  UGALDE, A. (Org.). Ética y ensayos clínicos em América Latina. Buenos Aires: Lugar Editorial; 2012. p. 215-237.</p>
-						<p>FRANCISCONI, C.F. <em>et al.</em> Comitês de Ética em Pesquisa: levantamento de 26 hospitais brasileiros. <strong>Revista Bioética</strong> v. 3, p. 61-67, 1995. Disponivel em: <a href="https://revistabioetica.cfm.org.br/revista_bioetica/article/view/431/499" target="_blank" rel="noopener noreferrer">https://revistabioetica.cfm.org.br/revista_bioetica/article/view/431/499</a>. Acesso em: 23 set. 2023.</p>
-						<p>CLOTET, J. O consentimento informado nos Comitês de Ética em pesquisa e na prática médica: conceituação, origens e atualidade. <strong>Revista Bioética</strong>. v.3, n. 1, p. 51-9, 1995. Disponível em: <a href="https://revistabioetica.cfm.org.br/index.php/revista_bioetica/article/view/430" target="_blank" rel="noopener noreferrer">https://revistabioetica.cfm.org.br/index.php/revista_bioetica/article/view/430</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-						<span class="h5 mb-3 d-block">Documentos Internacionais</span>
-						
-						<p>ASSEMBLEIA MÉDICA MUNDIAL (FINLÂNDIA). Declaração de Helsinque, 1964. 5 p. Disponível em: <a href="https://www.fcm.unicamp.br/fcm/sites/default/files/declaracao_de_helsinque.pdf" target="_blank" rel="noopener noreferrer">https://www.fcm.unicamp.br/fcm/sites/default/files/declaracao_de_helsinque.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>TRIBUNAL MILITAR INTERNACIONAL (NURENBERG, ALEMANHA). Código de Nuremberg, 1947. Disponível em: <a href="https://www.ghc.com.br/files/CODIGO%20DE%20NEURENBERG.pdf" target="_blank" rel="noopener noreferrer">https://www.ghc.com.br/files/CODIGO%20DE%20NEURENBERG.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>BRASIL. Ministério da Saúde. Diretrizes Operacionais para Comités de Ética que Avaliam Protocolos de Pesquisa. Organização Mundial da Saúde, 2008. Disponível em: <a href="https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_operacionais_biomedicas.pdf" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_operacionais_biomedicas.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>CONSELHO DAS ORGANIZAÇÕES INTERNACIONAIS DE CIÊNCIAS MÉDICAS ÉTICA. Diretrizes Internacionais de Ética para Pesquisa Médica envolvendo Seres Humanos. CIOMS. Disponível em: <a href="https://cioms.ch/wp-content/uploads/2018/11/CIOMS-final-Diretrizes-Eticas-Internacionais-Out18.pdf" target="_blank" rel="noopener noreferrer">https://cioms.ch/wp-content/uploads/2018/11/CIOMS-final-Diretrizes-Eticas-Internacionais-Out18.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>Código de Ética da Ciência e Tecnologia, Decreto n°71/2007, de 24 Dezembro de 2007-Moçambique. Disponível em: <a href="https://iset-oneworld.ac.mz/images/phocadownload/Biblioteca/ES/5.Decreto_71-2207_Codigo_Etica_CT.pdf" target="_blank" rel="noopener noreferrer">https://iset-oneworld.ac.mz/images/phocadownload/Biblioteca/ES/5.Decreto_71-2207_Codigo_Etica_CT.pdf</a>. Acesso em: 23 set. 2023.</p>
-						<p>GOOD Clinical Practices (Harmonized Tripartite Guideline for Good Clinical Practice)  ICHE6(R2), 2016. Disponível em: <a href="https://www.tga.gov.au/resources/publication/publications/ich-guideline-good-clinical-practice" target="_blank" rel="noopener noreferrer">https://www.tga.gov.au/resources/publication/publications/ich-guideline-good-clinical-practice</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-					<span class="h5 mb-3 d-block">Conselho Nacional de Saúde</span>
+						<p><strong>ARTICULAÇÃO NO SEMIÁRIDO BRASILEIRO (ASA)</strong>. Articulação no Semiárido Brasileiro (ASA) – site da Articulação no Semiárido Brasileiro. Disponível em: <a href='https://www.asabrasil.org.br/' target='_blank'>https://www.asabrasil.org.br/</a>. Acesso em: 27 nov. 2024.</p>
 
-						<p>CONSELHO NACIONAL DE SAÚDE. Resolução CNS 466/2012. Diretrizes e normas regulamentadoras de pesquisas envolvendo seres humanos. Disponível em: <a href="https://conselho.saude.gov.br/resolucoes/2012/Reso466.pdf" target="_blank" rel="noopener noreferrer">https://conselho.saude.gov.br/resolucoes/2012/Reso466.pdf</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-					<span class="h5 mb-3 d-block">ANVISA</span>
+						<p><strong>BRASIL.</strong> Fundação Nacional de Saúde. <em>Projeto Proágua Rural: Educação e participação social</em>. Universidade Federal do Vale do São Francisco. (Caderno didático técnico). Brasília: Funasa, 2024. 73 p.</p>
 
-						<p>AGÊNCIA DE VIGILÂNCIA SANITÁRIA. RDC Nº 9, DE 20 DE FEVEREIRO DE 2015. Dispõe sobre o Regulamento para a realização de ensaios clínicos com medicamentos no Brasil. Disponível em: <a href="https://antigo.anvisa.gov.br/documents/10181/3503972/RDC_09_2015_COMP.pdf/e26e9a44-9cf4-4b30-95bc-feb39e1bacc6" target="_blank" rel="noopener noreferrer">https://antigo.anvisa.gov.br/documents/10181/3503972/RDC_09_2015_COMP.pdf/e26e9a44-9cf4-4b30-95bc-feb39e1bacc6</a>. Acesso em: 23 set. 2023.</p>
-					</div>
-					
-					<div class="mb-5">
-					<span class="h5 mb-3 d-block">Regulamentações Correlatas</span>
+						<p><strong>BRASIL.</strong> Lei Nº 11.445, de 5 de janeiro de 2007. Estabelece as diretrizes nacionais para o saneamento básico; cria o Comitê Interministerial de Saneamento Básico; altera as Leis nos 6.766, de 19 de dezembro de 1979, 8.666, de 21 de junho de 1993, e 8.987, de 13 de fevereiro de 1995; e revoga a Lei nº 6.528, de 11 de maio de 1978. Brasília, DF: Diário Oficial da União, 2007.</p>
 
-						<p>BRASIL. Lei nº 9782, de 26 de janeiro de 1999. Define o Sistema Nacional de Vigilância Sanitária, cria a Agência Nacional de Vigilância Sanitária, e dá outras providências. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l9782.htm" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/leis/l9782.htm</a>. Acesso em: 23 set. 2023.</p>
-						<p>BRASIL. Lei nº 11.105, de 24 de março de 2005 (Lei de Biossegurança). Estabelece normas de segurança e mecanismos de fiscalização de atividades que envolvam organismos geneticamente modificados – OGM, além de permitir para fins de pesquisa e terapia, a utilização de células-tronco embrionárias obtidas de embriões humanos produzidos por fertilização in vitro e não utilizados no respectivo procedimento, sob condições específicas. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11105.htm</a>. Acesso em: 23 set. 2023.</p>
+						<p><strong>BRASIL.</strong> Lei Nº 14.026, de 15 de julho de 2020. Atualiza o marco legal do saneamento básico e altera a Lei nº 9.984, de 17 de julho de 2000, para atribuir à Agência Nacional de Águas e Saneamento Básico (ANA) competência para editar normas de referência sobre o serviço de saneamento. Brasília, DF: Diário Oficial da União, 2020.</p>
+
+						<p><strong>BRASIL.</strong> Ministério das Cidades. <em>Plano Nacional de Saneamento Básico (Plansab)</em>. Brasília: MCidades, 2019. Disponível em: <a href='https://www.gov.br/mdr/pt-br/assuntos/saneamento/Plansab/Versao_Conselhos_Resoluo_Alta__Capa_Atualizada.pdf' target='_blank'>https://www.gov.br/mdr/pt-br/assuntos/saneamento/Plansab/Versao_Conselhos_Resoluo_Alta__Capa_Atualizada.pdf</a>. Acesso em: 02 out. 2023.</p>
+
+						<p><strong>BRASIL.</strong> Ministério do Desenvolvimento Regional. <em>Plano Nacional de Saneamento Básico - PLANSAB: mais saúde com qualidade de vida e cidadania</em>. Brasília: Ministério do Desenvolvimento Regional, 240 p, 2019b.</p>
+
+						<p><strong>BRASIL.</strong> Ministério da Saúde. <em>Manual de orientação para cadastramento das diversas formas de abastecimento de água</em>. Brasília: Ministério da Saúde, 2006.</p>
+
+						<p><strong>BRASIL.</strong> Ministério da Saúde. Fundação Nacional de Saúde. <em>Manual de saneamento</em>. 4. ed. Brasília: Fundação Nacional de Saúde, 2015.</p>
+
+						<p><strong>BRASIL.</strong> Ministério da Saúde. <em>Plano de segurança da água: garantindo a qualidade e promovendo a saúde: um olhar do SUS</em>. Brasília: Ministério da Saúde, 2012.</p>
+
+						<p><strong>BRASIL.</strong> Ministério da Saúde. Portaria GM/MS nº 888, de 4 de maio de 2021. Altera o Anexo XX da Portaria de Consolidação GM/MS nº 5, de 28 de setembro de 2017, para dispor sobre os procedimentos de controle e de vigilância da qualidade da água para consumo humano e seu padrão de potabilidade.</p>
+
+						<p><strong>BRASIL.</strong> Ministério da Saúde. Fundação Nacional de Saúde. <em>Saneamento domiciliar: Manual de instruções de uso das melhorias domiciliares</em>. Brasília: Funasa, 2014. Disponível em: <a href='https://www.funasa.gov.br/site/wp-content/files_mf/manualdeorientacoestecnicasparaelaboracaodepropostasmelhoriassanitariasdomiciliares.pdf' target='_blank'>https://www.funasa.gov.br/site/wp-content/files_mf/manualdeorientacoestecnicasparaelaboracaodepropostasmelhoriassanitariasdomiciliares.pdf</a>. Acesso em: 27 nov. 2024.</p>
+
+						<p><strong>BRASIL.</strong> Ministério da Saúde. Fundação Nacional de Saúde. <em>Programa Nacional de Saneamento Rural</em>. Brasília: Funasa, 2019. Disponível em: <a href='funasa.gov.br/documents/20182/38564/MNL_PNSR_2019.pdf' target='_blank'>funasa.gov.br/documents/20182/38564/MNL_PNSR_2019.pdf</a>. Acesso em: 27 nov. 2024.</p>
+
+						<p><strong>BRASIL.</strong> Ministério da Saúde. Fundação Nacional de Saúde. <strong>Termo de referência para elaboração de Plano Municipal de Saneamento Básico</strong>. Brasília: Funasa, 2018. Disponível em: <a href='http://www.funasa.gov.br/termo-de-referencia-tr-para-pmsb' target='_blank'>http://www.funasa.gov.br/termo-de-referencia-tr-para-pmsb</a>. Acesso em: 02 nov. 2023.</p>
+
+						<p><strong>BRASIL. FUNASA.</strong> Fundação Nacional de Saúde. <em>Manual da solução alternativa coletiva simplificada de tratamento de água para consumo humano em pequenas comunidades utilizando filtro e dosador desenvolvidos pela Funasa/ Superintendência Estadual do Pará</em>. Brasília: Funasa, 2017a. 49 p.</p>
+
+						<p><strong>BRASIL. FUNASA.</strong> Fundação Nacional de Saúde. <em>Manual de Orientações Técnicas para Elaboração e Apresentação de Propostas e Projetos para Sistemas de Esgotamento Sanitário – Funasa </em>(Portaria Funasa nº 526, de 6 de abril de 2017). Brasília: Funasa, 2017b.</p>
+
+						<p><strong>BRASIL. FUNASA.</strong> Fundação Nacional de Saúde. <em>Programa Nacional de Saneamento Rural – PNSR</em>. Brasília: Funasa, 2019a. 260 p.</p>
+
+						<p><strong>BRASIL. FUNASA</strong>. Fundação Nacional de Saúde. <em>Programa Nacional de Saneamento Rural</em>. 2019. Disponível em: <a href='http://www.funasa.gov.br/biblioteca-eletronica/publicacoes/engenharia-de-saude-publica/-/asset_publisher/ZM23z1KP6s6q/content/programa-nacional-de-saneamento-rural-pnsr-?inheritRedirect=false' target='_blank'>http://www.funasa.gov.br/biblioteca-eletronica/publicacoes/engenharia-de-saude-publica/-/asset_publisher/ZM23z1KP6s6q/content/programa-nacional-de-saneamento-rural-pnsr-?inheritRedirect=false</a>.</p>
+
+						<p><strong>BRASIL. FUNASA.</strong> Fundação Nacional de Saúde. <em>Programa Nacional de Saneamento Rural PNSR: aspectos conceituais da ruralidade no Brasil e interfaces com o saneamento básico</em>. 1. ed. Brasília: Funasa, 2021f. 127 p. (Série Subsídios ao Programa Nacional de Saneamento Rural; v. 1).</p>
+
+						<p><strong>BRASIL. FUNASA.</strong> Fundação Nacional de Saúde. <em>Manual de Saneamento</em>. 5. ed. Brasília, 2019b.</p>
+
+						<p><strong>BRASIL, República Federativa do.</strong> <em>Constituição Federal</em>, de 05 de outubro de 1988. Brasília, DF: Senado Federal, 1988. Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm' target='_blank'>https://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm</a>. Acesso em: 01 nov. 2023.</p>
+
+						<p><strong>BORJA, P. C.; ROCHA, H.</strong> Participação social para a elaboração de plano municipal de saneamento básico: Peça técnica n° 3. In: <strong>BORJA, P. C</strong>. Peças técnicas relativas a planos municipais de saneamento básico. Brasília: Ministério das Cidades, 2011.</p>
+
+						<p><strong>BOTUMIRIM.</strong> <em>Plano Municipal de Saneamento Básico</em>. No link <a href='https://sanbas.eng.ufmg.br/botumirim-mg/#produto_e' target='_blank'>https://sanbas.eng.ufmg.br/botumirim-mg/#produto_e</a> você pode conferir todo o conteúdo e conhecer todos os programas, projetos e ações que foram sugeridos para o município de Botumirim no seu PMSB.</p>
+
+						<p><strong>BÚRIGO, A. C.; CASTRO, G.; BRAGA, L. Q. V.; BARCELOS, E. A. S.</strong> (Org.) <em>Curso Técnico em Meio Ambiente: Tramas e tessituras. Metodologias</em>. v. 3, 2017. Disponível em: <a href='http://www.epsjv.fiocruz.br/publicacao/livro/fasciculo-3-metodologias' target='_blank'>http://www.epsjv.fiocruz.br/publicacao/livro/fasciculo-3-metodologias</a>. Acesso em: 13 ago. 2023.</p>
+
+						<p><strong>CONAMA.</strong> Conselho Nacional do Meio Ambiente. Resolução nº 357, de 17 de março de 2005. Dispõe sobre a classificação dos corpos de água e diretrizes ambientais para o seu enquadramento, bem como estabelece as condições e padrões de lançamento de efluentes, e dá outras providências. Brasília, 2005.</p>
+
+						<p><strong>COSTA, A. M.; DIAS, A. P.; OLIVEIRA, R.</strong> Fontes. Doenças relacionadas ao saneamento ambiental inadequado (DRSAIs). In. <em>Dicionário de saneamento básico: pilares para uma gestão participativa nos municípios</em>. Belo Horizonte, MG: Projeto SanBas, 2022, p. 218-224. Disponível em: <a href='https://sanbas.eng.ufmg.br/wp-content/uploads/2022/07/Dicionario-de-Saneamento-Basico.pdf' target='_blank'>https://sanbas.eng.ufmg.br/wp-content/uploads/2022/07/Dicionario-de-Saneamento-Basico.pdf</a>. Acesso em: 14 out. 2023.</p>
+
+						<p><strong>DIAS, A. P.</strong> <em>Tecnologias sociais em saneamento e educação para o enfrentamento da transmissão de parasitoses intestinais no Assentamento 25 de Maio, Ceará</em>. Tese de Doutorado pelo Programa de Pós-Graduação em Medicina Tropical do Instituto Oswaldo Cruz, Fiocruz. 327f. 2017.</p>
+
+						<p><strong>DIAS, A. P.; CAETANO, A. P. L.; MAGGI, L.; COSTA, M. A.; BORGES, S.; DINIZ, T. C.</strong> <em>Pedagogia das águas em movimento: experiência de educação popular em saúde ambiental</em>. Rio de Janeiro: EPSJV, 2021. Disponível em: <a href='https://www.epsjv.fiocruz.br/pedagogia-das-aguas-em-movimento' target='_blank'>https://www.epsjv.fiocruz.br/pedagogia-das-aguas-em-movimento</a>. Acesso em: 13 ago. 2023.</p>
+
+						<p><strong>DIAS, A. P.; CARNEIRO, F. F.</strong> Saúde das Populações do Campo, da Floresta e das Águas. In. <em>Dicionário de agroecologia e educação</em>. 1. ed. São Paulo: Expressão Popular. Rio de Janeiro: EPSJV, 2021, p. 676-682.</p>
+
+						<p><strong>DIAS, A. P. et al.</strong> <em>Dicionário de agroecologia e educação</em>. São Paulo: Expressão Popular; Rio de Janeiro: Politécnica de Saúde Joaquim Venâncio, 2021. Disponível em: <a href='https://www.epsjv.fiocruz.br/sites/default/files/dicionario_agroecologia_nov.pdf' target='_blank'>https://www.epsjv.fiocruz.br/sites/default/files/dicionario_agroecologia_nov.pdf</a>. Acesso em: 14 out. 2023.</p>
+
+						<p><strong>GOMES, U. A. F.; PENA, J. L.; QUEIROZ, J. T. M</strong>. (org.) <em>Dicionário de saneamento básico [livro eletrônico]: pilares para uma gestão participativa nos municípios</em>. 1. ed. Belo Horizonte: 793, Projeto SanBas, 2022, v. 1. Disponível em: <a href='https://sanbas.eng.ufmg.br/leituras/' target='_blank'>https://sanbas.eng.ufmg.br/leituras/</a>.</p>
+
+						<p><strong>HELLER, L.</strong> <em>Os Direitos Humanos à Água e ao Saneamento</em>. Rio de Janeiro: Editora Fiocruz, 2022.</p>
+
+						<p><strong>HELLER, L.; PÁDUA, V. L. (org.).</strong> <em>Abastecimento de água para consumo humano</em>. Belo Horizonte: Editora UFMG, 2010. 859 p. (Ingenium).</p>
+
+						<p><strong>INSTITUTO DE PESQUISA ECONÔMICA APLICADA.</strong> <em>Texto para discussão: Gestão comunitária da água: soluções e dificuldades do saneamento rural no Brasil</em>. Instituto de Pesquisa Econômica Aplicada. Brasília: Rio de Janeiro: Ipea, 2020.</p>
+
+						<p><strong>LEÓN, R. M.</strong> Gestão comunitária da água na América Latina e Associatividade. In: <em>ENCONTRO NACIONAL DE GESTÃO COMUNITÁRIA DA ÁGUA</em>, 2. Venda Nova do Imigrante: ABES, 2018. 30 lâminas. Disponível em: <a href='https://abes-es.org.br/wp-content/uploads/2018/11/ROLANDO-MARIN-CLOCSAS.pdf' target='_blank'>https://abes-es.org.br/wp-content/uploads/2018/11/ROLANDO-MARIN-CLOCSAS.pdf</a>.</p>
+
+						<p><strong>SANBAS.</strong> <em>Saneamento para todas as pessoas</em>. Disponível em: <a href='https://sanbas.eng.ufmg.br/municipios/' target='_blank'>https://sanbas.eng.ufmg.br/municipios/</a>.</p>
+
+						<p><strong>TONETTI, A. L.; BRASIL, A. L.; MADRID, F. J. P. L.; FIGUEIREDO, I. C. S.; SCHNEIDER, J.; CRUZ, L. M. O.; DUARTE, N. C.; FERNANDES, P. M.; COASACA, R. L.; GARCIA, R. S.; MAGALHÃES, T. M</strong>. <em>Tratamento de esgotos domésticos em comunidades isoladas: referencial para a escolha de soluções</em>. Campinas, SP: Biblioteca/Unicamp, 2018.</p>
+
+						<p><strong>VILLALOBOS, T.</strong> CLOCSAS: antecedentes, evolução e potencialidades. Panamá: AECID; Cooperación Española, 2017. 72 p. Disponível em: <a href='https://biblioteca.avina.net/biblioteca/clocsas-antecedentes-evolucion-y-potencialidades/' target='_blank'>https://biblioteca.avina.net/biblioteca/clocsas-antecedentes-evolucion-y-potencialidades/</a>.</p>
+					
 					</div>
 				</div>
 			</div>
