@@ -107,7 +107,7 @@
 
 /* Secondary Background */
 .background-secondary-extra-light {
-	background-color: var(--fio-sys-color-secondary-extra-light) !important;
+	background-color: var(--fio-ref-color-secondary-95) !important;
 }
 .background-secondary-light {
 	background-color: var(--fio-sys-color-secondary-light) !important;
