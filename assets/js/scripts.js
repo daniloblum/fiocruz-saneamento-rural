@@ -493,7 +493,7 @@ const modalInfos = {
 					
 					<div class="mb-5">
 						<h5 class="mb-3">Mariely Daniel</h5>
-						<p class="mb-0">Inserir descrição</p>
+						<p class="mb-0">Assessora da Coordenação de Saúde e Ambiente. Vice Presidência de Ambiente, Atenção e Promoção da Saúde Fiocruz</p>
 					</div>
 
 				</div>
