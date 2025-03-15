@@ -503,18 +503,13 @@ const modalInfos = {
 	autorMod2Aula1: {
 		ariaLabel: 'autorMod2Aula1',
 		modalSize: 'modal-xl',
-		modalTitle: 'Sobre os autores',
+		modalTitle: 'Sobre o autor',
 		modalBody: `
 			<div class="row justify-content-center pt-5">
 				<div class="col-12 col-md-10 col-lg-10">
 					<div class="mb-5">
-						<h5 class="mb-3">Uende Aparecida Figueiredo Gomes</h5>
-						<p class="mb-0">Professora-pesquisadora do Departamento de Engenharia Sanitária e Ambiental da Escola de Engenharia da Universidade Federal de Minas Gerais (DESA/UFMG).</p>
-					</div>
-					
-					<div class="mb-5">
-						<h5 class="mb-3">Alexandre Pessoa Dias </h5>
-						<p class="mb-0">Coordenador acadêmico do curso, professor-pesquisador da Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz).</p>
+						<h5 class="mb-3">Bernardo Aleixo </h5>
+						<p class="mb-0">Engenheiro de Saúde Pública e Pesquisador no grupo de Pesquisa em Políticas Públicas e Direitos Humanos em Saúde e Saneamento (PPDH) do Instituto de Pesquisa René Rachou IRR (Fiocruz Minas).</p>
 					</div>
 
 				</div>
