@@ -194,6 +194,11 @@
 	height: calc(100% - var(--_flipcard-padding) *2 ); 
 }
 
+.flipcard .flip-card-back .card-body ul li {
+    font-size: var(--fio-sys-typography-size-0);
+    color: var(--fio-sys-color-neutral-extra-dark);
+}
+
 .flipcard .flip-card-back .card-footer {
 	background-color: #fff;
 	border-top: transparent;
