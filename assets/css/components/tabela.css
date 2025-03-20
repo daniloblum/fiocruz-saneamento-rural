@@ -10,7 +10,7 @@
 	--table-header-color: var(--fio-sys-color-neutral-white);
 	--table-header-font-family: var(--fio-sys-typography-family-primary-semibold);
 	--table-header-font-size: var(--fio-sys-typography-size-0);
-	
+
 	--table-background: var(--fio-sys-color-primary-extra-light);
 	--table-color: var(--fio-sys-color-primary-extra-dark);
 	--table-border-width: var(--fio-sys-size-stroke-xs);
@@ -23,7 +23,7 @@
 	background-color: var(--table-background);
 	font-family: var(--table-font-family);
 	font-size: var(--table-font-size);
-	color:var(--table-color);
+	color: var(--table-color);
 	/* border: var(--fio-sys-size-stroke-md) solid var(--fio-sys-color-primary-dark);
 	border-radius: var(--fio-sys-size-radius-lg); */
 }
@@ -40,10 +40,13 @@
 	border: var(--table-border-width) solid var(--table-border-color);
 	border-spacing: 0;
 	border-collapse: separate;
-    border-radius: var(--table-border-radius);
+	border-radius: var(--table-border-radius);
 	overflow: hidden;
 }
-
+.table-responsive .table-bordered-inside td,
+.table-responsive .table-bordered-inside tr {
+	border: var(--table-border-width) solid var(--table-border-color);
+}
 .table-responsive table thead th {
 	vertical-align: middle;
 	border: none;
@@ -61,20 +64,20 @@
 
 .table-responsive table thead tr th.table-border {
 	background-image: url(../../../media/templates/border.png);
-    height: 35px;
-    background-repeat: repeat-x;
-    background-color: transparent;
+	height: 35px;
+	background-repeat: repeat-x;
+	background-color: transparent;
 }
 
 .table-responsive table thead th:not(:last-child),
 .table-responsive table thead td:not(:last-child) {
- border-right: var(--table-header-border-width) solid var(--table-header-border-color);
- border-bottom: var(--table-header-border-width) solid var(--table-header-border-color);
+	border-right: var(--table-header-border-width) solid var(--table-header-border-color);
+	border-bottom: var(--table-header-border-width) solid var(--table-header-border-color);
 }
 
 .table-responsive table thead th:last-child,
 .table-responsive table thead td:last-child {
- border-bottom: var(--table-header-border-width) solid var(--table-header-border-color);
+	border-bottom: var(--table-header-border-width) solid var(--table-header-border-color);
 }
 
 .table-responsive table thead tr:last-child th:last-child {
@@ -84,7 +87,7 @@
 .table-responsive th {
 	background-color: var(--table-header-background);
 	font-family: var(--table-header-font-family);
-	font-size:var(--table-header-font-size);
+	font-size: var(--table-header-font-size);
 	color: var(--table-header-color);
 	border: var(--table-header-border-width) solid var(--fio-sys-color-primary-light);
 }
@@ -96,10 +99,10 @@
 .table-responsive td,
 .table-responsive tr {
 	/* border: 1px solid var(--fio-sys-color-primary-light); */
-	border:none;
+	border: none;
 	vertical-align: middle;
 	/* text-align: left; */
-	padding:var(--table-padding);
+	padding: var(--table-padding);
 }
 
 /* .table .table-responsive tbody tr:last-child {
@@ -113,12 +116,13 @@
 .table-responsive .table p,
 .table-responsive .table ul li,
 .table-responsive .table .list .list-group .list-group-item {
-    font-family: var(--table-font-family);
+	font-family: var(--table-font-family);
 	font-size: var(--table-font-size);
-    color: var(--table-color);
+	color: var(--table-color);
 	border: none;
-    padding-bottom: 0;
-    background: transparent;
+	padding-bottom: 0;
+	background: transparent;
+	list-style-position: inside;
 }
 
 .table ul li {

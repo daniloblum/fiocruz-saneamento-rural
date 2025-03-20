@@ -149,7 +149,7 @@ const modalInfos = {
 						<p class="small text-muted"><em>Coordenadora adjunta</em></p>
 						
 						<p class="mb-1">Renata Bernardes David</p>
-						<p class="small text-muted"><em>Gerente de produção</em></p>
+						<p class="small text-muted"><em>Coordenadora de Produção</em></p>
 
 						<p class="mb-1">Juliana Dutra</p>
 						<p class="small text-muted"><em>Revisora técnica de conteúdo</em></p>
@@ -1123,6 +1123,6 @@ function createModal(id) {
 
 //Before and after
 const container = document.querySelector('.antes-e-depois--container');
-document.querySelector('.antes-e-depois--slider').addEventListener('input', (e) => {
-  container.style.setProperty('--position', `${e.target.value}%`);
+document.querySelector('.antes-e-depois--slider').addEventListener('input', e => {
+	container.style.setProperty('--position', `${e.target.value}%`);
 });
