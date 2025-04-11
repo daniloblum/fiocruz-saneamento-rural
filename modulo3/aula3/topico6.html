@@ -1,480 +1,632 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="robots" content="noindex" />
-		<meta name="author" content="Fiocruz, Campus Virtual" />
-		<meta name="description" content="Curso Implementação do Programa Nacional de Saneamento Rural." />
-		<meta name="keywords" content="Fiocruz Curso Implementação do Programa Nacional de Saneamento Rural" />
 
-		<!-- Facebook Open Graph -->
-		<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
-		<meta property="og:title" content="Campus Virtual Fiocruz | Curso " />
-		<meta property="og:description" content="Curso Implementação do Programa Nacional de Saneamento Rural." />
-		<meta property="og:image" content="" />
-		<meta property="og:image:width" content="1080" />
-		<meta property="og:image:height" content="1080" />
-		<meta property="og:type" content="website" />
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex" />
+	<meta name="author" content="Fiocruz, Campus Virtual" />
+	<meta name="description" content="Curso Implementação do Programa Nacional de Saneamento Rural." />
+	<meta name="keywords" content="Fiocruz Curso Implementação do Programa Nacional de Saneamento Rural" />
 
-		<!-- Twitter Cards -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Campus Virtual Fiocruz | Curso Implementação do Programa Nacional de Saneamento Rural." />
-		<meta name="twitter:url" content="" />
-		<meta name="twitter:description" content="" />
-		<meta name="twitter:image:src" content="" />
+	<!-- Facebook Open Graph -->
+	<meta property="og:url" content="https://mooc.campusvirtual.fiocruz.br/rea/etica-integridade-pesquisa" />
+	<meta property="og:title" content="Campus Virtual Fiocruz | Curso " />
+	<meta property="og:description" content="Curso Implementação do Programa Nacional de Saneamento Rural." />
+	<meta property="og:image" content="" />
+	<meta property="og:image:width" content="1080" />
+	<meta property="og:image:height" content="1080" />
+	<meta property="og:type" content="website" />
 
-		<!-- Favicons and Touch Icons -->
-		<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
-		<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
-		<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
-		<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title"
+		content="Campus Virtual Fiocruz | Curso Implementação do Programa Nacional de Saneamento Rural." />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:description" content="" />
+	<meta name="twitter:image:src" content="" />
 
-		<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
-		<link rel="manifest" href="../media/icons/manifest.json" />
+	<!-- Favicons and Touch Icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="../../media/icons/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="../../media/icons/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="../../media/icons/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../../media/icons/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="../../media/icons/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="../../media/icons/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="../../media/icons/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../media/icons/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../media/icons/apple-icon-180x180.png" />
 
-		<meta name="msapplication-TileColor" content="#ffffff" />
-		<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
-		<!-- <meta name="theme-color" content="#003066" /> -->
-		<meta name="theme-color" content="#001833" />
+	<link rel="icon" type="image/png" sizes="192x192" href="../../media/icons/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="../../media/icons/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="../../media/icons/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="../../media/icons/favicon-16x16.png" />
+	<link rel="manifest" href="../media/icons/manifest.json" />
 
-		<title>Curso Saneamento Rural | Mod 3 | Aula 3 </title>
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="msapplication-TileImage" content="../../media/icons/ms-icon-144x144.png" />
+	<!-- <meta name="theme-color" content="#003066" /> -->
+	<meta name="theme-color" content="#001833" />
 
-		<!-- Bootstrap CSS 5.1.3 -->
-		<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
+	<title>Curso Saneamento Rural | Mod 3 | Aula 3 </title>
 
-		<!-- Project CSS -->
-		<link rel="stylesheet" href="../../assets/css/style.css" />
-	</head>
+	<!-- Bootstrap CSS 5.1.3 -->
+	<link rel="stylesheet" href="../../source/bootstrap-5.1.3/css/bootstrap.min.css" />
 
-	<body>
-		<header class="header">
-			<div class="mobile-toggle-open">
-				<a class="mobile-toggle__button" tabindex="0" role="button">
-					<span class="icon material-symbols-rounded">read_more</span>
-				</a>
-			</div>
-			<div class="brand">
-				<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png" alt="Campus Virtual Fiocruz" />
-			</div>
-			<div class="title">
-				<h1>Implementação do Programa Nacional de Saneamento Rural</h1>
-			</div>
-			<ul class="nav nav-pills">
-				<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
-				<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-creditos">Créditos</a></li>
-			</ul>
-		</header>
-		<div class="main">
-			<div class="sidebar" role="navigation">
-				<div class="sidebar__inner">
-					<div class="sidebar__group d-lg-none">
-						<div class="sidebar__group-item">
-							<div class="sidebar__header">
-								<span>Curso</span>
-								<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-							</div>
+	<!-- Project CSS -->
+	<link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="mobile-toggle-open">
+			<a class="mobile-toggle__button" tabindex="0" role="button">
+				<span class="icon material-symbols-rounded">read_more</span>
+			</a>
+		</div>
+		<div class="brand">
+			<img class="img-fluid logo-black" src="../../media/logos/header-fiocruz-campus-virtual.png"
+				alt="Campus Virtual Fiocruz" />
+		</div>
+		<div class="title">
+			<h1>Implementação do Programa Nacional de Saneamento Rural</h1>
+		</div>
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a href="../../index.html" class="nav-link">Início</a></li>
+			<li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal"
+					data-bs-target="#modal-creditos">Créditos</a></li>
+		</ul>
+	</header>
+	<div class="main">
+		<div class="sidebar" role="navigation">
+			<div class="sidebar__inner">
+				<div class="sidebar__group d-lg-none">
+					<div class="sidebar__group-item">
+						<div class="sidebar__header">
+							<span>Curso</span>
+							<a class="mobile-toggle-close" tabindex="0" role="button"><span
+									class="icon material-symbols-rounded">read_more</span></a>
 						</div>
-						<div class="sidebar__group-item">
-							<div class="sidebar__title">
-								<h1>Implementação do Programa Nacional de Saneamento Rural</h1>
-							</div>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="sidebar__title">
+							<h1>Implementação do Programa Nacional de Saneamento Rural</h1>
 						</div>
-						<div class="sidebar__group-item">
-							<ul class="nav">
-								<li class="nav-item">
-									<a href="../../index.html" class="nav-link" tabindex="0"><span class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+					</div>
+					<div class="sidebar__group-item">
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="../../index.html" class="nav-link" tabindex="0"><span
+										class="icon material-symbols-rounded" aria-hidden="true">home</span>Início</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal"
+									data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded"
+										aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button id="dropdown-modulos" type="button" class="dropdown-toggle"
+								data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"
+								data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
+								<span class="label">Módulos</span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
 								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link" tabindex="0" data-bs-toggle="modal" data-bs-target="#modal-creditos"><span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>Créditos</a>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo1/aula1/apresentacao.html"><strong>Módulo
+											1</strong><br />Contextualização sobre saneamento rural</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo2/aula1/apresentacao.html"><strong>Módulo
+											2</strong><br />Conhecendo o Programa Nacional de Saneamento Rural</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../../modulo3/aula1/apresentacao.html"><strong>Módulo
+											3</strong><br />Implementação do Programa Nacional de Saneamento Rural</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text module">Módulo <br class="d-none d-lg-block" /><span>3</span></span>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
+								<span class="label">Conteúdo</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Módulo 3</span>
+									<span class="title">Contextualização sobre saneamento rural</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula1/apresentacao.html"><strong>Aula 1: </strong>Educação e
+										participação social em saneamento rural</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula2/apresentacao.html"><strong>Aula 2: </strong>Tecnologia em
+										Saneamento Rural</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a class="dropdown-menu__item-link" tabindex="0" role="link"
+										href="../aula3/apresentacao.html"><strong>Aula 3: </strong>Gestão Integrada do
+										Saneamento Rural</a>
+								</li>
+								<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0"
+										role="link" href="../atividade.html">Atividade de Fixação</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group">
+					<div class="sidebar__group-item">
+						<span class="text class">Aula 3</span>
+					</div>
+					<div class="sidebar__group-item">
+						<div class="dropend">
+							<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+								aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
+								<span class="icon material-symbols-rounded" aria-hidden="true">
+									format_list_bulleted</span>
+								<span class="label">Tópicos</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li class="d-lg-none dropdown-menu__header">
+									<a class="dropdown-menu__back-button" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
+									<a class="mobile-toggle-close" tabindex="0" role="button"><span
+											class="icon material-symbols-rounded">read_more</span></a>
+								</li>
+								<li class="dropdown-menu__title">
+									<span class="label">Aula 3</span>
+									<span class="title">Gestão Integrada do Saneamento Rural</span>
+								</li>
+								<li class="dropdown-menu__item">
+									<nav class="topic-list">
+										<a href="apresentacao.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>Apresentação da aula</a>
+
+										<a href="topico1.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>Introdução</a>
+
+										<a href="topico2.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"><span
+												class="material-symbols-rounded"></span>Programa Nacional de Saneamento
+											Rural no contexto de uma política pública de saneamento</a>
+
+										<a href="topico3.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"> <span
+												class="material-symbols-rounded"></span>O Papel dos Municípios na Gestão
+											do Saneamento Rural: Construindo a Política Municipal de Saneamento </a>
+
+										<a href="topico4.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"><span
+												class="material-symbols-rounded"></span>Âmbitos regional, estadual e
+											federal: construindo o Pacto Federativo para o saneamento rural </a>
+
+										<a href="topico5.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"><span
+												class="material-symbols-rounded"></span>Quadro atual e possibilidades
+											futuras</a>
+
+										<a href="topico6.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico concluído" status="visited"><span
+												class="material-symbols-rounded"></span>Mapeamento participativo da
+											gestão do saneamento rural em seu município</a>
+
+										<a href="topico7.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído"><span
+												class="material-symbols-rounded"></span>Como se preparar para instituir
+											o eixo gestão do Programa Municipal de Saneamento Rural</a>
+
+										<a href="topico8.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído"><span
+												class="material-symbols-rounded"></span>Fixando o conhecimento</a>
+
+										<a href="topico9.html" tabindex="0" role="link" class="topic-list__item"
+											aria-label="Tópico não concluído"><span
+												class="material-symbols-rounded"></span>Fim da aula</a>
+									</nav>
 								</li>
 							</ul>
 						</div>
 					</div>
 
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button id="dropdown-modulos" type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">grid_view</span>
-									<span class="label">Módulos</span>
-								</button>
-								<ul class="dropdown-menu" aria-labelledby="dropdown-modulos">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo1/aula1/apresentacao.html"><strong>Módulo 1</strong><br />Contextualização sobre saneamento rural</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo2/aula1/apresentacao.html"><strong>Módulo 2</strong><br />Conhecendo o Programa Nacional de Saneamento Rural</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../../modulo3/aula1/apresentacao.html"><strong>Módulo 3</strong><br />Implementação do Programa Nacional de Saneamento Rural</a>
-									</li>
-								</ul>
-							</div>
-						</div>
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-autorMod3Aula3">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> id_card</span>
+							<span class="label">Autores</span>
+						</button>
 					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text module">Módulo <br class="d-none d-lg-block" /><span>3</span></span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="0,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true">apps</span>
-									<span class="label">Conteúdo</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Módulo 3</span>
-										<span class="title">Contextualização sobre saneamento rural</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula1/apresentacao.html"><strong>Aula 1: </strong>Educação e participação social em saneamento rural</a>
-									</li>
-									<li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula2/apresentacao.html"><strong>Aula 2: </strong>Tecnologia em Saneamento Rural</a>
-									</li>
-                                    <li class="dropdown-menu__item">
-										<a class="dropdown-menu__item-link" tabindex="0" role="link" href="../aula3/apresentacao.html"><strong>Aula 3: </strong>Gestão Integrada do Saneamento Rural</a>
-									</li>
-									<li class="dropdown-menu__item"><a class="dropdown-menu__item-link" tabindex="0" role="link" href="../atividade.html">Atividade de Fixação</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group">
-						<div class="sidebar__group-item">
-							<span class="text class">Aula 3</span>
-						</div>
-						<div class="sidebar__group-item">
-							<div class="dropend">
-								<button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="200,30">
-									<span class="icon material-symbols-rounded" aria-hidden="true"> format_list_bulleted</span>
-									<span class="label">Tópicos</span>
-								</button>
-								<ul class="dropdown-menu">
-									<li class="d-lg-none dropdown-menu__header">
-										<a class="dropdown-menu__back-button" tabindex="0" role="button"><span class="icon material-symbols-rounded">chevron_left</span> Voltar</a>
-										<a class="mobile-toggle-close" tabindex="0" role="button"><span class="icon material-symbols-rounded">read_more</span></a>
-									</li>
-									<li class="dropdown-menu__title">
-										<span class="label">Aula 3</span>
-										<span class="title">Gestão Integrada do Saneamento Rural</span>
-									</li>
-									<li class="dropdown-menu__item">
-										<nav class="topic-list">
-                                            <a href="apresentacao.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Apresentação da aula</a>
-
-											<a href="topico1.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>Introdução</a>
-
-											<a href="topico2.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Programa Nacional de Saneamento Rural no contexto de uma política pública de saneamento</a>
-
-											<a href="topico3.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"> <span class="material-symbols-rounded"></span>O Papel dos Municípios na Gestão do Saneamento Rural: Construindo a Política Municipal de Saneamento </a>
-
-											<a href="topico4.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Âmbitos regional, estadual e federal: construindo o Pacto Federativo para o saneamento rural </a>
-
-											<a href="topico5.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Quadro atual e possibilidades futuras</a>
-
-                                            <a href="topico6.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico concluído" status="visited"><span class="material-symbols-rounded"></span>Mapeamento participativo da gestão do saneamento rural em seu município</a>
-
-                                            <a href="topico7.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Como se preparar para instituir o eixo gestão do Programa Municipal de Saneamento Rural</a>
-
-                                             <a href="topico8.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Fixando o conhecimento</a>
-
-											<a href="topico9.html" tabindex="0" role="link" class="topic-list__item" aria-label="Tópico não concluído"><span class="material-symbols-rounded"></span>Fim da aula</a>
-										</nav>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-autorMod3Aula3">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> id_card</span>
-								<span class="label">Autores</span>
-							</button>
-						</div>
-					</div>
-					<div class="divider">
-						<hr />
-					</div>
-					<div class="sidebar__group extra">
-						<!-- <div class="sidebar__group-item">
+				</div>
+				<div class="divider">
+					<hr />
+				</div>
+				<div class="sidebar__group extra">
+					<!-- <div class="sidebar__group-item">
 							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-glossario">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> dictionary</span>
 								<span class="label">Glossário</span>
 							</button>
 						</div> -->
-						<div class="sidebar__group-item">
-							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod3">
-								<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
-								<span class="label">Bibliografia</span>
-							</button>
-						</div>
-						<!-- <div class="sidebar__group-item">
+					<div class="sidebar__group-item">
+						<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-bibliografiaMod3">
+							<span class="icon material-symbols-rounded" aria-hidden="true"> menu_book</span>
+							<span class="label">Bibliografia</span>
+						</button>
+					</div>
+					<!-- <div class="sidebar__group-item">
 							<button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal-material-complementar">
 								<span class="icon material-symbols-rounded" aria-hidden="true"> library_books</span>
 								<span class="label">Material complementar</span>
 							</button>
 						</div> -->
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div id="page-title">
+				<div class="container">
+					<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
+						<div class="col-12 col-md-10 col-lg-9">
+							<h2 class="title">
+								<span class="label">Módulo 3 | Aula 3</span>
+								<br />
+								Gestão Integrada do Saneamento Rural
+							</h2>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="content">
-				<div id="page-title">
+			<div id="page-content" class="">
+				<!-- Inserir o conteúdo aqui -->
+				<section>
 					<div class="container">
-						<div class="row align-items-center hstify-content-center justify-content-xxl-start ms-lg-5">
-							<div class="col-12 col-md-10 col-lg-9">
-								<h2 class="title">
-									<span class="label">Módulo 3 | Aula 3</span>
-									<br />
-									Gestão Integrada do Saneamento Rural
-								</h2>
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<div class="heading__block">
+									<span class="small">Tópico 6</span>
+									<h3 class="heading__title">Mapeamento participativo da gestão do saneamento rural em
+										seu município</h3>
+								</div>
+
+								<p><strong>Você já pensou em fazer uma dinâmica participativa de diagnóstico da gestão
+										do saneamento no seu município? Então, aqui vão algumas dicas para
+										você!</strong></p>
+
+								<p>Para planejar a gestão do saneamento rural é necessário fazer diagnósticos com a
+									participação de todos. Na elaboração do PNSR, foi muito utilizado o Diagrama de Venn
+									(“desenho dos conjuntos”), que ajuda a debater e representar as relações entre
+									diferentes atores do saneamento rural (grupos sociais, instituições, setor).</p>
+
 							</div>
 						</div>
-					</div>
-				</div>
 
-				<div id="page-content" class="">
-					<!-- Inserir o conteúdo aqui -->
-					<section>
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8 mb-5">
-									<div class="heading__block">
-										<span class="small">Tópico 6</span>
-										<h3 class="heading__title">Mapeamento participativo da gestão do saneamento rural em seu município</h3>
-									</div>
-
-									<p><strong>Você já pensou em fazer uma dinâmica participativa de diagnóstico da gestão do saneamento no seu município? Então, aqui vão algumas dicas para você!</strong></p>
-
-									<p>Para planejar a gestão do saneamento rural é necessário fazer diagnósticos com a participação de todos. Na elaboração do PNSR, foi muito utilizado o Diagrama de Venn (“desenho dos conjuntos”), que ajuda a debater e representar as relações entre diferentes  atores do saneamento rural (grupos sociais, instituições, setor).</p>
-
-								</div>
-							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<!--Slider-->
-									<div class="slider">
-										<div class="card ">
-											<div class="card-body">
-												<div id="carousel-texto" class="carousel slide" data-bs-interval="false">
-													<div class="carousel-indicators">
-														<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-														<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-														<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="2" aria-label="Slide 2" class=""></button>
-														<button type="button" data-bs-target="#carousel-texto" data-bs-slide-to="3" aria-label="Slide 2" class=""></button>
-													</div>
-													<div class="carousel-inner">
-														<div class="carousel-item active">
-															<span class="slide-title">COMPREENDER O MÉTODO</span>
-																<p>O Diagrama de Venn é feito com círculos de tamanhos variados, e cada círculo  representa um ator social. Círculos maiores significam que aquele ator tem mais poder e  influência. A distância entre os círculos mostra como esses atores se relacionam (grupos sociais, instituições, setor) — se são parceiros, colaboradores ou se se sobrepõem.</p>
-														</div>
-
-														<div class="carousel-item">
-															<span class="slide-title">IDENTIFICAR OS ATORES</span>
-															<p>Durante a dinâmica, os participantes devem identificar quem são os atores que atuam no saneamento rural do município. Eles escreverão os nomes em cartões visíveis para todos. Em seguida, será feita a classificação desses atores em duas categorias: “atores do poder público” (como os órgãos do Estado) e “atores da sociedade civil” (aquilo que  não é Estado).</p>
-															<p><strong>Pergunta orientadora para esta etapa: Quais são os atores do poder público e da sociedade civil envolvidos no saneamento rural nesse município?</strong></p>
-														</div>
-
-														<div class="carousel-item">
-															<span class="slide-title">REPRESENTAR OS ATORES</span>
-															<p>Os participantes desenham círculos de diferentes tamanhos para representar esses atores no papel. Caso novos atores sejam identificados durante a atividade, eles também  poderão ser adicionados. Para mostrar as relações entre eles, serão usadas linhas de barbante ou caneta para conectar os círculos, facilitando a visualização das interações.</p>
-															<p><strong>Pergunta orientadora para esta etapa: Como os atores se relacionam com a questão, com as práticas em saneamento rural e entre si? Como se pode representar essas relações?</strong> </p>
-														</div>
-
-														<div class="carousel-item">
-															<span class="slide-title">ESCOLHER RELATORES</span>
-															<p>Após o término dos trabalhos, os moderadores podem pedir aos grupos que escolham um ou dois relatores. Esses relatores irão apresentar o que foi discutido sobre o diagrama elaborado. Eles farão uma síntese, destacando os atores, instituições e processos envolvidos no saneamento rural do município.</p>
-														</div>
-
-													</div>
-
-													<button class="carousel-control-prev" type="button" data-bs-target="#carousel-texto" data-bs-slide="prev">
-														<span class="carousel-control-prev-icon white-arrow" aria-hidden="true"></span>
-														<span class="visually-hidden">Previous</span>
-													</button>
-
-													<button class="carousel-control-next" type="button" data-bs-target="#carousel-texto" data-bs-slide="next">
-														<span class="carousel-control-next-icon white-arrow" aria-hidden="true"></span>
-														<span class="visually-hidden">Next</span>
-													</button>
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<!--Slider-->
+								<div class="slider">
+									<div class="card ">
+										<div class="card-body">
+											<div id="carousel-texto" class="carousel slide" data-bs-interval="false">
+												<div class="carousel-indicators">
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="0" class="active" aria-label="Slide 1"
+														aria-current="true"></button>
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="2" aria-label="Slide 2" class=""></button>
+													<button type="button" data-bs-target="#carousel-texto"
+														data-bs-slide-to="3" aria-label="Slide 2" class=""></button>
 												</div>
+												<div class="carousel-inner">
+													<div class="carousel-item active">
+														<span class="slide-title">COMPREENDER O MÉTODO</span>
+														<p>O Diagrama de Venn é feito com círculos de tamanhos variados,
+															e cada círculo representa um ator social. Círculos maiores
+															significam que aquele ator tem mais poder e influência. A
+															distância entre os círculos mostra como esses atores se
+															relacionam (grupos sociais, instituições, setor) — se são
+															parceiros, colaboradores ou se se sobrepõem.</p>
+													</div>
+
+													<div class="carousel-item">
+														<span class="slide-title">IDENTIFICAR OS ATORES</span>
+														<p>Durante a dinâmica, os participantes devem identificar quem
+															são os atores que atuam no saneamento rural do município.
+															Eles escreverão os nomes em cartões visíveis para todos. Em
+															seguida, será feita a classificação desses atores em duas
+															categorias: “atores do poder público” (como os órgãos do
+															Estado) e “atores da sociedade civil” (aquilo que não é
+															Estado).</p>
+														<p><strong>Pergunta orientadora para esta etapa: Quais são os
+																atores do poder público e da sociedade civil envolvidos
+																no saneamento rural nesse município?</strong></p>
+													</div>
+
+													<div class="carousel-item">
+														<span class="slide-title">REPRESENTAR OS ATORES</span>
+														<p>Os participantes desenham círculos de diferentes tamanhos
+															para representar esses atores no papel. Caso novos atores
+															sejam identificados durante a atividade, eles também poderão
+															ser adicionados. Para mostrar as relações entre eles, serão
+															usadas linhas de barbante ou caneta para conectar os
+															círculos, facilitando a visualização das interações.</p>
+														<p><strong>Pergunta orientadora para esta etapa: Como os atores
+																se relacionam com a questão, com as práticas em
+																saneamento rural e entre si? Como se pode representar
+																essas relações?</strong> </p>
+													</div>
+
+													<div class="carousel-item">
+														<span class="slide-title">ESCOLHER RELATORES</span>
+														<p>Após o término dos trabalhos, os moderadores podem pedir aos
+															grupos que escolham um ou dois relatores. Esses relatores
+															irão apresentar o que foi discutido sobre o diagrama
+															elaborado. Eles farão uma síntese, destacando os atores,
+															instituições e processos envolvidos no saneamento rural do
+															município.</p>
+													</div>
+
+												</div>
+
+												<button class="carousel-control-prev" type="button"
+													data-bs-target="#carousel-texto" data-bs-slide="prev">
+													<span class="carousel-control-prev-icon white-arrow"
+														aria-hidden="true"></span>
+													<span class="visually-hidden">Previous</span>
+												</button>
+
+												<button class="carousel-control-next" type="button"
+													data-bs-target="#carousel-texto" data-bs-slide="next">
+													<span class="carousel-control-next-icon white-arrow"
+														aria-hidden="true"></span>
+													<span class="visually-hidden">Next</span>
+												</button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-
-									<p>A imagem a seguir mostra um exemplo das atividades dos estudos de concepção do PNSR.</p>
-									
-
-									<!-- Texto com Imagem completa -->
-													<div class="row justify-content-center d-lg-block px-3 my-5">
-															<!-- Imagem completa -->
-															<div class="col-md-12 col-lg-12 px-0 order-1 order-lg-2 mb-5">
-																<figure class="lightbox aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-																	<img class="img-fluid mx-auto d-block mb-3" src="../../media/modulo3/aula3-img2.svg" alt="Legenda: Diagrama de Venn do saneamento rural elaborado durante o PNSR 2017." title="ONTE Brasil. Fundação Nacional de Saúde. Programa Nacional de Saneamento Rural PNSR: processos participativos/Fundação Nacional de Saúde. Brasília, DF : Funasa, 2021. 81 p. : il. (Série Memórias do Programa Nacional de Saneamento Rural ; v. 2) ISBN 978-65-5603-021-0 1. Saneamento Básico. 2. Saúde Ambiental. 3. Saneamento Rural. I. Título. II. Série.">
-																	<figcaption class="figure-caption">Legenda: Diagrama de Venn do saneamento rural elaborado durante o PNSR 2017.</figcaption-->
-																	<figcaption class="figure-caption fonte">FONTE Brasil. Fundação Nacional de Saúde. Programa Nacional de Saneamento Rural PNSR: processos participativos/Fundação Nacional de Saúde. Brasília, DF : Funasa, 2021. 81 p. : il. (Série Memórias do Programa Nacional de Saneamento Rural ; v. 2) ISBN 978-65-5603-021-0 1. Saneamento Básico. 2. Saúde Ambiental. 3. Saneamento Rural. I. Título. II. Série. </figcaption-->
-																</figure>
-															</div>
-													<!-- Fim da Imagem completa-->
-
-
-									<p>Nesta imagem podemos ver que o  principal resultado da elaboração do Diagrama do Venn é servir de pretexto para fazer emergir uma consciência nos participantes a respeito dos vínculos entre os atores e uma problematização desses vínculos, o que com outra estratégia de trabalho poderia talvez não aparecer, ou surgir em falas desconectadas.</p>
-
-									<p>Esse método mostrou que é possível reunir diferentes agentes públicos e sociais, com experiências variadas, para alcançar um resultado mais próximo da realidade.</p>
-								</div>
-							</div>
-
-							
 						</div>
-					</section>
-				</div>
 
-				<!-- Navegação da aula -->
-				<section>
-					<div class="container">
 						<div class="row justify-content-center">
 							<div class="col-12 col-md-10 col-lg-8">
-								<div class="page-nav d-flex justify-content-evenly">
-									<a class="fio-button fio-button-primary" href="topico5.html" rel="prev"><span class="material-symbols-rounded">west</span> Tópico anterior</a>
-									<a class="fio-button fio-button-primary" href="topico7.html" rel="next">Próximo tópico <span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+
+								<p>A imagem a seguir mostra um exemplo das atividades dos estudos de concepção do PNSR.
+								</p>
+
+
+								<!-- Texto com Imagem completa -->
+								<div class="row justify-content-center d-lg-block px-3 my-5">
+									<!-- Imagem completa -->
+									<div class="col-md-12 col-lg-12 px-0 order-1 order-lg-2 mb-5">
+										<figure class="lightbox aos-init aos-animate" data-aos="fade-up"
+											data-aos-easing="ease-out" data-aos-duration="600">
+											<img class="img-fluid mx-auto d-block mb-3"
+												src="../../media/modulo3/aula3-img2.svg"
+												alt=""
+												title="ONTE Brasil. Fundação Nacional de Saúde. Programa Nacional de Saneamento Rural PNSR: processos participativos/Fundação Nacional de Saúde. Brasília, DF : Funasa, 2021. 81 p. : il. (Série Memórias do Programa Nacional de Saneamento Rural ; v. 2) ISBN 978-65-5603-021-0 1. Saneamento Básico. 2. Saúde Ambiental. 3. Saneamento Rural. I. Título. II. Série.">
+											<figcaption class="figure-caption">Legenda: Diagrama de Venn do saneamento
+												rural elaborado durante o PNSR 2017.</figcaption-->
+												<figcaption class="figure-caption fonte">FONTE Brasil. Fundação Nacional
+													de Saúde. Programa Nacional de Saneamento Rural PNSR: processos
+													participativos/Fundação Nacional de Saúde. Brasília, DF : Funasa,
+													2021. 81 p. : il. (Série Memórias do Programa Nacional de Saneamento
+													Rural ; v. 2) ISBN 978-65-5603-021-0 1. Saneamento Básico. 2. Saúde
+													Ambiental. 3. Saneamento Rural. I. Título. II. Série.
+													</figcaption-->
+										</figure>
+
+										<span class="visually-hidden">Diagrama de Venn do saneamento rural elaborado durante o PNSR 2017, ele mostra as relações entre vários setores da sociedade e instituições governamentais. O diagrama visualiza as ligações entre diferentes grupos, como populações rurais, indígenas e outros grupos, bem como organizações governamentais e não governamentais.</span>
+
+										<span class="visually-hidden">No centro da imagem está as populações, campo, floresta, águas e indígenas, que ligam-se às igrejas, associações, movimentos sociais, cooperativas de campo e a universidades IFS, estas ligam-se a companhia estaduais, Ematel Edagri, Poder público estadual, Poder público federal e poder público municipal. 
+										O poder público estadual liga-se ao comitê de bacia e Funasa, os dois ligam-se ao poder público municipal, que segue uma linha para o poder público federal, INCRA, MDA, Funai, MC, Ministério das cidades, SAAE’S, SAMAE’S, SEMAE’S, DEMAE’S, consórcios municipais, SUS, saneamento rural hoje. 
+										Do saneamento rural hoje segue uma linha para agronegócio, latifúndio (faz uma interseção com mais políticos, menos parlamentares) e ONG’s, fora dessas interligações está o setor de barragens e setor de energético.</span>
+
+									</div>
+									<!-- Fim da Imagem completa-->
+
+
+									<p>Nesta imagem podemos ver que o principal resultado da elaboração do Diagrama do
+										Venn é servir de pretexto para fazer emergir uma consciência nos participantes a
+										respeito dos vínculos entre os atores e uma problematização desses vínculos, o
+										que com outra estratégia de trabalho poderia talvez não aparecer, ou surgir em
+										falas desconectadas.</p>
+
+									<p>Esse método mostrou que é possível reunir diferentes agentes públicos e sociais,
+										com experiências variadas, para alcançar um resultado mais próximo da realidade.
+									</p>
 								</div>
 							</div>
+
+
 						</div>
-					</div>
 				</section>
 			</div>
 
-			<footer>
-				<div class="container-fluid">
-					<div class="row justify-content-center align-items-center linha-de-marcas mb-4 mb-md-0">
-						<div class="col-12 col-md-auto">
-							<p class="text-center small mb-5 mb-md-0">Apoio:</p>
-							<ul class="logos">
-								<li>
-									<img class="img-fluid logo1" src="../../media/logos/logo-cosude-bid.svg" alt="Logo dp Cosude e do Banco Internacional de Desenvolvimento" height=""/>
-								</li>
-	
-								<li>
-									<img class="img-fluid logo2 d-none d-md-block" src="../../media/logos/logo-pnsr.svg" alt="Logo da Política Nacional de Saneamento Rural" height=""/>
-									<img class="img-fluid logo2 d-block d-md-none" src="../../media/logos/logo-pnsr-mobile.svg" alt="Logo da Política Nacional de Saneamento Rural" height=""/>
-								</li>
-	
-								<li>
-									<img class="img-fluid logo3 d-none d-md-block" src="../../media/logos/logo-funasa.svg" alt="Logo da Funasa" height=""/>
-									<img class="img-fluid logo3 d-block d-md-none" src="../../media/logos/logo-funasa-mobile.svg" alt="Logo da Funasa" height=""/>
-								</li>
-							</ul>
-						</div>
-					</div>
-	
-					<div class="row justify-content-center align-items-center linha-de-marcas">
-						<div class="col-12 col-md-auto">
-							<p class="text-center small mb-5 mb-md-0">Realização:</p>
-							<ul class="logos principais align-self-end">
-								<li>
-									<img class="img-fluid logo4 d-none d-md-block" src="../../media/logos/logo-epsjv.svg" alt="Logo da Escola Politécnica de Saúde Joaquim Venâncio" height=""/>
-									<img class="img-fluid logo4 d-block d-md-none" src="../../media/logos/logo-epsjv-mobile.svg" alt="Logo da Escola Politécnica de Saúde Joaquim Venâncio" height=""/>
-								</li>
-	
-								<li>
-									<img class="img-fluid logo5 d-none d-md-block" src="../../media/logos/logo-cvf.svg" alt="Logo do Campus Virtual Fiocruz" height=""/>
-									<img class="img-fluid logo5 d-block d-md-none" src="../../media/logos/logo-cvf-mobile.svg" alt="Logo do Campus Virtual Fiocruz" height=""/>
-								</li>
-	
-								<li>
-									<img class="img-fluid logo6 d-none d-md-block" src="../../media/logos/logo-fiocruz.svg" alt="Logo da Fiocruz" height=""/>
-									<img class="img-fluid logo6 d-block d-md-none" src="../../media/logos/logo-fiocruz-mobile.svg" alt="Logo da Fiocruz" height=""/>
-								</li>
-	
-								<li>
-									<img class="img-fluid logo7 d-none d-md-block" src="../../media/logos/logo-brasil-bem-cuidado.svg" alt="Logo do Brasil Bem Cuidado" height=""/>
-									<img class="img-fluid logo7 d-block d-md-none" src="../../media/logos/logo-brasil-bem-cuidado-mobile.svg" alt="Logo do Brasil Bem Cuidado" height=""/>
-								</li>
-	
-								<li>
-									<img class="img-fluid logo8 d-none d-md-block" src="../../media/logos/logo-sus.svg" alt="Logo do Sistema Único de Saúde (SUS)" height=""/>
-									<img class="img-fluid logo8 d-block d-md-none" src="../../media/logos/logo-sus-mobile.svg" alt="Logo do Sistema Único de Saúde (SUS)" height=""/>
-								</li>
-	
-								<li>
-									<img class="img-fluid logo9 d-none d-md-block" src="../../media/logos/logo-ms-gov-federal.svg" alt="Logo do Ministério da Saúde e do Governo Federal" height=""/>
-									<img class="img-fluid logo9 d-block d-md-none" src="../../media/logos/logo-ms-gov-federal-mobile.svg" alt="Logo do Ministério da Saúde e do Governo Federal" height=""/>
-								</li>
-							</ul>
+			<!-- Navegação da aula -->
+			<section>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-10 col-lg-8">
+							<div class="page-nav d-flex justify-content-evenly">
+								<a class="fio-button fio-button-primary" href="topico5.html" rel="prev"><span
+										class="material-symbols-rounded">west</span> Tópico anterior</a>
+								<a class="fio-button fio-button-primary" href="topico7.html" rel="next">Próximo tópico
+									<span class="material-symbols-rounded" aria-hidden="true">east</span></a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</footer>
+			</section>
 		</div>
 
-		<!--  Bootstrap JS and Popper -->
-		<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+		<footer>
+			<div class="container-fluid">
+				<div class="row justify-content-center align-items-center linha-de-marcas mb-4 mb-md-0">
+					<div class="col-12 col-md-auto">
+						<p class="text-center small mb-5 mb-md-0">Apoio:</p>
+						<ul class="logos">
+							<li>
+								<img class="img-fluid logo1" src="../../media/logos/logo-cosude-bid.svg"
+									alt="Logo dp Cosude e do Banco Internacional de Desenvolvimento" height="" />
+							</li>
 
-		<!-- Sticky Sidebar -->
-		<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
-		<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
-		<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+							<li>
+								<img class="img-fluid logo2 d-none d-md-block" src="../../media/logos/logo-pnsr.svg"
+									alt="Logo da Política Nacional de Saneamento Rural" height="" />
+								<img class="img-fluid logo2 d-block d-md-none"
+									src="../../media/logos/logo-pnsr-mobile.svg"
+									alt="Logo da Política Nacional de Saneamento Rural" height="" />
+							</li>
 
-		<script type="text/javascript">
-			var sidebar = new StickySidebar('.sidebar', {
-				topSpacing: 0,
-				bottomSpacing: 0,
-				containerSelector: '.main',
-				innerWrapperSelector: '.sidebar__inner',
-				minWidth: 991,
-			});
-		</script>
+							<li>
+								<img class="img-fluid logo3 d-none d-md-block" src="../../media/logos/logo-funasa.svg"
+									alt="Logo da Funasa" height="" />
+								<img class="img-fluid logo3 d-block d-md-none"
+									src="../../media/logos/logo-funasa-mobile.svg" alt="Logo da Funasa" height="" />
+							</li>
+						</ul>
+					</div>
+				</div>
 
-		<script type="text/javascript" src="../../assets/js/scripts.js"></script>
-		<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
-		<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+				<div class="row justify-content-center align-items-center linha-de-marcas">
+					<div class="col-12 col-md-auto">
+						<p class="text-center small mb-5 mb-md-0">Realização:</p>
+						<ul class="logos principais align-self-end">
+							<li>
+								<img class="img-fluid logo4 d-none d-md-block" src="../../media/logos/logo-epsjv.svg"
+									alt="Logo da Escola Politécnica de Saúde Joaquim Venâncio" height="" />
+								<img class="img-fluid logo4 d-block d-md-none"
+									src="../../media/logos/logo-epsjv-mobile.svg"
+									alt="Logo da Escola Politécnica de Saúde Joaquim Venâncio" height="" />
+							</li>
 
-		<!-- Timeline horizontal -->
-		<script src="../../assets/js/timeline-horizontal/util.js"></script>
-		<!-- util functions included in the CodyHouse framework -->
-		<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
-		<!-- A Vanilla JavaScript plugin to detect touch interactions -->
-		<script src="../../assets/js/timeline-horizontal/main.js"></script>
-		<!-- Start the Timeline -->
-		<script>
-			document.getElementsByTagName('html')[0].className += ' js';
-		</script>
+							<li>
+								<img class="img-fluid logo5 d-none d-md-block" src="../../media/logos/logo-cvf.svg"
+									alt="Logo do Campus Virtual Fiocruz" height="" />
+								<img class="img-fluid logo5 d-block d-md-none"
+									src="../../media/logos/logo-cvf-mobile.svg" alt="Logo do Campus Virtual Fiocruz"
+									height="" />
+							</li>
 
-		<script>
-			AOS.init();
-		</script>
-	</body>
+							<li>
+								<img class="img-fluid logo6 d-none d-md-block" src="../../media/logos/logo-fiocruz.svg"
+									alt="Logo da Fiocruz" height="" />
+								<img class="img-fluid logo6 d-block d-md-none"
+									src="../../media/logos/logo-fiocruz-mobile.svg" alt="Logo da Fiocruz" height="" />
+							</li>
+
+							<li>
+								<img class="img-fluid logo7 d-none d-md-block"
+									src="../../media/logos/logo-brasil-bem-cuidado.svg" alt="Logo do Brasil Bem Cuidado"
+									height="" />
+								<img class="img-fluid logo7 d-block d-md-none"
+									src="../../media/logos/logo-brasil-bem-cuidado-mobile.svg"
+									alt="Logo do Brasil Bem Cuidado" height="" />
+							</li>
+
+							<li>
+								<img class="img-fluid logo8 d-none d-md-block" src="../../media/logos/logo-sus.svg"
+									alt="Logo do Sistema Único de Saúde (SUS)" height="" />
+								<img class="img-fluid logo8 d-block d-md-none"
+									src="../../media/logos/logo-sus-mobile.svg"
+									alt="Logo do Sistema Único de Saúde (SUS)" height="" />
+							</li>
+
+							<li>
+								<img class="img-fluid logo9 d-none d-md-block"
+									src="../../media/logos/logo-ms-gov-federal.svg"
+									alt="Logo do Ministério da Saúde e do Governo Federal" height="" />
+								<img class="img-fluid logo9 d-block d-md-none"
+									src="../../media/logos/logo-ms-gov-federal-mobile.svg"
+									alt="Logo do Ministério da Saúde e do Governo Federal" height="" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!--  Bootstrap JS and Popper -->
+	<script src="../../source/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Sticky Sidebar -->
+	<script type="text/javascript" src="../../assets/js/ResizeSensor.js"></script>
+	<script type="text/javascript" src="../../assets/js/sticky-sidebar.js"></script>
+	<script type="text/javascript" src="../../assets/js/sidebar.js"></script>
+
+	<script type="text/javascript">
+		var sidebar = new StickySidebar('.sidebar', {
+			topSpacing: 0,
+			bottomSpacing: 0,
+			containerSelector: '.main',
+			innerWrapperSelector: '.sidebar__inner',
+			minWidth: 991,
+		});
+	</script>
+
+	<script type="text/javascript" src="../../assets/js/scripts.js"></script>
+	<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
+	<script type="text/javascript" src="../../source/animate/aos/dist/aos.js"></script>
+
+	<!-- Timeline horizontal -->
+	<script src="../../assets/js/timeline-horizontal/util.js"></script>
+	<!-- util functions included in the CodyHouse framework -->
+	<script src="../../assets/js/timeline-horizontal/swipe-content.js"></script>
+	<!-- A Vanilla JavaScript plugin to detect touch interactions -->
+	<script src="../../assets/js/timeline-horizontal/main.js"></script>
+	<!-- Start the Timeline -->
+	<script>
+		document.getElementsByTagName('html')[0].className += ' js';
+	</script>
+
+	<script>
+		AOS.init();
+	</script>
+</body>
+
 </html>
