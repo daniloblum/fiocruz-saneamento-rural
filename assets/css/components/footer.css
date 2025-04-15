@@ -79,6 +79,10 @@ footer .logos img.logo6 {
 	padding-bottom: 38px;
 } */
 
+footer .logos img.logo0 {
+	height: 230px;
+}
+
 footer .logos img.logo1 {
 	height: 130px;
 }
@@ -94,6 +98,7 @@ footer .logos img.logo3 {
 footer .logos img.logo4 {
 	height: 70px;
 }
+
 
 footer .logos img.logo5 {
 	height: 50px;
