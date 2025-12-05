@@ -129,13 +129,24 @@ const modalInfos = {
 						<p class="small text-muted"><em>Ministro</em></p>
 					</div>
 
+					<span class="h5 mb-3 d-block">Fundação Nacional de Saúde, FUNASA</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Alexandre Ribeiro Motta</p>
+						<p class="small text-muted"><em>Presidente</em></p>
+					</div>
+
 					<span class="h5 mb-3 d-block">Fundação Oswaldo Cruz – Fiocruz</span>
 					
 					<div class="mb-5">
 						<p class="mb-1">Mario Moreira</p>
 						<p class="small text-muted"><em>Presidente</em></p>
-						<p class="mb-1">Cristiani Vieira Machado</p>
-						<p class="small text-muted"><em>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</em></p>
+
+						<p class="mb-1">Marly Cruz</p>
+						<p class="small text-muted"><em>Vice Presidência de Educação, Informação e Comunicação, VPEIC</em></p>
+
+						<p class="mb-1">Valcler Rangel Fernandes</p>
+						<p class="small text-muted"><em>Vice Presidência de Ambiente, Atenção e Promoção da Saúde, VPAAPS</em></p>
 					</div>
 
 					<span class="h5 mb-3 d-block">Campus Virtual Fiocruz</span>
@@ -167,8 +178,10 @@ const modalInfos = {
 						
 						<p class="mb-1">Aline Polycarpo</p>
 						<p class="small text-muted"><em>UX/UI Designer</em></p>
+
 						<p class="mb-1">Danilo Blum</p>
 						<p class="small text-muted"><em>UX/UI Designer e Front-end</em></p>
+
 						<p class="mb-1">Luciana Nunes</p>
 						<p class="small text-muted"><em>UX/UI Designer</em></p>
 						
@@ -204,10 +217,10 @@ const modalInfos = {
 						<p class="small text-muted"><em>Desenvolvedor</em></p>
 
 						<p class="mb-1">Adriano Lourenço</p>
-						<p class="small text-muted"><em>Analista de suporte</em></p>
+						<p class="small text-muted"><em>Analista de tecnologias educacionais</em></p>
 
 						<p class="mb-1">Orlando Terra</p>
-						<p class="small text-muted"><em>Analista de suporte</em></p>
+						<p class="small text-muted"><em>Analista de tecnologias educacionais</em></p>
 
 						<p class="mb-1">Fábio Carneiro</p>
 						<p class="small text-muted"><em>Designer gráfico e web designer</em></p>
@@ -216,30 +229,51 @@ const modalInfos = {
 					<span class="h5 mb-3 d-block">Coordenação do Projeto</span>
 					
 					<div class="mb-5">
-						<p class="mb-1">Alexandre Pessoa Dias</p>
-						<p class="small text-muted"><em>Escola Politécnica de Saúde Joaquim Venâncio da Fiocruz (ESPJV/Fiocruz)</em></p>
+						<p class="mb-1">Guilherme Franco Netto</p>
+						<p class="small text-muted"><em>Vice Presidência de Ambiente, Atenção e Promoção da Saúde da Fundação Oswaldo Cruz, VPAAPS Fiocruz</em></p>
+					</div>
 
-						<span class="h6 mb-3 d-block">Conteudistas</span>
-						
+					<span class="h5 mb-3 d-block">Coordenação Executiva</span>
+					
+					<div class="mb-5">
+						<p class="mb-1">Mariely Helena Barbosa Daniel</p>
+						<p class="small text-muted"><em>Vice Presidência de Ambiente, Atenção e Promoção da Saúde da Fundação Oswaldo Cruz, VPAAPS Fiocruz</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Coordenação Pedagógica</span>
+					
+					<div class="mb-5">
+						<p class="mb-1">Alexandre Pessoa Dias</p>
+						<p class="small text-muted"><em>Escola Politécnica de Saúde Joaquim Venâncio da Fundação Oswaldo Cruz, ESPJV Fiocruz</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Conteudistas</span>
+					
+					<div class="mb-5">
 						<p class="mb-1"><strong>Módulo 1:</strong></p>
 
 						<p class="mb-1">Alexandre Pessoa Dias</p>
 						<p class="small text-muted"><em>ESPJV/Fiocruz</em></p>
 
 						<p class="mb-1">Uende Aparecida Figueiredo Gomes</p>
-						<p class="small text-muted"><em>DESA/UFMG</em></p>
+						<p class="small text-muted"><em>Departamento de Engenharia Sanitária e Ambiental da Universidade Federal de Minas Gerais, DESA UFMG</em></p>
 
-						<p class="mb-1">Mariely Daniel</p>
-						<p class="small text-muted"><em>Fiocruz</em></p>
+						<p class="mb-1">Mariely Helena Barbosa Daniel</p>
+						<p class="small text-muted"><em>VPAAPS Fiocruz</em></p>
 
 						<p class="mb-1"><strong>Módulo 2:</strong></p>
 
 						<p class="mb-1">Bernardo Aleixo</p>
-						<p class="small text-muted"><em>Fiocruz Minas</em></p>
+						<p class="small text-muted"><em>Fundação Oswaldo Cruz, Fiocruz Minas</em></p>
 
 						<p class="mb-1">Uende Aparecida Figueiredo Gomes</p>
 						<p class="small text-muted"><em>DESA/UFMG</em></p>
 
+						<p class="mb-1">Alexandre Pessoa Dias</p>
+						<p class="small text-muted"><em>ESPJV/Fiocruz</em></p>
+
+						<p class="mb-1">Mariely Helena Barbosa Daniel</p>
+						<p class="small text-muted"><em>VPAAPS Fiocruz</em></p>
 
 						<p class="mb-1"><strong>Módulo 3:</strong></p>
 
@@ -247,10 +281,27 @@ const modalInfos = {
 						<p class="small text-muted"><em>ESPJV/Fiocruz</em></p>
 
 						<p class="mb-1">Bernardo Aleixo</p>
-						<p class="small text-muted"><em>Fiocruz Minas</em></p>
+						<p class="small text-muted"><em>Fundação Oswaldo Cruz, Fiocruz Minas</em></p>
 
 						<p class="mb-1">Uende Aparecida Figueiredo Gomes</p>
 						<p class="small text-muted"><em>DESA/UFMG</em></p>
+
+						<p class="mb-1">Mariely Helena Barbosa Daniel</p>
+						<p class="small text-muted"><em>VPAAPS Fiocruz</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Revisão Técnica Institucional</span>
+					
+					<div class="mb-5">
+						<p>Fundação Nacional de Saúde, FUNASA</p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Financiamento</span>
+					
+					<div class="mb-5">
+						<p>Banco Interamericano de Desenvolvimento – BID</p>
+
+						<p>Agência Suíça para o Desenvolvimento e Cooperação - COSUDE</p>
 					</div>
 					
 				</div>
