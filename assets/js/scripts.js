@@ -294,6 +294,10 @@ const modalInfos = {
 					
 					<div class="mb-5">
 						<p>Fundação Nacional de Saúde, FUNASA</p>
+
+						<p>Departamento de Engenharia de Saúde Pública</p>
+
+						<p>Departamento de Saúde Ambiental</p>
 					</div>
 
 					<span class="h5 mb-3 d-block">Financiamento</span>
